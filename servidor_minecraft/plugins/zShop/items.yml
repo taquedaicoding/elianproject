@@ -1,0 +1,6 @@
+items:
+  custom_374b3ae3:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: DARK_OAK_PLANKS
+    amount: 60

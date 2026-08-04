@@ -1,0 +1,9 @@
+messages:
+  # The message sent the first time the player joins
+  first-join: "&7Bienvenido &c%player% &7"
+
+  # The message sent each time the player joins
+  join-message: "&a+ &7%player% "
+
+  # The message sent each time the player leaves
+  quit-message: "&c- &7%player%"

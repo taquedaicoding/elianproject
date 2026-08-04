@@ -1,0 +1,8 @@
+isEnabled: true
+pluginName: ItemsAdder
+encrypts: true
+distributes: true
+zips: true
+resourcePackUpdated: false
+localPath: ItemsAdder/output/generated.zip
+cluster: false

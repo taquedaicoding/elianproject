@@ -1,0 +1,1097 @@
+# RPGTools - XP Configuration
+# ==================================
+
+# XP Calculation System:
+#
+# 1. Level-Up Requirements:
+#    XP Needed = required-xp-base × (required-xp-multiplier ^ currentLevel)
+#    (required-xp-base is used in ALL level calculations)
+#
+# 2. Actual XP Gain:
+#    XP Received = (Base Mob/Block XP) × xp-gain-multiplier
+
+# CORE PROGRESSION VALUES
+# -----------------------
+# The fundamental XP unit used in ALL level calculations
+required-xp-base: 100
+
+# Exponential growth factor (applied per level)
+# Formula: required-xp-base × (required-xp-multiplier ^ currentLevel)
+required-xp-multiplier: 1.6
+
+# GLOBAL MODIFIER
+# -----------------------
+# Multiplies ALL XP gained from all sources
+# Must be whole number (e.g. 1, 5, 10)
+# 1 = Normal, >1 = Faster
+xp-gain-multiplier: 1
+
+# Premium XP Modifier (Permission-Based Bonus)
+# -------------------------------------------
+# This setting provides an additional XP multiplier exclusively for players
+# with the 'rpgtools.premium' permission.
+#
+# Calculation:
+#   XP Received = (Base XP) × (xp-gain-multiplier + premium-xp-gain-multiplier)
+#
+# Example:
+#   Base XP: 10
+#   Regular multiplier: 1.0
+#   Premium multiplier: 2.0
+#   → Premium player: 10 × (1 + 2) = 30 XP
+#   → Regular player: 10 × 1 = 10 XP
+#
+# Note: This bonus stacks additively with the main xp-gain-multiplier.
+premium-xp-gain-multiplier: 1
+
+
+# MAXIMUM LEVEL CAP
+# -----------------------
+# Highest attainable level for tools/weapons
+# Must be whole number (e.g. 10, 20, 50)
+# Note: Higher levels require exponentially more XP
+max-level: 20
+
+# REPAIR ON LEVEL UP
+# ------------------------
+# Should the tool/weapon repair fully on level up?
+# default: false
+repair-on-levelup: false
+
+
+
+# Example Progression (required-xp-base: 100, global-xp-multiplier: 1.6, max-level: 20):
+#   L0→1: 100 × 1.6⁰ = 100 XP
+#   L1→2: 100 × 1.6¹ = 160 XP
+#   L2→3: 100 × 1.6² = 256 XP
+#   L3→4: 100 × 1.6³ ≈ 410 XP
+#   ...
+#   L19→20: 100 × 1.6¹⁹ ≈ 755.578 XP
+
+# LORE FORMATTING
+# -------------------------
+
+# Lore rarity symbols by default these are stars
+# defaults are the stars: ✮ & ☆
+lore-rarity-symbol-1: ✮
+lore-rarity-symbol-2: ☆
+
+# Lore Rarity Color Settings
+# -------------------------
+# Defines the color codes used for different rarity tiers in item lore.
+# These colors will be applied to items based on their rarity level.
+#
+# Format:
+#   - Each position in the list represents a rarity tier (0 = most common)
+#   - Use hex color codes (#RRGGBB)
+#   - List should be ordered from most common to rarest
+#
+# Default Gradient Example:
+lore-rarity-colours:
+  - "#AAAAAA"  # Tier 0 - Common (Gray)
+  - "#55FF55"  # Tier 1 - Uncommon (Green)
+  - "#5555FF"  # Tier 2 - Rare (Blue)
+  - "#AA00AA"  # Tier 3 - Epic (Purple)
+  - "#FFAA00"  # Tier 4 - Legendary (Gold)
+  - "#FF5555"  # Tier 5 - Mythic (Red)
+
+# XP and Level Color Settings
+# --------------------------
+# Color codes used for different XP/level related UI elements.
+# Positions correspond to different display contexts.
+#
+# Recommended Structure:
+#   [0] - Level display text (default: yellow)
+#   [1] - XP text Colour (default: blue)
+#   [2] - Current XP (default: green)
+#   [2] - / bar in the middle (default: white)
+#   [4] - XP requirement text (default: aqua)
+#   [5] - Max level achieved color (default: red)
+#
+# Supports hex codes format: (#FFFFFF)
+xp-and-level-colours:
+  - "#FFFF55"  # [0] Level text colour
+  - "#5555FF"  # [1] Xp text colour
+  - "#55FF55"  # [2] Current XP
+  - "#ffffff"  # [3] / bar in the middle
+  - "#FF5555"  # [4] XP requirement text
+  - "#AA0000"  # [5] Level text colour at max level
+
+# Action Bar Display Settings
+# --------------------------
+# Controls how XP/level information appears in the player's action bar.
+#
+# Options:
+#   "full" - Shows complete information:
+#            [Level] [XP Bar] [Current XP]/[XP Needed]
+#            Example: "Level 5 [|||||.....] 250/500 XP"
+#
+#   "simple" - Shows only the XP progress bar:
+#              [XP Bar]
+#              Example: "[|||||.....]"
+#
+#   "none" - Disables action bar display completely
+#
+# Default: full
+action-bar-style: full
+
+# input any enchantment from the following list: https://jd.papermc.io/paper/1.21.5/org/bukkit/enchantments/Enchantment.html
+Level_Enchantments:
+  PICKAXE:
+    1:
+      EFFICIENCY: 1
+    2:
+      EFFICIENCY: 1
+      UNBREAKING: 1
+    3:
+      EFFICIENCY: 1
+      UNBREAKING: 1
+      FORTUNE: 1
+    4:
+      EFFICIENCY: 2
+      UNBREAKING: 1
+      FORTUNE: 1
+    5:
+      EFFICIENCY: 2
+      UNBREAKING: 2
+      FORTUNE: 1
+    6:
+      EFFICIENCY: 2
+      UNBREAKING: 2
+      FORTUNE: 2
+    7:
+      EFFICIENCY: 3
+      UNBREAKING: 2
+      FORTUNE: 2
+    8:
+      EFFICIENCY: 3
+      UNBREAKING: 3
+      FORTUNE: 2
+    9:
+      EFFICIENCY: 3
+      UNBREAKING: 3
+      FORTUNE: 3
+    10:
+      EFFICIENCY: 3
+      UNBREAKING: 3
+      FORTUNE: 3
+      MENDING: 1
+    11:
+      EFFICIENCY: 4
+      UNBREAKING: 3
+      FORTUNE: 3
+      MENDING: 1
+    12:
+      EFFICIENCY: 4
+      UNBREAKING: 4
+      FORTUNE: 3
+      MENDING: 1
+    13:
+      EFFICIENCY: 5
+      UNBREAKING: 4
+      FORTUNE: 3
+      MENDING: 1
+    14:
+      EFFICIENCY: 5
+      UNBREAKING: 5
+      FORTUNE: 3
+      MENDING: 1
+    15:
+      EFFICIENCY: 6
+      UNBREAKING: 5
+      FORTUNE: 3
+      MENDING: 1
+    16:
+      EFFICIENCY: 6
+      UNBREAKING: 6
+      FORTUNE: 4
+      MENDING: 1
+    17:
+      EFFICIENCY: 7
+      UNBREAKING: 7
+      FORTUNE: 4
+      MENDING: 1
+    18:
+      EFFICIENCY: 8
+      UNBREAKING: 8
+      FORTUNE: 4
+      MENDING: 1
+    19:
+      EFFICIENCY: 9
+      UNBREAKING: 9
+      FORTUNE: 4
+      MENDING: 1
+    20:
+      EFFICIENCY: 10
+      UNBREAKING: 10
+      FORTUNE: 5
+      MENDING: 1
+  SHOVEL:
+    1:
+      EFFICIENCY: 1
+    2:
+      EFFICIENCY: 1
+      UNBREAKING: 1
+    3:
+      EFFICIENCY: 1
+      UNBREAKING: 1
+      FORTUNE: 1
+    4:
+      EFFICIENCY: 2
+      UNBREAKING: 1
+      FORTUNE: 1
+    5:
+      EFFICIENCY: 2
+      UNBREAKING: 2
+      FORTUNE: 1
+    6:
+      EFFICIENCY: 2
+      UNBREAKING: 2
+      FORTUNE: 2
+    7:
+      EFFICIENCY: 3
+      UNBREAKING: 2
+      FORTUNE: 2
+    8:
+      EFFICIENCY: 3
+      UNBREAKING: 3
+      FORTUNE: 2
+    9:
+      EFFICIENCY: 3
+      UNBREAKING: 3
+      FORTUNE: 3
+    10:
+      EFFICIENCY: 3
+      UNBREAKING: 3
+      FORTUNE: 3
+      MENDING: 1
+    11:
+      EFFICIENCY: 4
+      UNBREAKING: 3
+      FORTUNE: 3
+      MENDING: 1
+    12:
+      EFFICIENCY: 4
+      UNBREAKING: 4
+      FORTUNE: 3
+      MENDING: 1
+    13:
+      EFFICIENCY: 5
+      UNBREAKING: 4
+      FORTUNE: 3
+      MENDING: 1
+    14:
+      EFFICIENCY: 5
+      UNBREAKING: 5
+      FORTUNE: 3
+      MENDING: 1
+    15:
+      EFFICIENCY: 6
+      UNBREAKING: 5
+      FORTUNE: 3
+      MENDING: 1
+    16:
+      EFFICIENCY: 6
+      UNBREAKING: 6
+      FORTUNE: 4
+      MENDING: 1
+    17:
+      EFFICIENCY: 7
+      UNBREAKING: 7
+      FORTUNE: 4
+      MENDING: 1
+    18:
+      EFFICIENCY: 8
+      UNBREAKING: 8
+      FORTUNE: 4
+      MENDING: 1
+    19:
+      EFFICIENCY: 9
+      UNBREAKING: 9
+      FORTUNE: 4
+      MENDING: 1
+    20:
+      EFFICIENCY: 10
+      UNBREAKING: 10
+      FORTUNE: 5
+      MENDING: 1
+  AXE:
+    1:
+      EFFICIENCY: 1
+    2:
+      EFFICIENCY: 1
+      UNBREAKING: 1
+    3:
+      EFFICIENCY: 1
+      UNBREAKING: 1
+      FORTUNE: 1
+    4:
+      EFFICIENCY: 2
+      UNBREAKING: 1
+      FORTUNE: 1
+    5:
+      EFFICIENCY: 2
+      UNBREAKING: 2
+      FORTUNE: 1
+    6:
+      EFFICIENCY: 2
+      UNBREAKING: 2
+      FORTUNE: 2
+    7:
+      EFFICIENCY: 3
+      UNBREAKING: 2
+      FORTUNE: 2
+    8:
+      EFFICIENCY: 3
+      UNBREAKING: 3
+      FORTUNE: 2
+    9:
+      EFFICIENCY: 3
+      UNBREAKING: 3
+      FORTUNE: 3
+    10:
+      EFFICIENCY: 3
+      UNBREAKING: 3
+      FORTUNE: 3
+      MENDING: 1
+    11:
+      EFFICIENCY: 4
+      UNBREAKING: 3
+      FORTUNE: 3
+      MENDING: 1
+    12:
+      EFFICIENCY: 4
+      UNBREAKING: 4
+      FORTUNE: 3
+      MENDING: 1
+    13:
+      EFFICIENCY: 5
+      UNBREAKING: 4
+      FORTUNE: 3
+      MENDING: 1
+    14:
+      EFFICIENCY: 5
+      UNBREAKING: 5
+      FORTUNE: 3
+      MENDING: 1
+    15:
+      EFFICIENCY: 6
+      UNBREAKING: 5
+      FORTUNE: 3
+      MENDING: 1
+    16:
+      EFFICIENCY: 6
+      UNBREAKING: 6
+      FORTUNE: 4
+      MENDING: 1
+    17:
+      EFFICIENCY: 7
+      UNBREAKING: 7
+      FORTUNE: 4
+      MENDING: 1
+    18:
+      EFFICIENCY: 8
+      UNBREAKING: 8
+      FORTUNE: 4
+      MENDING: 1
+    19:
+      EFFICIENCY: 9
+      UNBREAKING: 9
+      FORTUNE: 4
+      MENDING: 1
+    20:
+      EFFICIENCY: 10
+      UNBREAKING: 10
+      FORTUNE: 5
+      MENDING: 1
+  HOE:
+    1:
+      EFFICIENCY: 1
+    2:
+      EFFICIENCY: 1
+      UNBREAKING: 1
+    3:
+      EFFICIENCY: 1
+      UNBREAKING: 1
+      FORTUNE: 1
+    4:
+      EFFICIENCY: 2
+      UNBREAKING: 1
+      FORTUNE: 1
+    5:
+      EFFICIENCY: 2
+      UNBREAKING: 2
+      FORTUNE: 1
+    6:
+      EFFICIENCY: 2
+      UNBREAKING: 2
+      FORTUNE: 2
+    7:
+      EFFICIENCY: 3
+      UNBREAKING: 2
+      FORTUNE: 2
+    8:
+      EFFICIENCY: 3
+      UNBREAKING: 3
+      FORTUNE: 2
+    9:
+      EFFICIENCY: 3
+      UNBREAKING: 3
+      FORTUNE: 3
+    10:
+      EFFICIENCY: 3
+      UNBREAKING: 3
+      FORTUNE: 3
+      MENDING: 1
+    11:
+      EFFICIENCY: 4
+      UNBREAKING: 3
+      FORTUNE: 3
+      MENDING: 1
+    12:
+      EFFICIENCY: 4
+      UNBREAKING: 4
+      FORTUNE: 3
+      MENDING: 1
+    13:
+      EFFICIENCY: 5
+      UNBREAKING: 4
+      FORTUNE: 3
+      MENDING: 1
+    14:
+      EFFICIENCY: 5
+      UNBREAKING: 5
+      FORTUNE: 3
+      MENDING: 1
+    15:
+      EFFICIENCY: 6
+      UNBREAKING: 5
+      FORTUNE: 3
+      MENDING: 1
+    16:
+      EFFICIENCY: 6
+      UNBREAKING: 6
+      FORTUNE: 4
+      MENDING: 1
+    17:
+      EFFICIENCY: 7
+      UNBREAKING: 7
+      FORTUNE: 4
+      MENDING: 1
+    18:
+      EFFICIENCY: 8
+      UNBREAKING: 8
+      FORTUNE: 4
+      MENDING: 1
+    19:
+      EFFICIENCY: 9
+      UNBREAKING: 9
+      FORTUNE: 4
+      MENDING: 1
+    20:
+      EFFICIENCY: 10
+      UNBREAKING: 10
+      FORTUNE: 5
+      MENDING: 1
+  SWORD:
+    1:
+      SHARPNESS: 1
+    2:
+      SHARPNESS: 2
+    3:
+      UNBREAKING: 1
+      SHARPNESS: 2
+    4:
+      UNBREAKING: 2
+      SHARPNESS: 2
+    5:
+      UNBREAKING: 2
+      SHARPNESS: 2
+      LOOTING: 1
+    6:
+      UNBREAKING: 2
+      SHARPNESS: 2
+      LOOTING: 1
+      SWEEPING_EDGE: 1
+    7:
+      UNBREAKING: 2
+      SHARPNESS: 3
+      LOOTING: 1
+      SWEEPING_EDGE: 1
+    8:
+      UNBREAKING: 3
+      SHARPNESS: 3
+      LOOTING: 1
+      SWEEPING_EDGE: 1
+    9:
+      UNBREAKING: 3
+      SHARPNESS: 3
+      LOOTING: 1
+      SWEEPING_EDGE: 2
+    10:
+      UNBREAKING: 3
+      SHARPNESS: 3
+      MENDING: 1
+      LOOTING: 1
+      SWEEPING_EDGE: 2
+    11:
+      UNBREAKING: 3
+      SHARPNESS: 4
+      MENDING: 1
+      LOOTING: 1
+      SWEEPING_EDGE: 2
+    12:
+      UNBREAKING: 3
+      SHARPNESS: 4
+      MENDING: 1
+      LOOTING: 2
+      SWEEPING_EDGE: 2
+    13:
+      UNBREAKING: 4
+      SHARPNESS: 4
+      MENDING: 1
+      LOOTING: 2
+      SWEEPING_EDGE: 2
+    14:
+      UNBREAKING: 4
+      SHARPNESS: 4
+      MENDING: 1
+      LOOTING: 2
+      SWEEPING_EDGE: 3
+    15:
+      UNBREAKING: 4
+      SHARPNESS: 4
+      MENDING: 1
+      LOOTING: 3
+      SWEEPING_EDGE: 3
+    16:
+      UNBREAKING: 5
+      SHARPNESS: 4
+      MENDING: 1
+      LOOTING: 3
+      SWEEPING_EDGE: 3
+    17:
+      UNBREAKING: 5
+      SHARPNESS: 5
+      MENDING: 1
+      LOOTING: 3
+      SWEEPING_EDGE: 3
+    18:
+      UNBREAKING: 6
+      SHARPNESS: 5
+      MENDING: 1
+      LOOTING: 3
+      SWEEPING_EDGE: 3
+    19:
+      UNBREAKING: 6
+      SHARPNESS: 6
+      MENDING: 1
+      LOOTING: 3
+      SWEEPING_EDGE: 3
+    20:
+      UNBREAKING: 7
+      SHARPNESS: 7
+      MENDING: 1
+      LOOTING: 3
+      SWEEPING_EDGE: 3
+  BOW:
+    1:
+      POWER: 1
+    2:
+      POWER: 1
+      UNBREAKING: 1
+    3:
+      POWER: 2
+      UNBREAKING: 1
+    4:
+      POWER: 2
+      UNBREAKING: 2
+    5:
+      POWER: 2
+      UNBREAKING: 2
+      PUNCH: 1
+    6:
+      POWER: 3
+      UNBREAKING: 2
+      PUNCH: 1
+    7:
+      POWER: 3
+      UNBREAKING: 3
+      PUNCH: 1
+    8:
+      POWER: 3
+      UNBREAKING: 3
+      PUNCH: 1
+      FLAME: 1
+    9:
+      POWER: 3
+      UNBREAKING: 3
+      PUNCH: 2
+      FLAME: 1
+    10:
+      POWER: 3
+      UNBREAKING: 3
+      PUNCH: 2
+      FLAME: 1
+      MENDING: 1
+    11:
+      POWER: 4
+      UNBREAKING: 3
+      PUNCH: 2
+      FLAME: 1
+      MENDING: 1
+    12:
+      POWER: 4
+      UNBREAKING: 4
+      PUNCH: 2
+      FLAME: 1
+      MENDING: 1
+    13:
+      POWER: 4
+      UNBREAKING: 4
+      PUNCH: 2
+      FLAME: 2
+      MENDING: 1
+    14:
+      POWER: 5
+      UNBREAKING: 4
+      PUNCH: 2
+      FLAME: 2
+      MENDING: 1
+    15:
+      POWER: 5
+      UNBREAKING: 5
+      PUNCH: 2
+      FLAME: 2
+      MENDING: 1
+    16:
+      POWER: 5
+      UNBREAKING: 5
+      PUNCH: 3
+      FLAME: 2
+      MENDING: 1
+    17:
+      POWER: 5
+      UNBREAKING: 5
+      PUNCH: 3
+      FLAME: 3
+      MENDING: 1
+    18:
+      POWER: 6
+      UNBREAKING: 5
+      PUNCH: 3
+      FLAME: 3
+      MENDING: 1
+    19:
+      POWER: 6
+      UNBREAKING: 6
+      PUNCH: 3
+      FLAME: 3
+      MENDING: 1
+    20:
+      POWER: 6
+      UNBREAKING: 6
+      PUNCH: 3
+      FLAME: 3
+      MENDING: 1
+      INFINITY: 1
+  CROSSBOW:
+    1:
+      QUICK_CHARGE: 1
+    2:
+      QUICK_CHARGE: 1
+      MULTISHOT: 1
+    3:
+      QUICK_CHARGE: 1
+      MULTISHOT: 1
+      PIERCING: 1
+    4:
+      QUICK_CHARGE: 2
+      MULTISHOT: 1
+      PIERCING: 1
+    5:
+      QUICK_CHARGE: 2
+      MULTISHOT: 1
+      PIERCING: 2
+    6:
+      QUICK_CHARGE: 2
+      MULTISHOT: 1
+      PIERCING: 2
+      UNBREAKING: 1
+    7:
+      QUICK_CHARGE: 2
+      MULTISHOT: 1
+      PIERCING: 2
+      UNBREAKING: 2
+    8:
+      QUICK_CHARGE: 3
+      MULTISHOT: 1
+      PIERCING: 2
+      UNBREAKING: 2
+    9:
+      QUICK_CHARGE: 3
+      MULTISHOT: 1
+      PIERCING: 3
+      UNBREAKING: 2
+    10:
+      QUICK_CHARGE: 3
+      MULTISHOT: 1
+      PIERCING: 3
+      UNBREAKING: 2
+      MENDING: 1
+    11:
+      QUICK_CHARGE: 3
+      MULTISHOT: 1
+      PIERCING: 3
+      UNBREAKING: 3
+      MENDING: 1
+    12:
+      QUICK_CHARGE: 4
+      MULTISHOT: 1
+      PIERCING: 3
+      UNBREAKING: 3
+      MENDING: 1
+    13:
+      QUICK_CHARGE: 4
+      MULTISHOT: 1
+      PIERCING: 4
+      UNBREAKING: 3
+      MENDING: 1
+    14:
+      QUICK_CHARGE: 4
+      MULTISHOT: 1
+      PIERCING: 4
+      UNBREAKING: 4
+      MENDING: 1
+    15:
+      QUICK_CHARGE: 4
+      MULTISHOT: 1
+      PIERCING: 4
+      UNBREAKING: 5
+      MENDING: 1
+    16:
+      QUICK_CHARGE: 5
+      MULTISHOT: 1
+      PIERCING: 4
+      UNBREAKING: 5
+      MENDING: 1
+    17:
+      QUICK_CHARGE: 5
+      MULTISHOT: 1
+      PIERCING: 5
+      UNBREAKING: 5
+      MENDING: 1
+    18:
+      QUICK_CHARGE: 6
+      MULTISHOT: 1
+      PIERCING: 5
+      UNBREAKING: 5
+      MENDING: 1
+    19:
+      QUICK_CHARGE: 6
+      MULTISHOT: 1
+      PIERCING: 5
+      UNBREAKING: 6
+      MENDING: 1
+    20:
+      QUICK_CHARGE: 6
+      MULTISHOT: 1
+      PIERCING: 6
+      UNBREAKING: 6
+      MENDING: 1
+  MACE:
+    1:
+      UNBREAKING: 1
+    2:
+      UNBREAKING: 1
+      WIND_BURST: 1
+    3:
+      UNBREAKING: 2
+      WIND_BURST: 1
+    4:
+      UNBREAKING: 2
+      WIND_BURST: 1
+      FIRE_ASPECT: 1
+    5:
+      UNBREAKING: 2
+      WIND_BURST: 1
+      FIRE_ASPECT: 1
+      DENSITY: 1
+    6:
+      UNBREAKING: 2
+      WIND_BURST: 2
+      FIRE_ASPECT: 1
+      DENSITY: 1
+    7:
+      UNBREAKING: 2
+      WIND_BURST: 2
+      FIRE_ASPECT: 2
+      DENSITY: 1
+    8:
+      UNBREAKING: 2
+      WIND_BURST: 2
+      FIRE_ASPECT: 2
+      DENSITY: 2
+    9:
+      UNBREAKING: 3
+      WIND_BURST: 2
+      FIRE_ASPECT: 2
+      DENSITY: 2
+    10:
+      UNBREAKING: 3
+      WIND_BURST: 2
+      FIRE_ASPECT: 2
+      DENSITY: 2
+      MENDING: 1
+    11:
+      UNBREAKING: 3
+      WIND_BURST: 3
+      FIRE_ASPECT: 2
+      DENSITY: 2
+      MENDING: 1
+    12:
+      UNBREAKING: 3
+      WIND_BURST: 3
+      FIRE_ASPECT: 3
+      DENSITY: 2
+      MENDING: 1
+    13:
+      UNBREAKING: 3
+      WIND_BURST: 3
+      FIRE_ASPECT: 3
+      DENSITY: 3
+      MENDING: 1
+    14:
+      UNBREAKING: 4
+      WIND_BURST: 3
+      FIRE_ASPECT: 3
+      DENSITY: 3
+      MENDING: 1
+    15:
+      UNBREAKING: 4
+      WIND_BURST: 4
+      FIRE_ASPECT: 3
+      DENSITY: 3
+      MENDING: 1
+    16:
+      UNBREAKING: 4
+      WIND_BURST: 4
+      FIRE_ASPECT: 3
+      DENSITY: 4
+      MENDING: 1
+    17:
+      UNBREAKING: 5
+      WIND_BURST: 4
+      FIRE_ASPECT: 3
+      DENSITY: 4
+      MENDING: 1
+    18:
+      UNBREAKING: 5
+      WIND_BURST: 4
+      FIRE_ASPECT: 3
+      DENSITY: 5
+      MENDING: 1
+    19:
+      UNBREAKING: 6
+      WIND_BURST: 4
+      FIRE_ASPECT: 3
+      DENSITY: 6
+      MENDING: 1
+    20:
+      UNBREAKING: 7
+      WIND_BURST: 4
+      FIRE_ASPECT: 4
+      DENSITY: 7
+      MENDING: 1
+  TRIDENT:
+    1:
+      UNBREAKING: 1
+    2:
+      UNBREAKING: 1
+      LOYALTY: 1
+    3:
+      UNBREAKING: 2
+      LOYALTY: 1
+    4:
+      UNBREAKING: 2
+      LOYALTY: 1
+      CHANNELING: 1
+    5:
+      UNBREAKING: 2
+      LOYALTY: 1
+      CHANNELING: 1
+      IMPALING: 1
+    6:
+      UNBREAKING: 3
+      LOYALTY: 1
+      CHANNELING: 1
+      IMPALING: 1
+    7:
+      UNBREAKING: 3
+      LOYALTY: 2
+      CHANNELING: 1
+      IMPALING: 1
+    8:
+      UNBREAKING: 3
+      LOYALTY: 2
+      CHANNELING: 1
+      IMPALING: 2
+    9:
+      UNBREAKING: 4
+      LOYALTY: 2
+      CHANNELING: 1
+      IMPALING: 2
+    10:
+      UNBREAKING: 4
+      LOYALTY: 2
+      CHANNELING: 1
+      IMPALING: 2
+      MENDING: 1
+    11:
+      UNBREAKING: 4
+      LOYALTY: 3
+      CHANNELING: 1
+      IMPALING: 2
+      MENDING: 1
+    12:
+      UNBREAKING: 4
+      LOYALTY: 3
+      CHANNELING: 1
+      IMPALING: 3
+      MENDING: 1
+    13:
+      UNBREAKING: 5
+      LOYALTY: 3
+      CHANNELING: 1
+      IMPALING: 3
+      MENDING: 1
+    14:
+      UNBREAKING: 5
+      LOYALTY: 3
+      CHANNELING: 1
+      IMPALING: 4
+      MENDING: 1
+    15:
+      UNBREAKING: 6
+      LOYALTY: 3
+      CHANNELING: 1
+      IMPALING: 4
+      MENDING: 1
+    16:
+      UNBREAKING: 6
+      LOYALTY: 3
+      CHANNELING: 1
+      IMPALING: 5
+      MENDING: 1
+    17:
+      UNBREAKING: 6
+      LOYALTY: 3
+      CHANNELING: 1
+      IMPALING: 6
+      MENDING: 1
+    18:
+      UNBREAKING: 6
+      LOYALTY: 3
+      CHANNELING: 1
+      IMPALING: 7
+      MENDING: 1
+    19:
+      UNBREAKING: 7
+      LOYALTY: 3
+      CHANNELING: 1
+      IMPALING: 7
+      MENDING: 1
+    20:
+      UNBREAKING: 8
+      LOYALTY: 3
+      CHANNELING: 1
+      IMPALING: 8
+      MENDING: 1
+
+## XP for mob kill
+Mobs:
+  #PASSIVE MOBS
+  ALLAY: 5
+  ARMADILLO: 5
+  AXOLOTL: 5
+  BAT: 1
+  CAMEL: 5
+  CAT: 1
+  CHICKEN: 1
+  COD: 1
+  COW: 5
+  DONKEY: 5
+  FROG: 2
+  GLOW_SQUID: 3
+  HORSE: 5
+  OCELOT: 1
+  PARROT: 1
+  PIG: 5
+  PUFFERFISH: 1
+  RABBIT: 1
+  SALMON: 1
+  SHEEP: 5
+  SKELETON_HORSE: 10
+  SNIFFER: 5
+  SNOW_GOLEM: 5
+  SQUID: 2
+  STRIDER: 3
+  TADPOLE: 1
+  TROPICAL_FISH: 1
+  TURTLE: 3
+  VILLAGER: 0
+  WANDERING_TRADER: 0
+
+  #NEUTRAL MOBS
+  BEE: 1
+  CAVE_SPIDER: 3
+  DOLPHIN: 3
+  DROWNED: 10
+  ENDERMAN: 15
+  FOX: 3
+  GOAT: 3
+  IRON_GOLEM: 20
+  LLAMA: 5
+  PANDA: 5
+  PIGLIN: 5
+  POLAR_BEAR: 10
+  SPIDER: 5
+  TRADER_LLAMA: 5
+  WOLF: 5
+  ZOMBIFIED_PIGLIN: 5
+
+  #HOSTILE MOBS
+  BLAZE: 10
+  BOGGED: 10
+  BREEZE: 10
+  CREAKING: 20
+  CREEPER: 5
+  ELDER_GUARDIAN: 25
+  ENDERMITE: 1
+  EVOKER: 15
+  GHAST: 20
+  GUARDIAN: 10
+  HOGLIN: 5
+  HUSK: 5
+  MAGMA_CUBE: 1
+  PHANTOM: 5
+  PIGLIN_BRUTE: 15
+  PILLAGER: 5
+  RAVAGER: 20
+  SHULKER: 5
+  SILVERFISH: 1
+  SKELETON: 5
+  SLIME: 1
+  STRAY: 5
+  VEX: 1
+  VINDICATOR: 15
+  WARDEN: 100
+  WITCH: 20
+  WITHER_SKELETON: 10
+  ZOGLIN: 10
+  ZOMBIE: 5
+  ZOMBIE_VILLAGER: 5
+
+  #BOSSES
+  ENDER_DRAGON: 250
+  WITHER: 200

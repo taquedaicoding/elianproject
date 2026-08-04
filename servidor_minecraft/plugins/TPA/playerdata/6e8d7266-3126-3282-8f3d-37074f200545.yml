@@ -1,0 +1,15 @@
+language: es_ES
+last_location:
+  world: world_nether
+  x: 235.29954168900514
+  y: 11.0
+  z: 450.50630562670995
+  pitch: 5.337321
+  yaw: 76.38666
+logout_location:
+  world: world
+  x: 1723.5985979226632
+  y: 192.0
+  z: 1593.4186119677215
+  pitch: 43.30768
+  yaw: 179.66342

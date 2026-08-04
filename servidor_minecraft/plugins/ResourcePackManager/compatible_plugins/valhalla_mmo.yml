@@ -1,0 +1,8 @@
+isEnabled: true
+pluginName: ValhallaMMO
+encrypts: false
+distributes: false
+zips: false
+resourcePackUpdated: false
+localPath: ValhallaMMO/resourcepack
+cluster: false

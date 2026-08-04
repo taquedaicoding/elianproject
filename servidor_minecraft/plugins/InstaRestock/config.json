@@ -1,0 +1,11 @@
+{
+  "maxTrades": 0,
+  "reloadTime": "",
+  "villagerBlacklist": [],
+  "disablePricePenalty": true,
+  "uninstallMode": false,
+  "allowTravellingMerchants": true,
+  "checkUpdate": true,
+  "allowMetrics": true,
+  "lang": "en_US"
+}

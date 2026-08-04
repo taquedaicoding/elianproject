@@ -1,0 +1,7 @@
+isEnabled: true
+name: '&2Free Elite Shrine'
+description:
+- '&fFace 56 bosses in the perilous innards of 49 shrines!'
+folderNameV2: BetterStructures Free Elite Shrines
+nightbreakSlug: free-elite-shrines
+version: 9 # Changed all bosses to now be scalable

@@ -1,0 +1,393 @@
+# ᴢSʜᴏᴘ Cᴏɴғɪɢᴜʀᴀᴛɪᴏɴ
+
+# Gʀᴜɴᴅᴇɪɴsᴛᴇʟʟᴜɴɢᴇɴ
+settings:
+  # Pʀᴀ̈ғɪx ғᴜ̈ʀ ᴀʟʟᴇ Pʟᴜɢɪɴ-Nᴀᴄʜʀɪᴄʜᴛᴇɴ
+  prefix: '&8[&b&3ᴢsʜᴏᴘ&8] &7'
+  
+  # Gʟᴏʙᴀʟᴇ Lᴏʀᴇ-Eɪɴsᴛᴇʟʟᴜɴɢᴇɴ ғᴜ̈ʀ ᴀʟʟᴇ Sʜᴏᴘ-Iᴛᴇᴍs
+  # {price} ᴡɪʀᴅ ᴀᴜᴛᴏᴍᴀᴛɪsᴄʜ ᴅᴜʀᴄʜ ᴅᴇɴ ғᴏʀᴍᴀᴛɪᴇʀᴛᴇɴ Pʀᴇɪs ᴇʀsᴇᴛᴢᴛ
+  item-lore:
+  - '&7ᴘʀɪᴄᴇ: &a{price}'
+  - ''
+  - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴘᴜʀᴄʜᴀsᴇ'
+  
+  # Gʟᴏʙᴀʟᴇ Lᴏʀᴇ-Eɪɴsᴛᴇʟʟᴜɴɢᴇɴ ғᴜ̈ʀ ᴀʟʟᴇ Kᴀᴛᴇɢᴏʀɪᴇ-Bᴜᴛᴛᴏɴs
+  category-lore:
+  - ''
+  - '&7ᴄʟɪᴄᴋ ᴛᴏ ᴏᴘᴇɴ ᴛʜɪs ᴄᴀᴛᴇɢᴏʀʏ'
+
+# UI-Buttons anpassen
+back-button:
+  name: '&c« ʙᴀᴄᴋ'
+  material: RED_DYE
+  lore:
+  - '&7ʀᴇᴛᴜʀɴ ᴛᴏ ᴛʜᴇ ᴘʀᴇᴠɪᴏᴜs ᴍᴇɴᴜ'
+
+buy-button:
+  name: '&a✓ ʙᴜʏ'
+  material: LIME_DYE
+  lore:
+  - '&7ᴄᴏɴғɪʀᴍ ʏᴏᴜʀ ᴘᴜʀᴄʜᴀsᴇ'
+
+cancel-button:
+  name: '&c✗ ᴄᴀɴᴄᴇʟ'
+  material: RED_DYE
+  lore:
+  - '&7ᴄᴀɴᴄᴇʟ ᴛʜᴇ ᴛʀᴀɴsᴀᴄᴛɪᴏɴ'
+
+# Pʀᴇɪsғᴏʀᴍᴀᴛɪᴇʀᴜɴɢ (ғᴜ̈ʀ ɢʀᴏßᴇ Zᴀʜʟᴇɴ)
+price-format:
+  thousand: ᴋ # 1000 -> 1ᴋ
+  million: ᴍ # 1000000 -> 1ᴍ
+  billion: ʙ # 1000000000 -> 1ʙ
+
+# Hᴀᴜᴘᴛᴍᴇɴᴜ̈-Kᴏɴғɪɢᴜʀᴀᴛɪᴏɴ
+main-menu:
+  title: '&8» &bsʜᴏᴘ'
+  size: 27 # Iɴᴠᴇɴᴛᴀʀɢʀᴏ̈ßᴇ (3 Rᴇɪʜᴇɴ)
+  # Kᴀᴛᴇɢᴏʀɪᴇɴ, ᴅɪᴇ ɪᴍ Hᴀᴜᴘᴛᴍᴇɴᴜ̈ ᴀɴɢᴇᴢᴇɪɢᴛ ᴡᴇʀᴅᴇɴ
+  categories:
+    category1: {}
+    category2: {}
+    category3: {}
+    category4: {}
+    category5: {}
+    category6: {}
+    category7: {}
+
+# Kᴀᴛᴇɢᴏʀɪᴇ-Eɪɴsᴛᴇʟʟᴜɴɢᴇɴ
+category-settings:
+  category1:
+    name: '&bʙʟᴏᴄᴋs'
+    title: '&8» &bʙʟᴏᴄᴋs'
+    material: GRASS_BLOCK
+    slot: 10
+  category2:
+    name: '&bғᴀʀᴍɪɴɢ'
+    title: '&8» &bғᴀʀᴍɪɴɢ'
+    material: SUGAR_CANE
+    slot: 11
+  category3:
+    name: '&b🛇'
+    title: '&8» &bTIENDA RESTRINGIDA'
+    material: SPAWNER
+    slot: 12
+  category4:
+    name: '&bᴇǫᴜɪᴘᴍᴇɴᴛ'
+    title: '&8» &bᴇǫᴜɪᴘᴍᴇɴᴛ'
+    material: TOTEM_OF_UNDYING
+    slot: 13
+  category5:
+    name: '&bғᴏᴏᴅ'
+    title: '&8» &bғᴏᴏᴅ'
+    material: COOKED_BEEF
+    slot: 14
+  category6:
+    name: '&bʀᴇᴅsᴛᴏɴᴇ'
+    title: '&8» &bʀᴇᴅsᴛᴏɴᴇ'
+    material: REDSTONE
+    slot: 15
+  category7:
+    name: '&bᴍɪsᴄ'
+    title: '&8» &bᴍɪsᴄ'
+    material: ENDER_PEARL
+    slot: 16
+
+purchase-gui:
+  title: '&8» &bʙᴜʏ: &7%item%'
+  size: 27
+
+category1:
+  size: 27
+  items:
+    stone:
+      name: '&bsᴛᴏɴᴇ'
+      material: STONE
+      price: 150
+      slot: 10
+    dirt:
+      name: '&bᴅɪʀᴛ'
+      material: DIRT
+      price: 100
+      slot: 11
+    glass:
+      name: '&bɢʟᴀss'
+      material: GLASS
+      price: 250
+      slot: 12
+    obsidian:
+      name: '&bᴏʙsɪᴅɪᴀɴ'
+      material: OBSIDIAN
+      price: 500
+      slot: 13
+    diamond_block:
+      name: '&bᴏᴀᴋ ʟᴏɢ'
+      material: OAK_LOG
+      price: 900
+      slot: 14
+    emerald_block:
+      name: '&bᴇᴍᴇʀᴀʟᴅ ʙʟᴏᴄᴋ'
+      material: EMERALD_BLOCK
+      price: 25000
+      slot: 15
+    netherite_block:
+      name: '&bᴛᴜʙᴇ ᴄᴏʀᴀʟ ʙʟᴏᴄᴋ'
+      material: TUBE_CORAL_BLOCK
+      price: 500
+      slot: 16
+
+category2:
+  size: 27
+  items:
+    wooden_pickaxe:
+      name: '&bsᴜɢᴀʀ ᴄᴀɴᴇ'
+      material: SUGAR_CANE
+      price: 20
+      slot: 10
+      command: drill %player% 100
+    stone_pickaxe:
+      name: '&bᴡʜᴇᴀᴛ'
+      material: WHEAT
+      price: 40
+      slot: 11
+    iron_pickaxe:
+      name: '&bᴡʜᴇᴀᴛ sᴇᴇᴅs'
+      material: WHEAT_SEEDS
+      price: 50
+      slot: 12
+    golden_pickaxe:
+      name: '&bsᴇᴀ ᴘɪᴄᴋʟᴇ'
+      material: SEA_PICKLE
+      price: 100
+      slot: 13
+    diamond_pickaxe:
+      name: '&bᴄᴀʀʀᴏᴛ'
+      material: CARROT
+      price: 50
+      slot: 14
+    netherite_pickaxe:
+      name: '&bʙᴀᴍʙᴏᴏ'
+      material: BAMBOO
+      price: 50
+      slot: 15
+    shears:
+      name: '&bᴠɪʟʟᴀɢᴇʀ sᴘᴀᴡɴ ᴇɢɢ'
+      material: VILLAGER_SPAWN_EGG
+      price: 100000
+      slot: 16
+
+category4:
+  size: 27
+  items:
+    iron_helmet:
+      name: '&bᴇɴᴅ ᴄʀʏsᴛᴀʟs'
+      material: END_CRYSTAL
+      price: 1000
+      slot: 10
+    iron_chestplate:
+      name: '&bʀᴇsᴘᴀᴡɴ ᴀɴᴄʜᴏʀ'
+      material: RESPAWN_ANCHOR
+      price: 700
+      slot: 11
+    iron_leggings:
+      name: '&bɢʟᴏᴡsᴛᴏɴᴇ'
+      material: GLOWSTONE
+      price: 150
+      slot: 12
+    iron_boots:
+      name: '&bsʜᴜʟᴋᴇʀ ʙᴏx'
+      material: SHULKER_BOX
+      price: 5000
+      slot: 13
+    diamond_helmet:
+      name: '&dᴇxᴘᴇʀɪᴇɴᴄᴇ ʙᴏᴛᴛʟᴇ'
+      material: EXPERIENCE_BOTTLE
+      price: 500
+      slot: 14
+    diamond_chestplate:
+      name: '&bᴇɴᴅᴇʀ ᴄʜᴇsᴛ'
+      material: ENDER_CHEST
+      price: 1500
+      slot: 15
+    shield:
+      name: '&bғɪʀᴇᴡᴏʀᴋ ʀᴏᴄᴋᴇᴛ'
+      material: FIREWORK_ROCKET
+      price: 120
+      slot: 16
+
+category5:
+  size: 27
+  items:
+    apple:
+      name: '&bᴀᴘᴘʟᴇ'
+      material: APPLE
+      price: 150
+      slot: 10
+    bread:
+      name: '&bʙʀᴇᴀᴅ'
+      material: BREAD
+      price: 150
+      slot: 11
+    cooked_beef:
+      name: '&bsᴛᴇᴀᴋ'
+      material: COOKED_BEEF
+      price: 250
+      slot: 12
+    cooked_chicken:
+      name: '&bᴄᴏᴏᴋᴇᴅ ᴄʜɪᴄᴋᴇɴ'
+      material: COOKED_CHICKEN
+      price: 200
+      slot: 13
+    golden_apple:
+      name: '&bɢᴏʟᴅᴇɴ ᴀᴘᴘʟᴇ'
+      material: GOLDEN_APPLE
+      price: 500
+      slot: 14
+    golden_carrot:
+      name: '&bɢᴏʟᴅᴇɴ ᴄᴀʀʀᴏᴛ'
+      material: GOLDEN_CARROT
+      price: 275
+      slot: 15
+    cake:
+      name: '&bᴄᴀᴋᴇ'
+      material: CAKE
+      price: 80
+      slot: 16
+
+category6:
+  size: 27
+  items:
+    redstone:
+      name: '&bʀᴇᴅsᴛᴏɴᴇ'
+      material: REDSTONE
+      price: 200
+      slot: 10
+    redstone_block:
+      name: '&bʀᴇᴅsᴛᴏɴᴇ ʙʟᴏᴄᴋ'
+      material: REDSTONE_BLOCK
+      price: 25
+      slot: 11
+    repeater:
+      name: '&bʀᴇᴘᴇᴀᴛᴇʀ'
+      material: REPEATER
+      price: 500
+      slot: 12
+    comparator:
+      name: '&bᴄᴏᴍᴘᴀʀᴀᴛᴏʀ'
+      material: COMPARATOR
+      price: 250
+      slot: 13
+    piston:
+      name: '&bᴘɪsᴛᴏɴ'
+      material: PISTON
+      price: 250
+      slot: 14
+    sticky_piston:
+      name: '&bsᴛɪᴄᴋʏ ᴘɪsᴛᴏɴ'
+      material: STICKY_PISTON
+      price: 275
+      slot: 15
+    hopper:
+      name: '&bʜᴏᴘᴘᴇʀ'
+      material: HOPPER
+      price: 200
+      slot: 16
+
+category7:
+  size: 27
+  items:
+    ender_pearl:
+      name: '&bᴇɴᴅᴇʀ ᴘᴇᴀʀʟ'
+      material: ENDER_PEARL
+      price: 50
+      slot: 10
+    blaze_rod:
+      name: '&bʙʟᴀᴢᴇ ʀᴏᴅ'
+      material: BLAZE_ROD
+      price: 25
+      slot: 11
+    ghast_tear:
+      name: '&bɢʟᴀss ʙᴏᴛᴛʟᴇ'
+      material: GLASS_BOTTLE
+      price: 250
+      slot: 12
+    dragon_breath:
+      name: '&bᴡɪɴᴅ ᴄʜᴀʀɢᴇ'
+      material: WIND_CHARGE
+      price: 500
+      slot: 13
+    elytra:
+      name: '&bᴇʟʏᴛʀᴀ'
+      material: ELYTRA
+      price: 250000
+      slot: 14
+    totem_of_undying:
+      name: '&bᴛᴏᴛᴇᴍ ᴏғ ᴜɴᴅʏɪɴɢ'
+      material: TOTEM_OF_UNDYING
+      price: 3000
+      slot: 15
+    trident:
+      name: '&bᴛʀɪᴅᴇɴᴛ'
+      material: TRIDENT
+      price: 75000
+      slot: 16
+
+# Pʟᴜɢɪɴ-Nᴀᴄʜʀɪᴄʜᴛᴇɴ
+messages:
+  player-only: ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴄᴀɴ ᴏɴʟʏ ʙᴇ ᴜsᴇᴅ ʙʏ ᴘʟᴀʏᴇʀs.
+  no-permission: ʏᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴘᴇʀᴍɪssɪᴏɴ ᴛᴏ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ.
+  category-not-found: ᴛʜɪs ᴄᴀᴛᴇɢᴏʀʏ ᴡᴀs ɴᴏᴛ ғᴏᴜɴᴅ.
+  item-not-found: ᴛʜɪs ɪᴛᴇᴍ ᴡᴀs ɴᴏᴛ ғᴏᴜɴᴅ.
+  no-item-in-hand: ʏᴏᴜ ᴍᴜsᴛ ʜᴏʟᴅ ᴀɴ ɪᴛᴇᴍ ɪɴ ʏᴏᴜʀ ʜᴀɴᴅ.
+  invalid-price: ᴛʜᴇ sᴘᴇᴄɪғɪᴇᴅ ᴘʀɪᴄᴇ ɪs ɪɴᴠᴀʟɪᴅ.
+  invalid-slot: ᴛʜᴇ sᴘᴇᴄɪғɪᴇᴅ sʟᴏᴛ ɪs ɪɴᴠᴀʟɪᴅ. ᴄʜᴏᴏsᴇ ᴀ sʟᴏᴛ ʙᴇᴛᴡᴇᴇɴ %min% ᴀɴᴅ %max%.
+  invalid-slot-format: ᴛʜᴇ sᴘᴇᴄɪғɪᴇᴅ sʟᴏᴛ ɪs ɴᴏᴛ ᴀ ᴠᴀʟɪᴅ ɴᴜᴍʙᴇʀ.
+  item-added: ᴛʜᴇ ɪᴛᴇᴍ %item% ʜᴀs ʙᴇᴇɴ ᴀᴅᴅᴇᴅ ᴛᴏ ᴄᴀᴛᴇɢᴏʀʏ %category% ɪɴ sʟᴏᴛ %slot%
+    ғᴏʀ %price%.
+  config-reloaded: ᴛʜᴇ ᴄᴏɴғɪɢᴜʀᴀᴛɪᴏɴ ʜᴀs ʙᴇᴇɴ ʀᴇʟᴏᴀᴅᴇᴅ.
+  purchase-successful: ʏᴏᴜ ᴘᴜʀᴄʜᴀsᴇᴅ %amount%x %item% ғᴏʀ %price%.
+  not-enough-money: 'ʏᴏᴜ ᴅᴏɴ''ᴛ ʜᴀᴠᴇ ᴇɴᴏᴜɢʜ ᴍᴏɴᴇʏ. ᴘʀɪᴄᴇ: %price%'
+  transaction-error: 'ᴀɴ ᴇʀʀᴏʀ ᴏᴄᴄᴜʀʀᴇᴅ ᴅᴜʀɪɴɢ ᴛʜᴇ ᴛʀᴀɴsᴀᴄᴛɪᴏɴ: %error%'
+  inventory-full: ʏᴏᴜʀ ɪɴᴠᴇɴᴛᴏʀʏ ɪs ғᴜʟʟ.
+sounds:
+  menu_open:
+    sound: BLOCK_CHEST_OPEN
+    volume: 0.5
+    pitch: 1.0
+  menu_close:
+    sound: BLOCK_CHEST_CLOSE
+    volume: 0.5
+    pitch: 1.0
+  category_click:
+    sound: UI_BUTTON_CLICK
+    volume: 0.5
+    pitch: 1.0
+  item_click:
+    sound: ENTITY_ITEM_PICKUP
+    volume: 0.5
+    pitch: 1.2
+  amount_change:
+    sound: BLOCK_NOTE_BLOCK_HAT
+    volume: 0.3
+    pitch: 1.5
+  purchase_success:
+    sound: ENTITY_PLAYER_LEVELUP
+    volume: 0.5
+    pitch: 1.0
+  purchase_failed:
+    sound: ENTITY_VILLAGER_NO
+    volume: 0.5
+    pitch: 1.0
+  inventory_full:
+    sound: ENTITY_VILLAGER_NO
+    volume: 0.5
+    pitch: 0.8
+  transaction_error:
+    sound: ENTITY_ENDERMAN_TELEPORT
+    volume: 0.5
+    pitch: 0.5
+  command_execute:
+    sound: ENTITY_EXPERIENCE_ORB_PICKUP
+    volume: 0.5
+    pitch: 1.2

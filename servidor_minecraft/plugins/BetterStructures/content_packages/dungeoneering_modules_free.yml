@@ -1,0 +1,8 @@
+isEnabled: true
+name: '&2Dungeoneering Modules Free'
+description:
+- '&fThe first modular dungeon for BetterStructures!'
+folderNameV2: dungeoneering_modules_free
+contentPackageType: MODULAR
+nightbreakSlug: dungeoneering-modules-free
+version: 2 # properly added props

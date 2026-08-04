@@ -1,0 +1,9 @@
+isEnabled: true
+pluginName: EliteMobs
+encrypts: false
+distributes: false
+zips: false
+reloadCommand: elitemobs reload
+resourcePackUpdated: false
+localPath: EliteMobs/resource_pack
+cluster: true

@@ -1,0 +1,17 @@
+permissions:
+  create:
+    onlyOp: true
+  delete:
+    onlyOp: true
+  use:
+    onlyOp: false
+  reload:
+    onlyOp: true
+warps:
+  s:
+    world: world
+    x: 406.37896580792864
+    y: 73.0
+    z: 42.63805878738905
+    yaw: 24.749878
+    pitch: 11.999995

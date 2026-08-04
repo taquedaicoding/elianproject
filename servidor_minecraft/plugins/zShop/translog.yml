@@ -1,0 +1,766 @@
+transactions:
+  1784233624271_db9b38ee-1be8-3c4f-8ff8-5b576b1e92f1:
+    player: Bastard
+    uuid: db9b38ee-1be8-3c4f-8ff8-5b576b1e92f1
+    item: DARK_OAK_PLANKS
+    amount: 1
+    price: 10.0
+    category: category3
+    timestamp: '2026-07-16 20:27:04'
+    balance_after: 90.0
+  1784233624585_db9b38ee-1be8-3c4f-8ff8-5b576b1e92f1:
+    player: Bastard
+    uuid: db9b38ee-1be8-3c4f-8ff8-5b576b1e92f1
+    item: DARK_OAK_PLANKS
+    amount: 1
+    price: 10.0
+    category: category3
+    timestamp: '2026-07-16 20:27:04'
+    balance_after: 80.0
+  1784233625186_db9b38ee-1be8-3c4f-8ff8-5b576b1e92f1:
+    player: Bastard
+    uuid: db9b38ee-1be8-3c4f-8ff8-5b576b1e92f1
+    item: DARK_OAK_PLANKS
+    amount: 1
+    price: 10.0
+    category: category3
+    timestamp: '2026-07-16 20:27:05'
+    balance_after: 70.0
+  1784233645773_db9b38ee-1be8-3c4f-8ff8-5b576b1e92f1:
+    player: Bastard
+    uuid: db9b38ee-1be8-3c4f-8ff8-5b576b1e92f1
+    item: DARK_OAK_PLANKS
+    amount: 1
+    price: 10.0
+    category: category3
+    timestamp: '2026-07-16 20:27:25'
+    balance_after: 60.0
+  1784233652347_db9b38ee-1be8-3c4f-8ff8-5b576b1e92f1:
+    player: Bastard
+    uuid: db9b38ee-1be8-3c4f-8ff8-5b576b1e92f1
+    item: DARK_OAK_PLANKS
+    amount: 1
+    price: 10.0
+    category: category3
+    timestamp: '2026-07-16 20:27:32'
+    balance_after: 50.0
+  1784233652712_db9b38ee-1be8-3c4f-8ff8-5b576b1e92f1:
+    player: Bastard
+    uuid: db9b38ee-1be8-3c4f-8ff8-5b576b1e92f1
+    item: DARK_OAK_PLANKS
+    amount: 1
+    price: 10.0
+    category: category3
+    timestamp: '2026-07-16 20:27:32'
+    balance_after: 40.0
+  1784233652979_db9b38ee-1be8-3c4f-8ff8-5b576b1e92f1:
+    player: Bastard
+    uuid: db9b38ee-1be8-3c4f-8ff8-5b576b1e92f1
+    item: DARK_OAK_PLANKS
+    amount: 1
+    price: 10.0
+    category: category3
+    timestamp: '2026-07-16 20:27:32'
+    balance_after: 30.0
+  1784233653330_db9b38ee-1be8-3c4f-8ff8-5b576b1e92f1:
+    player: Bastard
+    uuid: db9b38ee-1be8-3c4f-8ff8-5b576b1e92f1
+    item: DARK_OAK_PLANKS
+    amount: 1
+    price: 10.0
+    category: category3
+    timestamp: '2026-07-16 20:27:33'
+    balance_after: 20.0
+  1784233653630_db9b38ee-1be8-3c4f-8ff8-5b576b1e92f1:
+    player: Bastard
+    uuid: db9b38ee-1be8-3c4f-8ff8-5b576b1e92f1
+    item: DARK_OAK_PLANKS
+    amount: 1
+    price: 10.0
+    category: category3
+    timestamp: '2026-07-16 20:27:33'
+    balance_after: 10.0
+  1784233653981_db9b38ee-1be8-3c4f-8ff8-5b576b1e92f1:
+    player: Bastard
+    uuid: db9b38ee-1be8-3c4f-8ff8-5b576b1e92f1
+    item: DARK_OAK_PLANKS
+    amount: 1
+    price: 10.0
+    category: category3
+    timestamp: '2026-07-16 20:27:33'
+    balance_after: 0.0
+  1784511428584_a3564341-2f3c-3843-b850-82527c744183:
+    player: vc1x
+    uuid: a3564341-2f3c-3843-b850-82527c744183
+    item: GOLDEN_APPLE
+    amount: 128
+    price: 64000.0
+    category: category5
+    timestamp: '2026-07-20 01:37:08'
+    balance_after: 1.9936E7
+  1784511432082_a3564341-2f3c-3843-b850-82527c744183:
+    player: vc1x
+    uuid: a3564341-2f3c-3843-b850-82527c744183
+    item: GOLDEN_APPLE
+    amount: 128
+    price: 64000.0
+    category: category5
+    timestamp: '2026-07-20 01:37:12'
+    balance_after: 1.9872E7
+  1784511440441_a3564341-2f3c-3843-b850-82527c744183:
+    player: vc1x
+    uuid: a3564341-2f3c-3843-b850-82527c744183
+    item: WIND_CHARGE
+    amount: 65
+    price: 32500.0
+    category: category7
+    timestamp: '2026-07-20 01:37:20'
+    balance_after: 1.98395E7
+  1784511440860_a3564341-2f3c-3843-b850-82527c744183:
+    player: vc1x
+    uuid: a3564341-2f3c-3843-b850-82527c744183
+    item: WIND_CHARGE
+    amount: 65
+    price: 32500.0
+    category: category7
+    timestamp: '2026-07-20 01:37:20'
+    balance_after: 1.9807E7
+  1784511441561_a3564341-2f3c-3843-b850-82527c744183:
+    player: vc1x
+    uuid: a3564341-2f3c-3843-b850-82527c744183
+    item: WIND_CHARGE
+    amount: 65
+    price: 32500.0
+    category: category7
+    timestamp: '2026-07-20 01:37:21'
+    balance_after: 1.97745E7
+  1784511496560_a3564341-2f3c-3843-b850-82527c744183:
+    player: vc1x
+    uuid: a3564341-2f3c-3843-b850-82527c744183
+    item: ENDER_PEARL
+    amount: 128
+    price: 6400.0
+    category: category7
+    timestamp: '2026-07-20 01:38:16'
+    balance_after: 1.97681E7
+  1784515222459_a3564341-2f3c-3843-b850-82527c744183:
+    player: vc1x
+    uuid: a3564341-2f3c-3843-b850-82527c744183
+    item: WIND_CHARGE
+    amount: 65
+    price: 32500.0
+    category: category7
+    timestamp: '2026-07-20 02:40:22'
+    balance_after: 1.97356E7
+  1784515222810_a3564341-2f3c-3843-b850-82527c744183:
+    player: vc1x
+    uuid: a3564341-2f3c-3843-b850-82527c744183
+    item: WIND_CHARGE
+    amount: 65
+    price: 32500.0
+    category: category7
+    timestamp: '2026-07-20 02:40:22'
+    balance_after: 1.97031E7
+  1784603450987_66b84d37-eb06-3919-a381-d12a8d3f1553:
+    player: JustSevagoth
+    uuid: 66b84d37-eb06-3919-a381-d12a8d3f1553
+    item: WHEAT
+    amount: 1
+    price: 40.0
+    category: category2
+    timestamp: '2026-07-21 03:10:50'
+    balance_after: 4966.0
+  1784672728173_e36401ab-41e4-35a0-b80a-ae6c3ae9ac89:
+    player: pierouwu
+    uuid: e36401ab-41e4-35a0-b80a-ae6c3ae9ac89
+    item: COOKED_BEEF
+    amount: 17
+    price: 4250.0
+    category: category5
+    timestamp: '2026-07-21 22:25:28'
+    balance_after: 1107.1999999999998
+  1784672734135_66b84d37-eb06-3919-a381-d12a8d3f1553:
+    player: JustSevagoth
+    uuid: 66b84d37-eb06-3919-a381-d12a8d3f1553
+    item: END_CRYSTAL
+    amount: 1
+    price: 1000.0
+    category: category4
+    timestamp: '2026-07-21 22:25:34'
+    balance_after: 5517.100000000035
+  1784672735638_66b84d37-eb06-3919-a381-d12a8d3f1553:
+    player: JustSevagoth
+    uuid: 66b84d37-eb06-3919-a381-d12a8d3f1553
+    item: END_CRYSTAL
+    amount: 1
+    price: 1000.0
+    category: category4
+    timestamp: '2026-07-21 22:25:35'
+    balance_after: 4517.100000000035
+  1784673939766_a3564341-2f3c-3843-b850-82527c744183:
+    player: vc1x
+    uuid: a3564341-2f3c-3843-b850-82527c744183
+    item: SHULKER_BOX
+    amount: 1
+    price: 5000.0
+    category: category4
+    timestamp: '2026-07-21 22:45:39'
+    balance_after: 1.96981E7
+  1784674030869_a3564341-2f3c-3843-b850-82527c744183:
+    player: vc1x
+    uuid: a3564341-2f3c-3843-b850-82527c744183
+    item: SHULKER_BOX
+    amount: 1
+    price: 5000.0
+    category: category4
+    timestamp: '2026-07-21 22:47:10'
+    balance_after: 1.96931E7
+  1784674031269_a3564341-2f3c-3843-b850-82527c744183:
+    player: vc1x
+    uuid: a3564341-2f3c-3843-b850-82527c744183
+    item: SHULKER_BOX
+    amount: 1
+    price: 5000.0
+    category: category4
+    timestamp: '2026-07-21 22:47:11'
+    balance_after: 1.96881E7
+  1784674031572_a3564341-2f3c-3843-b850-82527c744183:
+    player: vc1x
+    uuid: a3564341-2f3c-3843-b850-82527c744183
+    item: SHULKER_BOX
+    amount: 1
+    price: 5000.0
+    category: category4
+    timestamp: '2026-07-21 22:47:11'
+    balance_after: 1.96831E7
+  1784674121178_a3564341-2f3c-3843-b850-82527c744183:
+    player: vc1x
+    uuid: a3564341-2f3c-3843-b850-82527c744183
+    item: TOTEM_OF_UNDYING
+    amount: 1
+    price: 3000.0
+    category: category7
+    timestamp: '2026-07-21 22:48:41'
+    balance_after: 1.96801E7
+  1784674121693_a3564341-2f3c-3843-b850-82527c744183:
+    player: vc1x
+    uuid: a3564341-2f3c-3843-b850-82527c744183
+    item: TOTEM_OF_UNDYING
+    amount: 1
+    price: 3000.0
+    category: category7
+    timestamp: '2026-07-21 22:48:41'
+    balance_after: 1.96771E7
+  1784674121990_a3564341-2f3c-3843-b850-82527c744183:
+    player: vc1x
+    uuid: a3564341-2f3c-3843-b850-82527c744183
+    item: TOTEM_OF_UNDYING
+    amount: 1
+    price: 3000.0
+    category: category7
+    timestamp: '2026-07-21 22:48:41'
+    balance_after: 1.96741E7
+  1784674122471_a3564341-2f3c-3843-b850-82527c744183:
+    player: vc1x
+    uuid: a3564341-2f3c-3843-b850-82527c744183
+    item: TOTEM_OF_UNDYING
+    amount: 1
+    price: 3000.0
+    category: category7
+    timestamp: '2026-07-21 22:48:42'
+    balance_after: 1.96711E7
+  1784674122793_a3564341-2f3c-3843-b850-82527c744183:
+    player: vc1x
+    uuid: a3564341-2f3c-3843-b850-82527c744183
+    item: TOTEM_OF_UNDYING
+    amount: 1
+    price: 3000.0
+    category: category7
+    timestamp: '2026-07-21 22:48:42'
+    balance_after: 1.96681E7
+  1784674123044_a3564341-2f3c-3843-b850-82527c744183:
+    player: vc1x
+    uuid: a3564341-2f3c-3843-b850-82527c744183
+    item: TOTEM_OF_UNDYING
+    amount: 1
+    price: 3000.0
+    category: category7
+    timestamp: '2026-07-21 22:48:43'
+    balance_after: 1.96651E7
+  1784674138624_a3564341-2f3c-3843-b850-82527c744183:
+    player: vc1x
+    uuid: a3564341-2f3c-3843-b850-82527c744183
+    item: ENDER_CHEST
+    amount: 1
+    price: 1500.0
+    category: category4
+    timestamp: '2026-07-21 22:48:58'
+    balance_after: 1.96636E7
+  1784674158568_a3564341-2f3c-3843-b850-82527c744183:
+    player: vc1x
+    uuid: a3564341-2f3c-3843-b850-82527c744183
+    item: ENDER_CHEST
+    amount: 65
+    price: 97500.0
+    category: category4
+    timestamp: '2026-07-21 22:49:18'
+    balance_after: 1.95661E7
+  1784674277667_a3564341-2f3c-3843-b850-82527c744183:
+    player: vc1x
+    uuid: a3564341-2f3c-3843-b850-82527c744183
+    item: ENDER_PEARL
+    amount: 17
+    price: 850.0
+    category: category7
+    timestamp: '2026-07-21 22:51:17'
+    balance_after: 1.956525E7
+  1784675136685_a3564341-2f3c-3843-b850-82527c744183:
+    player: vc1x
+    uuid: a3564341-2f3c-3843-b850-82527c744183
+    item: ENDER_CHEST
+    amount: 1
+    price: 1500.0
+    category: category4
+    timestamp: '2026-07-21 23:05:36'
+    balance_after: 1.956375E7
+  1784675149033_a3564341-2f3c-3843-b850-82527c744183:
+    player: vc1x
+    uuid: a3564341-2f3c-3843-b850-82527c744183
+    item: SHULKER_BOX
+    amount: 1
+    price: 5000.0
+    category: category4
+    timestamp: '2026-07-21 23:05:49'
+    balance_after: 1.955875E7
+  1784675633973_a3564341-2f3c-3843-b850-82527c744183:
+    player: vc1x
+    uuid: a3564341-2f3c-3843-b850-82527c744183
+    item: ENDER_CHEST
+    amount: 1
+    price: 1500.0
+    category: category4
+    timestamp: '2026-07-21 23:13:53'
+    balance_after: 1.955725E7
+  1784676865525_a3564341-2f3c-3843-b850-82527c744183:
+    player: vc1x
+    uuid: a3564341-2f3c-3843-b850-82527c744183
+    item: ENDER_PEARL
+    amount: 1
+    price: 50.0
+    category: category7
+    timestamp: '2026-07-21 23:34:25'
+    balance_after: 1.95572E7
+  1784676865866_a3564341-2f3c-3843-b850-82527c744183:
+    player: vc1x
+    uuid: a3564341-2f3c-3843-b850-82527c744183
+    item: ENDER_PEARL
+    amount: 1
+    price: 50.0
+    category: category7
+    timestamp: '2026-07-21 23:34:25'
+    balance_after: 1.955715E7
+  1784676866123_a3564341-2f3c-3843-b850-82527c744183:
+    player: vc1x
+    uuid: a3564341-2f3c-3843-b850-82527c744183
+    item: ENDER_PEARL
+    amount: 1
+    price: 50.0
+    category: category7
+    timestamp: '2026-07-21 23:34:26'
+    balance_after: 1.95571E7
+  1784676866381_a3564341-2f3c-3843-b850-82527c744183:
+    player: vc1x
+    uuid: a3564341-2f3c-3843-b850-82527c744183
+    item: ENDER_PEARL
+    amount: 1
+    price: 50.0
+    category: category7
+    timestamp: '2026-07-21 23:34:26'
+    balance_after: 1.955705E7
+  1784676866665_a3564341-2f3c-3843-b850-82527c744183:
+    player: vc1x
+    uuid: a3564341-2f3c-3843-b850-82527c744183
+    item: ENDER_PEARL
+    amount: 1
+    price: 50.0
+    category: category7
+    timestamp: '2026-07-21 23:34:26'
+    balance_after: 1.9557E7
+  1784677092870_a3564341-2f3c-3843-b850-82527c744183:
+    player: vc1x
+    uuid: a3564341-2f3c-3843-b850-82527c744183
+    item: GOLDEN_CARROT
+    amount: 113
+    price: 31075.0
+    category: category5
+    timestamp: '2026-07-21 23:38:12'
+    balance_after: 1.9525925E7
+  1784684576974_55d68af0-9dcc-363b-9987-6621a39d6cb5:
+    player: HeladosBon
+    uuid: 55d68af0-9dcc-363b-9987-6621a39d6cb5
+    item: BLAZE_ROD
+    amount: 17
+    price: 425.0
+    category: category7
+    timestamp: '2026-07-22 01:42:56'
+    balance_after: 9575.0
+  1784684597320_55d68af0-9dcc-363b-9987-6621a39d6cb5:
+    player: HeladosBon
+    uuid: 55d68af0-9dcc-363b-9987-6621a39d6cb5
+    item: ENDER_PEARL
+    amount: 17
+    price: 850.0
+    category: category7
+    timestamp: '2026-07-22 01:43:17'
+    balance_after: 8725.0
+  1784688541180_55d68af0-9dcc-363b-9987-6621a39d6cb5:
+    player: HeladosBon
+    uuid: 55d68af0-9dcc-363b-9987-6621a39d6cb5
+    item: ENDER_PEARL
+    amount: 33
+    price: 1650.0
+    category: category7
+    timestamp: '2026-07-22 02:49:01'
+    balance_after: 7075.0
+  1784691383493_66b84d37-eb06-3919-a381-d12a8d3f1553:
+    player: JustSevagoth
+    uuid: 66b84d37-eb06-3919-a381-d12a8d3f1553
+    item: END_CRYSTAL
+    amount: 1
+    price: 1000.0
+    category: category4
+    timestamp: '2026-07-22 03:36:23'
+    balance_after: 15062.80000000002
+  1784692478839_55d68af0-9dcc-363b-9987-6621a39d6cb5:
+    player: HeladosBon
+    uuid: 55d68af0-9dcc-363b-9987-6621a39d6cb5
+    item: ENDER_CHEST
+    amount: 1
+    price: 1500.0
+    category: category4
+    timestamp: '2026-07-22 03:54:38'
+    balance_after: 5575.0
+  1784692479870_55d68af0-9dcc-363b-9987-6621a39d6cb5:
+    player: HeladosBon
+    uuid: 55d68af0-9dcc-363b-9987-6621a39d6cb5
+    item: ENDER_CHEST
+    amount: 1
+    price: 1500.0
+    category: category4
+    timestamp: '2026-07-22 03:54:39'
+    balance_after: 4075.0
+  1784692506580_55d68af0-9dcc-363b-9987-6621a39d6cb5:
+    player: HeladosBon
+    uuid: 55d68af0-9dcc-363b-9987-6621a39d6cb5
+    item: ENDER_CHEST
+    amount: 1
+    price: 1500.0
+    category: category4
+    timestamp: '2026-07-22 03:55:06'
+    balance_after: 2575.0
+  1784692775700_66b84d37-eb06-3919-a381-d12a8d3f1553:
+    player: JustSevagoth
+    uuid: 66b84d37-eb06-3919-a381-d12a8d3f1553
+    item: END_CRYSTAL
+    amount: 1
+    price: 1000.0
+    category: category4
+    timestamp: '2026-07-22 03:59:35'
+    balance_after: 14062.80000000002
+  1784693173378_66b84d37-eb06-3919-a381-d12a8d3f1553:
+    player: JustSevagoth
+    uuid: 66b84d37-eb06-3919-a381-d12a8d3f1553
+    item: END_CRYSTAL
+    amount: 1
+    price: 1000.0
+    category: category4
+    timestamp: '2026-07-22 04:06:13'
+    balance_after: 13062.80000000002
+  1784711297561_55d68af0-9dcc-363b-9987-6621a39d6cb5:
+    player: HeladosBon
+    uuid: 55d68af0-9dcc-363b-9987-6621a39d6cb5
+    item: ELYTRA
+    amount: 1
+    price: 250000.0
+    category: category7
+    timestamp: '2026-07-22 09:08:17'
+    balance_after: 752575.0
+  1784711299306_55d68af0-9dcc-363b-9987-6621a39d6cb5:
+    player: HeladosBon
+    uuid: 55d68af0-9dcc-363b-9987-6621a39d6cb5
+    item: ELYTRA
+    amount: 1
+    price: 250000.0
+    category: category7
+    timestamp: '2026-07-22 09:08:19'
+    balance_after: 502575.0
+  1784711345733_55d68af0-9dcc-363b-9987-6621a39d6cb5:
+    player: HeladosBon
+    uuid: 55d68af0-9dcc-363b-9987-6621a39d6cb5
+    item: TOTEM_OF_UNDYING
+    amount: 1
+    price: 3000.0
+    category: category7
+    timestamp: '2026-07-22 09:09:05'
+    balance_after: 499575.0
+  1784711346024_55d68af0-9dcc-363b-9987-6621a39d6cb5:
+    player: HeladosBon
+    uuid: 55d68af0-9dcc-363b-9987-6621a39d6cb5
+    item: TOTEM_OF_UNDYING
+    amount: 1
+    price: 3000.0
+    category: category7
+    timestamp: '2026-07-22 09:09:06'
+    balance_after: 496575.0
+  1784711346317_55d68af0-9dcc-363b-9987-6621a39d6cb5:
+    player: HeladosBon
+    uuid: 55d68af0-9dcc-363b-9987-6621a39d6cb5
+    item: TOTEM_OF_UNDYING
+    amount: 1
+    price: 3000.0
+    category: category7
+    timestamp: '2026-07-22 09:09:06'
+    balance_after: 493575.0
+  1784711346671_55d68af0-9dcc-363b-9987-6621a39d6cb5:
+    player: HeladosBon
+    uuid: 55d68af0-9dcc-363b-9987-6621a39d6cb5
+    item: TOTEM_OF_UNDYING
+    amount: 1
+    price: 3000.0
+    category: category7
+    timestamp: '2026-07-22 09:09:06'
+    balance_after: 490575.0
+  1784711347029_55d68af0-9dcc-363b-9987-6621a39d6cb5:
+    player: HeladosBon
+    uuid: 55d68af0-9dcc-363b-9987-6621a39d6cb5
+    item: TOTEM_OF_UNDYING
+    amount: 1
+    price: 3000.0
+    category: category7
+    timestamp: '2026-07-22 09:09:07'
+    balance_after: 487575.0
+  1784711347406_55d68af0-9dcc-363b-9987-6621a39d6cb5:
+    player: HeladosBon
+    uuid: 55d68af0-9dcc-363b-9987-6621a39d6cb5
+    item: TOTEM_OF_UNDYING
+    amount: 1
+    price: 3000.0
+    category: category7
+    timestamp: '2026-07-22 09:09:07'
+    balance_after: 484575.0
+  1784711347817_55d68af0-9dcc-363b-9987-6621a39d6cb5:
+    player: HeladosBon
+    uuid: 55d68af0-9dcc-363b-9987-6621a39d6cb5
+    item: TOTEM_OF_UNDYING
+    amount: 1
+    price: 3000.0
+    category: category7
+    timestamp: '2026-07-22 09:09:07'
+    balance_after: 481575.0
+  1784711348233_55d68af0-9dcc-363b-9987-6621a39d6cb5:
+    player: HeladosBon
+    uuid: 55d68af0-9dcc-363b-9987-6621a39d6cb5
+    item: TOTEM_OF_UNDYING
+    amount: 1
+    price: 3000.0
+    category: category7
+    timestamp: '2026-07-22 09:09:08'
+    balance_after: 478575.0
+  1784711348665_55d68af0-9dcc-363b-9987-6621a39d6cb5:
+    player: HeladosBon
+    uuid: 55d68af0-9dcc-363b-9987-6621a39d6cb5
+    item: TOTEM_OF_UNDYING
+    amount: 1
+    price: 3000.0
+    category: category7
+    timestamp: '2026-07-22 09:09:08'
+    balance_after: 475575.0
+  1784711349084_55d68af0-9dcc-363b-9987-6621a39d6cb5:
+    player: HeladosBon
+    uuid: 55d68af0-9dcc-363b-9987-6621a39d6cb5
+    item: TOTEM_OF_UNDYING
+    amount: 1
+    price: 3000.0
+    category: category7
+    timestamp: '2026-07-22 09:09:09'
+    balance_after: 472575.0
+  1784711349498_55d68af0-9dcc-363b-9987-6621a39d6cb5:
+    player: HeladosBon
+    uuid: 55d68af0-9dcc-363b-9987-6621a39d6cb5
+    item: TOTEM_OF_UNDYING
+    amount: 1
+    price: 3000.0
+    category: category7
+    timestamp: '2026-07-22 09:09:09'
+    balance_after: 469575.0
+  1784711349897_55d68af0-9dcc-363b-9987-6621a39d6cb5:
+    player: HeladosBon
+    uuid: 55d68af0-9dcc-363b-9987-6621a39d6cb5
+    item: TOTEM_OF_UNDYING
+    amount: 1
+    price: 3000.0
+    category: category7
+    timestamp: '2026-07-22 09:09:09'
+    balance_after: 466575.0
+  1784711350289_55d68af0-9dcc-363b-9987-6621a39d6cb5:
+    player: HeladosBon
+    uuid: 55d68af0-9dcc-363b-9987-6621a39d6cb5
+    item: TOTEM_OF_UNDYING
+    amount: 1
+    price: 3000.0
+    category: category7
+    timestamp: '2026-07-22 09:09:10'
+    balance_after: 463575.0
+  1784711385533_55d68af0-9dcc-363b-9987-6621a39d6cb5:
+    player: HeladosBon
+    uuid: 55d68af0-9dcc-363b-9987-6621a39d6cb5
+    item: ELYTRA
+    amount: 1
+    price: 250000.0
+    category: category7
+    timestamp: '2026-07-22 09:09:45'
+    balance_after: 213575.0
+  1784711390205_55d68af0-9dcc-363b-9987-6621a39d6cb5:
+    player: HeladosBon
+    uuid: 55d68af0-9dcc-363b-9987-6621a39d6cb5
+    item: TOTEM_OF_UNDYING
+    amount: 1
+    price: 3000.0
+    category: category7
+    timestamp: '2026-07-22 09:09:50'
+    balance_after: 210575.0
+  1784711390487_55d68af0-9dcc-363b-9987-6621a39d6cb5:
+    player: HeladosBon
+    uuid: 55d68af0-9dcc-363b-9987-6621a39d6cb5
+    item: TOTEM_OF_UNDYING
+    amount: 1
+    price: 3000.0
+    category: category7
+    timestamp: '2026-07-22 09:09:50'
+    balance_after: 207575.0
+  1784711390748_55d68af0-9dcc-363b-9987-6621a39d6cb5:
+    player: HeladosBon
+    uuid: 55d68af0-9dcc-363b-9987-6621a39d6cb5
+    item: TOTEM_OF_UNDYING
+    amount: 1
+    price: 3000.0
+    category: category7
+    timestamp: '2026-07-22 09:09:50'
+    balance_after: 204575.0
+  1784711391118_55d68af0-9dcc-363b-9987-6621a39d6cb5:
+    player: HeladosBon
+    uuid: 55d68af0-9dcc-363b-9987-6621a39d6cb5
+    item: TOTEM_OF_UNDYING
+    amount: 1
+    price: 3000.0
+    category: category7
+    timestamp: '2026-07-22 09:09:51'
+    balance_after: 201575.0
+  1784711391512_55d68af0-9dcc-363b-9987-6621a39d6cb5:
+    player: HeladosBon
+    uuid: 55d68af0-9dcc-363b-9987-6621a39d6cb5
+    item: TOTEM_OF_UNDYING
+    amount: 1
+    price: 3000.0
+    category: category7
+    timestamp: '2026-07-22 09:09:51'
+    balance_after: 198575.0
+  1784711391923_55d68af0-9dcc-363b-9987-6621a39d6cb5:
+    player: HeladosBon
+    uuid: 55d68af0-9dcc-363b-9987-6621a39d6cb5
+    item: TOTEM_OF_UNDYING
+    amount: 1
+    price: 3000.0
+    category: category7
+    timestamp: '2026-07-22 09:09:51'
+    balance_after: 195575.0
+  1784711392325_55d68af0-9dcc-363b-9987-6621a39d6cb5:
+    player: HeladosBon
+    uuid: 55d68af0-9dcc-363b-9987-6621a39d6cb5
+    item: TOTEM_OF_UNDYING
+    amount: 1
+    price: 3000.0
+    category: category7
+    timestamp: '2026-07-22 09:09:52'
+    balance_after: 192575.0
+  1784711392755_55d68af0-9dcc-363b-9987-6621a39d6cb5:
+    player: HeladosBon
+    uuid: 55d68af0-9dcc-363b-9987-6621a39d6cb5
+    item: TOTEM_OF_UNDYING
+    amount: 1
+    price: 3000.0
+    category: category7
+    timestamp: '2026-07-22 09:09:52'
+    balance_after: 189575.0
+  1785699429498_839c7574-bc2f-37d8-8c64-d69b29aa84a6:
+    player: ubuntu
+    uuid: 839c7574-bc2f-37d8-8c64-d69b29aa84a6
+    item: FIREWORK_ROCKET
+    amount: 65
+    price: 7800.0
+    category: category4
+    timestamp: '2026-08-02 19:37:09'
+    balance_after: 9992521.0
+  1785699430060_839c7574-bc2f-37d8-8c64-d69b29aa84a6:
+    player: ubuntu
+    uuid: 839c7574-bc2f-37d8-8c64-d69b29aa84a6
+    item: FIREWORK_ROCKET
+    amount: 65
+    price: 7800.0
+    category: category4
+    timestamp: '2026-08-02 19:37:10'
+    balance_after: 9984721.0
+  1785699647817_839c7574-bc2f-37d8-8c64-d69b29aa84a6:
+    player: ubuntu
+    uuid: 839c7574-bc2f-37d8-8c64-d69b29aa84a6
+    item: END_CRYSTAL
+    amount: 65
+    price: 65000.0
+    category: category4
+    timestamp: '2026-08-02 19:40:47'
+    balance_after: 9919721.0
+  1785699674093_839c7574-bc2f-37d8-8c64-d69b29aa84a6:
+    player: ubuntu
+    uuid: 839c7574-bc2f-37d8-8c64-d69b29aa84a6
+    item: END_CRYSTAL
+    amount: 1
+    price: 1000.0
+    category: category4
+    timestamp: '2026-08-02 19:41:14'
+    balance_after: 9918721.0
+  1785699674443_839c7574-bc2f-37d8-8c64-d69b29aa84a6:
+    player: ubuntu
+    uuid: 839c7574-bc2f-37d8-8c64-d69b29aa84a6
+    item: END_CRYSTAL
+    amount: 1
+    price: 1000.0
+    category: category4
+    timestamp: '2026-08-02 19:41:14'
+    balance_after: 9917721.0
+  1785699674811_839c7574-bc2f-37d8-8c64-d69b29aa84a6:
+    player: ubuntu
+    uuid: 839c7574-bc2f-37d8-8c64-d69b29aa84a6
+    item: END_CRYSTAL
+    amount: 1
+    price: 1000.0
+    category: category4
+    timestamp: '2026-08-02 19:41:14'
+    balance_after: 9916721.0
+  1785699675711_839c7574-bc2f-37d8-8c64-d69b29aa84a6:
+    player: ubuntu
+    uuid: 839c7574-bc2f-37d8-8c64-d69b29aa84a6
+    item: END_CRYSTAL
+    amount: 65
+    price: 65000.0
+    category: category4
+    timestamp: '2026-08-02 19:41:15'
+    balance_after: 9851721.0
+  1785699905970_839c7574-bc2f-37d8-8c64-d69b29aa84a6:
+    player: ubuntu
+    uuid: 839c7574-bc2f-37d8-8c64-d69b29aa84a6
+    item: ENDER_PEARL
+    amount: 17
+    price: 850.0
+    category: category7
+    timestamp: '2026-08-02 19:45:05'
+    balance_after: 9850871.0

@@ -1,0 +1,41 @@
+#                                                                                                 #
+#  ███████ ██   ██ ████████ ██████   █████    ██████  ███████  █████  ██ ██████  ███████  ██████  #
+#  ██       ██ ██     ██    ██   ██ ██   ██   ██   ██ ██      ██   ██ ██ ██   ██ ██      ██       #
+#  █████     ███      ██    ██████  ███████   ██████  █████   ██      ██ ██████  █████    █████   #
+#  ██       ██ ██     ██    ██   ██ ██   ██   ██   ██ ██      ██   ██ ██ ██      ██           ██  #
+#  ███████ ██   ██    ██    ██   ██ ██   ██   ██   ██ ███████  █████  ██ ██      ███████ ██████   #
+#                                                                                                 #
+
+#Enable / Disable Furnace Recipes
+  raw_iron_block_furnace: true
+  raw_gold_block_furnace: true
+  raw_copper_block_furnace: true
+  rotten_flesh_to_leather_furnace: true
+
+#Enable / Disable Blast Furnace Recipes
+  raw_iron_block_blast_furnace: true
+  raw_gold_block_blast_furnace: true
+  raw_copper_block_blast_furnace: true
+
+#Enable / Disable Smoker Recipes
+  rotten_flesh_to_leather_smoker: true
+
+#Enable / Disable Campfire Recipes
+  rotten_flesh_to_leather_campfire: true
+  
+#Enable / Disable Crafting Recipes
+  rotten_flesh_to_leather_crafting_table: true
+  cobweb_crafting_table: true
+  saddle_crafting_table: true
+  name_tag_crafting_table: true
+  leather_horse_armour_crafting_table: true
+  iron_horse_armour_crafting_table: true
+  golden_horse_armour_crafting_table: true
+  diamond_horse_armour_crafting_table: true
+  blue_ice_unpack_crafting_table: true
+  packed_ice_unpack_crafting_table: true
+  chain_mail_helmet_crafting_table: true
+  chain_mail_chest_plate_crafting_table: true
+  chain_mail_leggings_crafting_table: true
+  chain_mail_boots_crafting_table: true
+  blackstone_crafting_table: true

@@ -1,0 +1,49 @@
+prefix: "&#56B4E9[Trabajos] &r"
+
+no-permission:
+  - "&#E74C3CNo tienes permisos para realizar esta acción."
+
+jobs-limit-reached:
+  - "&#E74C3CHas alcanzado el límite de trabajos."
+  - "&#7F7F7FTu límite: &f{limit}"
+
+job-joined:
+  - "&#2ECC71Te has unido al trabajo: &f{job}"
+
+job-left:
+  - "&#F39C12Has renunciado al trabajo: &f{job}"
+  - "&#7F7F7FPuedes volver a unirte en &f{time}"
+
+job-cooldown:
+  - "&#E74C3CNo puedes unirte a este trabajo por: "
+  - "&f{time}"
+
+job-already-joined:
+  - "&#E74C3CYa trabajas aquí."
+
+job-not-joined:
+  - "&#E74C3CNo trabajas aquí."
+
+job-level-up:
+  - "&#F1C40F¡Felicidades! &f{job} &7ha subido al nivel &e{level}&7!"
+
+skill-upgraded:
+  - "&#2ECC71¡Habilidad &f{skill} &2mejorada al nivel &f{level}&2!"
+
+not-enough-skill-points:
+  - "&#E74C3CNo tienes suficientes puntos de habilidad."
+  - "&7Requerido: &f{cost} &7| Tienes: &f{has}"
+
+skill-max-level:
+  - "&#E74C3CEsta habilidad ya está al nivel máximo."
+
+menu:
+  jobs-title: "&#56B4E9Selección de Trabajo"
+  skills-title: "&#F39C12Habilidades: {job}"
+  confirm-title: "&#E74C3CConfirmación"
+  confirm-yes: "&#2ECC71Confirmar"
+  confirm-no: "&#E74C3CCancelar"
+  back: "&#7F7F7FAtrás"
+  close: "&#E74C3CCerrar"
+  promote: "&#F1C40FSubir de nivel"
+  upgrade: "&#9B59B6Mejorar habilidades"

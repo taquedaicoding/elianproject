@@ -1,0 +1,30 @@
+last_location:
+  world: world
+  x: -4520.60127073879
+  y: 30.0
+  z: -2348.699999988079
+  pitch: -7.8565383
+  yaw: -170.4068
+logout_location:
+  world: world
+  x: -6609.042939982276
+  y: -51.0
+  z: 87.94051988273324
+  pitch: -9.050678
+  yaw: -35.82251
+default_home: default
+homes:
+  default:
+    world: world
+    x: 799.9504951524015
+    y: 86.0
+    z: -622.936428706198
+    pitch: 17.370588
+    yaw: -47.53584
+  mina:
+    world: world
+    x: 842.6999999880791
+    y: -7.0
+    z: -566.6973900487097
+    pitch: 25.819983
+    yaw: 74.54047

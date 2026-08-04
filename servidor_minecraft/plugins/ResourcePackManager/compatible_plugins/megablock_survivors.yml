@@ -1,0 +1,8 @@
+isEnabled: true
+pluginName: MegaBlockSurvivors
+encrypts: false
+distributes: false
+zips: false
+resourcePackUpdated: false
+localPath: MegaBlockSurvivors/resourcepack
+cluster: false

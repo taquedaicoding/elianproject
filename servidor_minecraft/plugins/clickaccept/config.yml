@@ -1,0 +1,9 @@
+command:
+#commands which will be ran when clicking the chat
+  cancel: '/tpacancel'
+  accept: '/tpaccept'
+message:
+#these are tick and cross codes if you want the old one just replace with [accept]...
+  cancel: '[\u274c]'
+  accept: '[\u2714]'
+  or: ' or'

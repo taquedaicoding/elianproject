@@ -1,0 +1,279 @@
+# =========================================
+#           ♡₊˚ 🦢・₊✧
+# =========================================
+
+default-jobs-limit: 2
+
+permission-limits:
+  jobs.limit.vip: 3
+  jobs.limit.premium: 4
+  jobs.limit.deluxe: 5
+  jobs.limit.unlimited: -1
+
+rejoin-cooldown-hours: 4
+
+economy:
+  enabled: true
+
+level-multipliers:
+  money: 0.15
+  skill-exp: 0.10
+  job-exp: 0.20
+
+leveling:
+  base: 100
+  exponent: 1.5
+  skill-exp-per-point: 100
+
+jobs:
+  MINER:
+    display-name: "&#56B4E9Minero"
+    icon: DIAMOND_PICKAXE
+    description:
+      - "&#7F7F7FPica minerales en las minas"
+      - "&#7F7F7Fy recibe recompensas por ello."
+    rewards:
+      COAL_ORE:                 { money: 1.0,  skill-exp: 2,  job-exp: 3 }
+      DEEPSLATE_COAL_ORE:       { money: 1.5,  skill-exp: 3,  job-exp: 4 }
+      IRON_ORE:                 { money: 2.5,  skill-exp: 4,  job-exp: 6 }
+      DEEPSLATE_IRON_ORE:       { money: 3.5,  skill-exp: 5,  job-exp: 8 }
+      GOLD_ORE:                 { money: 5.0,  skill-exp: 8,  job-exp: 12 }
+      DEEPSLATE_GOLD_ORE:       { money: 7.0,  skill-exp: 10, job-exp: 15 }
+      COPPER_ORE:               { money: 3.0,  skill-exp: 5,  job-exp: 7 }
+      DEEPSLATE_COPPER_ORE:     { money: 4.0,  skill-exp: 6,  job-exp: 9 }
+      REDSTONE_ORE:             { money: 4.0,  skill-exp: 6,  job-exp: 10 }
+      DEEPSLATE_REDSTONE_ORE:   { money: 5.0,  skill-exp: 8,  job-exp: 12 }
+      LAPIS_ORE:                { money: 6.0,  skill-exp: 9,  job-exp: 14 }
+      DEEPSLATE_LAPIS_ORE:      { money: 8.0,  skill-exp: 12, job-exp: 18 }
+      DIAMOND_ORE:              { money: 15.0, skill-exp: 20, job-exp: 30 }
+      DEEPSLATE_DIAMOND_ORE:    { money: 25.0, skill-exp: 25, job-exp: 40 }
+      EMERALD_ORE:              { money: 25.0, skill-exp: 30, job-exp: 45 }
+      DEEPSLATE_EMERALD_ORE:    { money: 35.0, skill-exp: 40, job-exp: 55 }
+      NETHER_GOLD_ORE:          { money: 10.0, skill-exp: 12, job-exp: 20 }
+      NETHER_QUARTZ_ORE:        { money: 2.0,  skill-exp: 3,  job-exp: 5 }
+      ANCIENT_DEBRIS:           { money: 50.0, skill-exp: 50, job-exp: 80 }
+    skills:
+      HASTE:
+        name: "&#56B4E9Prisa"
+        max-level: 5
+        cost-per-level: 3
+        effect: HASTE
+        amplifier-per-level: 0
+        description:
+          - "&#7F7F7FCada nivel otorga"
+          - "&#7F7F7Fvelocidad de minado I."
+      NIGHT_VISION:
+        name: "&#9B59B6Visión nocturna"
+        max-level: 1
+        cost-per-level: 5
+        effect: NIGHT_VISION
+        amplifier-per-level: 0
+        description:
+          - "&#7F7F7FVisión nocturna permanente"
+          - "&#7F7F7Fen las minas."
+      DOUBLE_ORE:
+        name: "&#F1C40FVeta rica"
+        max-level: 5
+        cost-per-level: 8
+        mechanic: DOUBLE_DROP
+        chance-per-level: 0.04
+        ench-bonus: 0.05 # +5% por cada nivel del encantamiento "Fortuna"
+        description:
+          - "&#7F7F7FProbabilidad de duplicar los minerales."
+          - "&#7F7F7FEl encantamiento Fortuna aumenta el chance."
+
+  LUMBERJACK:
+    display-name: "&#2ECC71Leñador"
+    icon: IRON_AXE
+    description:
+      - "&#7F7F7FTala árboles y"
+      - "&#7F7F7Fgana dinero con la madera."
+    rewards:
+      OAK_LOG:      { money: 1.0,  skill-exp: 2,  job-exp: 3 }
+      BIRCH_LOG:    { money: 1.0,  skill-exp: 2,  job-exp: 3 }
+      SPRUCE_LOG:   { money: 1.2,  skill-exp: 2,  job-exp: 4 }
+      JUNGLE_LOG:   { money: 2.0,  skill-exp: 3,  job-exp: 5 }
+      DARK_OAK_LOG: { money: 2.0,  skill-exp: 3,  job-exp: 5 }
+      ACACIA_LOG:   { money: 2.0,  skill-exp: 3,  job-exp: 5 }
+      MANGROVE_LOG: { money: 2.5,  skill-exp: 4,  job-exp: 6 }
+      CHERRY_LOG:   { money: 3.0,  skill-exp: 4,  job-exp: 6 }
+      CRIMSON_STEM: { money: 2.5,  skill-exp: 4,  job-exp: 6 }
+      WARPED_STEM:  { money: 2.5,  skill-exp: 4,  job-exp: 6 }
+    skills:
+      SPEED:
+        name: "&#2ECC71Corredor"
+        max-level: 3
+        cost-per-level: 3
+        effect: SPEED
+        amplifier-per-level: 0
+        description:
+          - "&#7F7F7FAumenta la velocidad al correr"
+          - "&#7F7F7Fen el bosque."
+      DOUBLE_LOG:
+        name: "&#F1C40FÁrbol de hongos"
+        max-level: 5
+        cost-per-level: 8
+        mechanic: DOUBLE_DROP
+        chance-per-level: 0.05
+        ench-bonus: 0.05
+        description:
+          - "&#7F7F7FProbabilidad de duplicar la madera."
+          - "&#7F7F7FEl encantamiento Fortuna aumenta el chance."
+
+  BUILDER:
+    display-name: "&#F39C12Constructor"
+    icon: BRICKS
+    description:
+      - "&#7F7F7FConstruye estructuras,"
+      - "&#7F7F7Fgana experiencia y dinero."
+    rewards:
+      # DEFAULT - recompensa por cualquier bloque no especificado abajo (que no se rompa instantáneamente)
+      DEFAULT:           { money: 0.2, skill-exp: 1, job-exp: 1 }
+      STONE:             { money: 0.3, skill-exp: 1, job-exp: 2 }
+      COBBLESTONE:       { money: 0.2, skill-exp: 1, job-exp: 1 }
+      STONE_BRICKS:      { money: 0.5, skill-exp: 2, job-exp: 3 }
+      OAK_PLANKS:        { money: 0.4, skill-exp: 1, job-exp: 2 }
+      QUARTZ_BLOCK:      { money: 1.0, skill-exp: 3, job-exp: 5 }
+      WHITE_CONCRETE:    { money: 1.5, skill-exp: 4, job-exp: 6 }
+      BLACK_CONCRETE:    { money: 1.5, skill-exp: 4, job-exp: 6 }
+      GLASS:             { money: 1.2, skill-exp: 3, job-exp: 5 }
+    skills:
+      JUMP:
+        name: "&#F39C12Salto alto"
+        max-level: 3
+        cost-per-level: 4
+        effect: JUMP_BOOST
+        amplifier-per-level: 0
+      REGENERATION:
+        name: "&#E91E63Arquitecto"
+        max-level: 2
+        cost-per-level: 10
+        effect: REGENERATION
+        amplifier-per-level: 0
+        description:
+          - "&#7F7F7FRegeneración de salud"
+          - "&#7F7F7Fmientras construyes."
+
+  HUNTER:
+    display-name: "&#E74C3CCazador"
+    icon: IRON_SWORD
+    description:
+      - "&#7F7F7FCaza criaturas"
+      - "&#7F7F7Fy gana dinero."
+    rewards:
+      ZOMBIE:           { money: 2.0, skill-exp: 3,  job-exp: 5 }
+      SKELETON:         { money: 2.5, skill-exp: 4,  job-exp: 6 }
+      CREEPER:          { money: 4.0, skill-exp: 5,  job-exp: 8 }
+      ENDERMAN:         { money: 8.0, skill-exp: 10, job-exp: 15 }
+      WITHER_SKELETON:  { money: 25.0, skill-exp: 25, job-exp: 35 }
+      BLAZE:            { money: 6.0, skill-exp: 8,  job-exp: 12 }
+      GHAST:            { money: 10.0, skill-exp: 12, job-exp: 18 }
+      PIGLIN:           { money: 5.0, skill-exp: 6,  job-exp: 9 }
+    skills:
+      STRENGTH:
+        name: "&#E74C3CFuerza"
+        max-level: 3
+        cost-per-level: 4
+        effect: STRENGTH
+        amplifier-per-level: 0
+      DOUBLE_LOOT:
+        name: "&#F1C40FSaqueador"
+        max-level: 5
+        cost-per-level: 8
+        mechanic: DOUBLE_DROP
+        chance-per-level: 0.05
+        ench-bonus: 0.05 # Considera "Saqueo" (Looting)
+        description:
+          - "&#7F7F7FProbabilidad de duplicar el botín de las criaturas."
+          - "&#7F7F7FEl encantamiento Saqueo aumenta el chance."
+
+  FISHER:
+    display-name: "&#3498DBCazador de peces"
+    icon: FISHING_ROD
+    description:
+      - "&#7F7F7FPesca peces y"
+      - "&#7F7F7Frecibe recompensas."
+    rewards:
+      COD:         { money: 1.0, skill-exp: 2,  job-exp: 3 }
+      SALMON:      { money: 1.5, skill-exp: 3,  job-exp: 4 }
+      PUFFERFISH:  { money: 3.0, skill-exp: 4,  job-exp: 6 }
+      TROPICAL_FISH: { money: 5.0, skill-exp: 6, job-exp: 8 }
+      TREASURE:    { money: 20.0, skill-exp: 15, job-exp: 25 }
+    skills:
+      LUCK:
+        name: "&#3498DBSuerte"
+        max-level: 3
+        cost-per-level: 5
+        effect: LUCK
+        amplifier-per-level: 0
+      DOUBLE_FISH:
+        name: "&#F1C40FCaptura abundante"
+        max-level: 5
+        cost-per-level: 8
+        mechanic: DOUBLE_DROP
+        chance-per-level: 0.05
+        ench-bonus: 0.05 # Considera "Suerte marina" (Luck of the Sea)
+        description:
+          - "&#7F7F7FProbabilidad de duplicar la pesca."
+
+  CRAFTER:
+    display-name: "&#9B59B6Artesano"
+    icon: CRAFTING_TABLE
+    description:
+      - "&#7F7F7FFabrica objetos y"
+      - "&#7F7F7Fobtén experiencia."
+    rewards:
+      CRAFTING: { money: 0.5, skill-exp: 1, job-exp: 2 }
+    skills:
+      HASTE_CRAFT:
+        name: "&#9B59B6Maestro"
+        max-level: 3
+        cost-per-level: 4
+        effect: HASTE
+        amplifier-per-level: 0
+      DOUBLE_CRAFT:
+        name: "&#F1C40FProducción en cadena"
+        max-level: 5
+        cost-per-level: 10
+        mechanic: DOUBLE_RESULT
+        chance-per-level: 0.03
+        ench-bonus: 0.0
+        description:
+          - "&#7F7F7FProbabilidad de obtener el doble"
+          - "&#7F7F7Fde resultado al fabricar."
+
+  BAKER:
+    display-name: "&#E67E22Panadero"
+    icon: BREAD
+    description:
+      - "&#7F7F7FCocina comida en los hornos"
+      - "&#7F7F7Fy alimenta a todo el servidor."
+    rewards:
+      BREAD:           { money: 1.5, skill-exp: 2,  job-exp: 3 }
+      COOKED_BEEF:     { money: 2.0, skill-exp: 3,  job-exp: 4 }
+      COOKED_PORKCHOP: { money: 2.0, skill-exp: 3,  job-exp: 4 }
+      COOKED_MUTTON:   { money: 1.8, skill-exp: 2,  job-exp: 4 }
+      COOKED_CHICKEN:  { money: 1.5, skill-exp: 2,  job-exp: 3 }
+      COOKED_COD:      { money: 1.2, skill-exp: 2,  job-exp: 3 }
+      COOKED_SALMON:   { money: 1.5, skill-exp: 2,  job-exp: 4 }
+      BAKED_POTATO:    { money: 1.5, skill-exp: 2,  job-exp: 3 }
+    skills:
+      SATURATION:
+        name: "&#E67E22Saturación"
+        max-level: 1
+        cost-per-level: 5
+        effect: SATURATION
+        amplifier-per-level: 0
+        description:
+          - "&#7F7F7FSaciado de hambre continuo"
+          - "&#7F7F7Fmientras cocinas."
+      DOUBLE_BAKE:
+        name: "&#F1C40FReceta secreta"
+        max-level: 5
+        cost-per-level: 10
+        mechanic: DOUBLE_RESULT
+        chance-per-level: 0.04
+        ench-bonus: 0.0
+        description:
+          - "&#7F7F7FProbabilidad de obtener una doble"
+          - "&#7F7F7Fporción de comida del horno."

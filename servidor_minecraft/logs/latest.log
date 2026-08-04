@@ -1,0 +1,685 @@
+[20:18:35] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.11+10-1-24.04.2-Ubuntu; Ubuntu null) on Linux 6.8.0-1052-azure (amd64)
+[20:18:35] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) for Minecraft 1.21.1
+[20:18:35] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[20:18:45] [ServerMain/INFO]: [PluginInitializerManager] Initialized 37 plugins
+[20:18:45] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (37):
+ - AuraSkills (2.3.12), BackpackPlus (3.2.0), BetterSnowballs (0.0.1), BetterStructures (2.2.0), DoubleDoors (1.4), ExtraRecipes (1.4.0), FancyPhysics (3.2.2), FreeMinecraftModels (2.3.18), GSit (3.5.1), GravesX (2026.4.9.1), HomePlugin (0.8.6-main-SNAPSHOT), InstaRestock (1.0.0), JoinMessage (1.0), LPC (3.7.2), LibsDisguises (11.0.18), LuckPerms (5.5.53), Mapify (1.9), NitroJobs (1.0.0), NotBounties (1.22.37), OpenAudioMc (6.10.17), PlaceholderAPI (2.12.3), RPGTools (1.1.4), ResourcePackManager (1.7.3), SimpleWarps (1.1), SkinsRestorer (15.12.5), TPA (3.3.1), TabListPing (2.03), Terra (6.5.1-BETA+0a952cff4), Timber (1.8.4), Vault (1.6.5), ViaBackwards (5.11.0), ViaVersion (5.11.0), WorldEdit (7.3.9+6959-7adf70b), clickaccept (1.2), packetevents (2.13.0), visual-crafting (1.4.9), zShop (1)
+[20:18:49] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:18:52] [ServerMain/INFO]: Loaded 1338 recipes
+[20:18:52] [ServerMain/INFO]: Loaded 1403 advancements
+[20:18:52] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[20:18:52] [Server thread/INFO]: Loading properties
+[20:18:52] [Server thread/INFO]: This server is running Paper version 1.21.1-133-ver/1.21.1@3cb8529 (2025-03-28T16:14:36Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[20:18:53] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[20:18:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:18:53] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:18:54] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[20:18:54] [Server thread/INFO]: Default game type: SURVIVAL
+[20:18:54] [Server thread/INFO]: Generating keypair
+[20:18:54] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:18:54] [Server thread/INFO]: Using epoll channel type
+[20:18:54] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[20:18:54] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[20:18:55] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Initializing Terra...
+[20:18:55] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading config.yml
+[20:18:55] [Server thread/INFO]: [com.dfsek.terra.config.PluginConfigImpl] Loading config values from config.yml
+[20:18:56] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading 37 Terra addons:
+        - biome-provider-extrusion@1.0.0-BETA+0a952cff4
+        - biome-provider-image@1.0.1-BETA+0a952cff4
+        - biome-provider-image-v2@1.0.1-BETA+0a952cff4
+        - biome-provider-pipeline@1.0.2-BETA+0a952cff4
+        - biome-provider-pipeline-v2@1.0.1-BETA+0a952cff4
+        - biome-provider-single@1.0.0-BETA+0a952cff4
+        - biome-query-api@1.0.0-BETA+0a952cff4
+        - chunk-generator-noise-3d@1.2.1-BETA+0a952cff4
+        - command-addons@1.0.0-BETA+0a952cff4
+        - command-packs@1.0.0-BETA+0a952cff4
+        - command-profiler@1.0.0-BETA+0a952cff4
+        - command-structures@1.0.0-BETA+0a952cff4
+        - config-biome@1.0.0-BETA+0a952cff4
+        - config-distributors@1.0.1-BETA+0a952cff4
+        - config-feature@1.0.0-BETA+0a952cff4
+        - config-flora@1.0.1-BETA+0a952cff4
+        - config-locators@1.1.1-BETA+0a952cff4
+        - config-noise-function@1.2.0-BETA+0a952cff4
+        - config-number-predicate@1.0.0-BETA+0a952cff4
+        - config-ore@1.1.1-BETA+0a952cff4
+        - config-palette@1.0.0-BETA+0a952cff4
+        - config-structure@1.0.1-BETA+0a952cff4
+        - generation-stage-feature@1.1.0-BETA+0a952cff4
+        - generation-stage-structure@1.0.0-BETA+0a952cff4
+        - language-yaml@1.0.0-BETA+0a952cff4
+        - library-image@1.1.0-BETA+0a952cff4
+        - locator-slant-noise-3d@1.0.0-BETA+0a952cff4
+        - palette-block-shortcut@1.0.0-BETA+0a952cff4
+        - pipeline-image@1.0.0-BETA+0a952cff4
+        - structure-block-shortcut@1.0.0-BETA+0a952cff4
+        - structure-function-check-noise-3d@1.0.1-BETA+0a952cff4
+        - structure-mutator@0.1.0-BETA+0a952cff4
+        - structure-sponge-loader@1.0.0-BETA+0a952cff4
+        - structure-terrascript-loader@1.2.0-BETA+0a952cff4
+        - terra@1.0.0
+        - terra-bukkit@1.0.0
+        - terrascript-function-sampler@1.0.0-BETA+0a952cff4
+[20:18:56] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Terra addons successfully loaded.
+[20:18:56] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Finished initialization.
+[20:18:56] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loading 4 libraries... please wait
+[20:18:57] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/elianproject/servidor_minecraft/libraries/com/zaxxer/HikariCP/7.0.2/HikariCP-7.0.2.jar
+[20:18:57] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/elianproject/servidor_minecraft/libraries/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar
+[20:18:57] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/elianproject/servidor_minecraft/libraries/com/mysql/mysql-connector-j/9.6.0/mysql-connector-j-9.6.0.jar
+[20:18:57] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/elianproject/servidor_minecraft/libraries/com/google/protobuf/protobuf-java/4.31.1/protobuf-java-4.31.1.jar
+[20:18:57] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/elianproject/servidor_minecraft/libraries/org/xerial/sqlite-jdbc/3.51.2.0/sqlite-jdbc-3.51.2.0.jar
+[20:18:57] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/elianproject/servidor_minecraft/libraries/org/postgresql/postgresql/42.7.10/postgresql-42.7.10.jar
+[20:18:57] [Server thread/INFO]: [SpigotLibraryLoader] [BackpackPlus] Loaded library /workspaces/elianproject/servidor_minecraft/libraries/org/checkerframework/checker-qual/3.52.0/checker-qual-3.52.0.jar
+[20:18:58] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loading 2 libraries... please wait
+[20:18:59] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/elianproject/servidor_minecraft/libraries/com/mysql/mysql-connector-j/9.4.0/mysql-connector-j-9.4.0.jar
+[20:18:59] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/elianproject/servidor_minecraft/libraries/com/google/protobuf/protobuf-java/4.31.1/protobuf-java-4.31.1.jar
+[20:18:59] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/elianproject/servidor_minecraft/libraries/io/lettuce/lettuce-core/7.2.1.RELEASE/lettuce-core-7.2.1.RELEASE.jar
+[20:18:59] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/elianproject/servidor_minecraft/libraries/redis/clients/authentication/redis-authx-core/0.1.1-beta2/redis-authx-core-0.1.1-beta2.jar
+[20:18:59] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/elianproject/servidor_minecraft/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[20:18:59] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/elianproject/servidor_minecraft/libraries/io/netty/netty-common/4.2.5.Final/netty-common-4.2.5.Final.jar
+[20:18:59] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/elianproject/servidor_minecraft/libraries/io/netty/netty-handler/4.2.5.Final/netty-handler-4.2.5.Final.jar
+[20:18:59] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/elianproject/servidor_minecraft/libraries/io/netty/netty-resolver/4.2.5.Final/netty-resolver-4.2.5.Final.jar
+[20:18:59] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/elianproject/servidor_minecraft/libraries/io/netty/netty-buffer/4.2.5.Final/netty-buffer-4.2.5.Final.jar
+[20:18:59] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/elianproject/servidor_minecraft/libraries/io/netty/netty-transport-native-unix-common/4.2.5.Final/netty-transport-native-unix-common-4.2.5.Final.jar
+[20:18:59] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/elianproject/servidor_minecraft/libraries/io/netty/netty-codec-base/4.2.5.Final/netty-codec-base-4.2.5.Final.jar
+[20:18:59] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/elianproject/servidor_minecraft/libraries/io/netty/netty-transport/4.2.5.Final/netty-transport-4.2.5.Final.jar
+[20:18:59] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/elianproject/servidor_minecraft/libraries/io/projectreactor/reactor-core/3.6.6/reactor-core-3.6.6.jar
+[20:18:59] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/elianproject/servidor_minecraft/libraries/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar
+[20:18:59] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/elianproject/servidor_minecraft/libraries/io/netty/netty-resolver-dns/4.2.5.Final/netty-resolver-dns-4.2.5.Final.jar
+[20:18:59] [Server thread/INFO]: [SpigotLibraryLoader] [NotBounties] Loaded library /workspaces/elianproject/servidor_minecraft/libraries/io/netty/netty-codec-dns/4.2.5.Final/netty-codec-dns-4.2.5.Final.jar
+[20:18:59] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.11.0
+[20:18:59] [Server thread/INFO]: [ViaVersion] ViaVersion 5.11.0 is now loaded. Registering protocol transformers and injecting...
+[20:19:00] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[20:19:00] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[20:19:00] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.3
+[20:19:00] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.11.0
+[20:19:00] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.5
+[20:19:00] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.53
+[20:19:02] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[20:19:02] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.6.5
+[20:19:02] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.13.0
+[20:19:02] [Server thread/INFO]: [packetevents] Loading packetevents...
+[20:19:03] [Server thread/INFO]: [packetevents] Loaded packetevents v2.13.0
+[20:19:03] [Server thread/INFO]: [Terra] Loading server plugin Terra v6.5.1-BETA+0a952cff4
+[20:19:03] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.9+6959-7adf70b
+[20:19:04] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@254aa363]
+[20:19:04] [Server thread/INFO]: [BackpackPlus] Loading server plugin BackpackPlus v3.2.0
+[20:19:04] [Server thread/INFO]: [FreeMinecraftModels] Loading server plugin FreeMinecraftModels v2.3.18
+[20:19:04] [Server thread/INFO]: [FreeMinecraftModels] MagmaCore v1.13-SNAPSHOT initialized!
+[20:19:04] [Server thread/INFO]: [FreeMinecraftModels] Registered /logify command
+[20:19:04] [Server thread/INFO]: [FreeMinecraftModels] Registered /nightbreakLogin command
+[20:19:04] [Server thread/INFO]: [FreeMinecraftModels] Nightbreak account loaded successfully!
+[20:19:04] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.3.12
+[20:19:04] [Server thread/INFO]: [LibsDisguises] Loading server plugin LibsDisguises v11.0.18
+[20:19:04] [Server thread/INFO]: [zShop] Loading server plugin zShop v1
+[20:19:04] [Server thread/INFO]: [ExtraRecipes] Loading server plugin ExtraRecipes v1.4.0
+[20:19:04] [Server thread/INFO]: [NotBounties] Loading server plugin NotBounties v1.22.37
+[20:19:04] [Server thread/INFO]: [InstaRestock] Loading server plugin InstaRestock v1.0.0
+[20:19:04] [Server thread/INFO]: [RPGTools] Loading server plugin RPGTools v1.1.4
+[20:19:04] [Server thread/INFO]: [TabListPing] Loading server plugin TabListPing v2.03
+[20:19:04] [Server thread/INFO]: [DoubleDoors] Loading server plugin DoubleDoors v1.4
+[20:19:04] [Server thread/INFO]: [BetterStructures] Loading server plugin BetterStructures v2.2.0
+[20:19:04] [Server thread/INFO]: [BetterStructures] MagmaCore v1.13-SNAPSHOT initialized!
+[20:19:04] [Server thread/INFO]: [BetterStructures] /logify is already registered, skipping.
+[20:19:04] [Server thread/INFO]: [BetterStructures] /nightbreaklogin is already registered, skipping.
+[20:19:04] [Server thread/INFO]: [BetterStructures] Nightbreak account loaded successfully!
+[20:19:04] [Server thread/INFO]: [BetterStructures] WorldGuard is not enabled! WorldGuard is recommended when using the EliteMobs integration.
+[20:19:04] [Server thread/INFO]: [ResourcePackManager] Loading server plugin ResourcePackManager v1.7.3
+[20:19:04] [Server thread/INFO]: [ResourcePackManager] MagmaCore v1.13-SNAPSHOT initialized!
+[20:19:04] [Server thread/INFO]: [ResourcePackManager] /logify is already registered, skipping.
+[20:19:04] [Server thread/INFO]: [Mapify] Loading server plugin Mapify v1.9
+[20:19:04] [Server thread/INFO]: [SimpleWarps] Loading server plugin SimpleWarps v1.1
+[20:19:04] [Server thread/INFO]: [FancyPhysics] Loading server plugin FancyPhysics v3.2.2
+[20:19:04] [Server thread/INFO]: [Timber] Loading server plugin Timber v1.8.4
+[20:19:04] [Server thread/INFO]: [LPC] Loading server plugin LPC v3.7.2
+[20:19:04] [Server thread/INFO]: [Visual Crafting] Loading server plugin visual-crafting v1.4.9
+[20:19:04] [Server thread/INFO]: [GSit] Loading server plugin GSit v3.5.1
+[20:19:05] [Server thread/INFO]: [BetterSnowballs] Loading server plugin BetterSnowballs v0.0.1
+[20:19:05] [Server thread/INFO]: [HomePlugin] Loading server plugin HomePlugin v0.8.6-main-SNAPSHOT
+[20:19:05] [Server thread/INFO]: [JoinMessage] Loading server plugin JoinMessage v1.0
+[20:19:05] [Server thread/INFO]: [TPA] Loading server plugin TPA v3.3.1
+[20:19:05] [Server thread/INFO]: [OpenAudioMc] Loading server plugin OpenAudioMc v6.10.17
+[20:19:05] [Server thread/INFO]: [clickaccept] Loading server plugin clickaccept v1.2
+[20:19:05] [Server thread/INFO]: [GravesX] Loading server plugin GravesX v2026.4.9.1
+[20:19:05] [Server thread/INFO]: [GravesX] [Modules] No module jars found in plugins/GravesX/modules
+[20:19:05] [Server thread/INFO]: [NitroJobs] Loading server plugin NitroJobs v1.0.0
+[20:19:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:19:05] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.5
+[20:19:06] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[20:19:06] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[20:19:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.12.5]
+[20:19:06] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[20:19:06] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.53
+[20:19:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:19:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[20:19:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer   |
+[20:19:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |-------------------|
+[20:19:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode  |
+[20:19:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[20:19:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:19:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.12.5
+[20:19:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 98b9488
+[20:19:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[20:19:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:19:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[20:19:06] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
+[20:19:07] [Server thread/INFO]:         __    
+[20:19:07] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.53
+[20:19:07] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[20:19:07] [Server thread/INFO]: 
+[20:19:07] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[20:19:08] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[20:19:08] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[20:19:08] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1699ms)
+[20:19:08] [Server thread/INFO]: [Vault] Enabling Vault v1.6.5
+[20:19:08] [Server thread/WARN]: [Vault] Language file messages/messages_effects.yml not found. Using English.
+[20:19:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: vault [1.6.5]
+[20:19:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: vault2 [1.6.5]
+[20:19:08] [Server thread/INFO]: [Vault] PlaceholderAPI expansions registered: %vault_*% and %vault2_*%.
+[20:19:08] [Server thread/INFO]: ==============================
+[20:19:08] [Server thread/INFO]: Vault2.0
+[20:19:08] [Server thread/INFO]: Version: 1.6.5
+[20:19:08] [Server thread/INFO]: Status: ENABLED
+[20:19:08] [Server thread/INFO]: ==============================
+[20:19:08] [Server thread/INFO]: [Vault] Internal economy registered without depending on Vault.jar
+[20:19:08] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[20:19:08] [Server thread/INFO]: [Terra] Enabling Terra v6.5.1-BETA+0a952cff4
+[20:19:08] [Server thread/INFO]: [com.dfsek.terra.bukkit.TerraBukkitPlugin] Running on Minecraft version v1.21.1 with server implementation Paper.
+[20:19:08] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading config packs...
+[20:19:08] [Server thread/INFO]: [com.dfsek.terra.registry.master.ConfigRegistry] Loading ZIP archive: origen-v2.2.0.zip
+[20:19:10] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loading config pack "ORIGEN:ORIGEN"
+[20:19:10] [ForkJoinPool.commonPool-worker-3/WARN]: [com.dfsek.terra.bukkit.handles.BukkitWorldHandle] Translating minecraft:grass to minecraft:short_grass. In 1.20.3 minecraft:grass was renamed to minecraft:short_grass. You are advised to perform this rename in your config backs as this translation will be removed in the next major version of Terra.
+[20:19:10] [Server thread/WARN]: [com.dfsek.terra.bukkit.handles.BukkitWorldHandle] Translating minecraft:grass to minecraft:short_grass. In 1.20.3 minecraft:grass was renamed to minecraft:short_grass. You are advised to perform this rename in your config backs as this translation will be removed in the next major version of Terra.
+[20:19:10] [ForkJoinPool.commonPool-worker-1/WARN]: [com.dfsek.terra.bukkit.handles.BukkitWorldHandle] Translating minecraft:grass to minecraft:short_grass. In 1.20.3 minecraft:grass was renamed to minecraft:short_grass. You are advised to perform this rename in your config backs as this translation will be removed in the next major version of Terra.
+[20:19:10] [ForkJoinPool.commonPool-worker-2/WARN]: [com.dfsek.terra.bukkit.handles.BukkitWorldHandle] Translating minecraft:grass to minecraft:short_grass. In 1.20.3 minecraft:grass was renamed to minecraft:short_grass. You are advised to perform this rename in your config backs as this translation will be removed in the next major version of Terra.
+[20:19:10] [ForkJoinPool.commonPool-worker-3/WARN]: [com.dfsek.terra.bukkit.handles.BukkitWorldHandle] Translating minecraft:grass to minecraft:short_grass. In 1.20.3 minecraft:grass was renamed to minecraft:short_grass. You are advised to perform this rename in your config backs as this translation will be removed in the next major version of Terra.
+[20:19:10] [Server thread/WARN]: [com.dfsek.terra.bukkit.handles.BukkitWorldHandle] Translating minecraft:grass to minecraft:short_grass. In 1.20.3 minecraft:grass was renamed to minecraft:short_grass. You are advised to perform this rename in your config backs as this translation will be removed in the next major version of Terra.
+[20:19:11] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loaded config pack "ORIGEN:ORIGEN" v1.0.0 by Astrash, Sancires, Aureus, Rearth in 2553.106898ms.
+[20:19:11] [Server thread/INFO]: [com.dfsek.terra.registry.master.ConfigRegistry] Loading ZIP archive: default.zip
+[20:19:11] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loading config pack "OVERWORLD:OVERWORLD"
+[20:19:12] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loaded config pack "OVERWORLD:OVERWORLD" v1.3.4 by Astrash, Sancires, Aureus in 1005.350216ms.
+[20:19:12] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loaded packs.
+[20:19:12] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_21.AwfulBukkitHacks] Hacking biome registry...
+[20:19:12] [Server thread/INFO]: [com.dfsek.terra.bukkit.nms.v1_21.AwfulBukkitHacks] Doing tag garbage....
+[20:19:12] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.9+6959-7adf70b
+[20:19:12] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[20:19:13] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[20:19:13] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[20:19:14] [Server thread/INFO]: [FreeMinecraftModels] Enabling FreeMinecraftModels v2.3.18
+[20:19:14] [Server thread/INFO]:  _______ __                               ___ __   _______           __         __        
+[20:19:14] [Server thread/INFO]: |   |   |__|.-----.-----.----.----.---.-.'  _|  |_|   |   |.-----.--|  |.-----.|  |.-----.
+[20:19:14] [Server thread/INFO]: |       |  ||     |  -__|  __|   _|  _  |   _|   _|       ||  _  |  _  ||  -__||  ||__ --|
+[20:19:14] [Server thread/INFO]: |__|_|__|__||__|__|_____|____|__| |___._|__| |____|__|_|__||_____|_____||_____||__||_____|
+[20:19:14] [Server thread/INFO]: Version 2.3.18
+[20:19:14] [Server thread/INFO]: [FreeMinecraftModels] Created .mcmeta file for animated texture: adventurersguild_portal.png
+[20:19:14] [Server thread/INFO]: [FreeMinecraftModels] Created .mcmeta file for animated texture: nether_portal.png
+[20:19:14] [Server thread/WARN]: File EM_Oasis_Portal.yml should not be in the models folder!
+[20:19:14] [Server thread/INFO]: [FreeMinecraftModels] Created .mcmeta file for animated texture: primis_portal.png
+[20:19:14] [Server thread/WARN]: File EM_Primis_Portal.yml should not be in the models folder!
+[20:19:14] [Server thread/INFO]: [FreeMinecraftModels] Created .mcmeta file for animated texture: blitzcrank.png
+[20:19:14] [Server thread/INFO]: [FreeMinecraftModels] Supported server version detected: v1_21_R1
+[20:19:14] [Server thread/INFO]: [com.magmaguy.org.reflections.Reflections] Reflections took 57 ms to scan 105 urls, producing 0 keys and 0 values
+[20:19:15] [Server thread/INFO]: [zShop] Enabling zShop v1
+[20:19:15] [Server thread/INFO]: [zShop] Erstelle Hauptmenü: Titel = §8» §bsʜᴏᴘ, Größe = 27
+[20:19:15] [Server thread/INFO]: [zShop] Kategorie: category1 Material: GRASS_BLOCK Slot: 10
+[20:19:15] [Server thread/INFO]: [zShop] Kategorie: category2 Material: SUGAR_CANE Slot: 11
+[20:19:15] [Server thread/INFO]: [zShop] Kategorie: category3 Material: SPAWNER Slot: 12
+[20:19:15] [Server thread/INFO]: [zShop] Kategorie: category4 Material: TOTEM_OF_UNDYING Slot: 13
+[20:19:15] [Server thread/INFO]: [zShop] Kategorie: category5 Material: COOKED_BEEF Slot: 14
+[20:19:15] [Server thread/INFO]: [zShop] Kategorie: category6 Material: REDSTONE Slot: 15
+[20:19:15] [Server thread/INFO]: [zShop] Kategorie: category7 Material: ENDER_PEARL Slot: 16
+[20:19:15] [Server thread/INFO]: [zShop] Erstelle Kategorie-Inventar für category1: Titel = §8» §bʙʟᴏᴄᴋs, Größe = 27
+[20:19:15] [Server thread/INFO]: [zShop] Item: stone Material: STONE Slot: 10 Preis: 150.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: dirt Material: DIRT Slot: 11 Preis: 100.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: glass Material: GLASS Slot: 12 Preis: 250.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: obsidian Material: OBSIDIAN Slot: 13 Preis: 500.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: diamond_block Material: OAK_LOG Slot: 14 Preis: 900.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: emerald_block Material: EMERALD_BLOCK Slot: 15 Preis: 25000.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: netherite_block Material: TUBE_CORAL_BLOCK Slot: 16 Preis: 500.0
+[20:19:15] [Server thread/INFO]: [zShop] Erstelle Kategorie-Inventar für category2: Titel = §8» §bғᴀʀᴍɪɴɢ, Größe = 27
+[20:19:15] [Server thread/INFO]: [zShop] Item: wooden_pickaxe Material: SUGAR_CANE Slot: 10 Preis: 20.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: stone_pickaxe Material: WHEAT Slot: 11 Preis: 40.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: iron_pickaxe Material: WHEAT_SEEDS Slot: 12 Preis: 50.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: golden_pickaxe Material: SEA_PICKLE Slot: 13 Preis: 100.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: diamond_pickaxe Material: CARROT Slot: 14 Preis: 50.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: netherite_pickaxe Material: BAMBOO Slot: 15 Preis: 50.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: shears Material: VILLAGER_SPAWN_EGG Slot: 16 Preis: 100000.0
+[20:19:15] [Server thread/INFO]: [zShop] Erstelle Kategorie-Inventar für category3: Titel = §8» §bTIENDA RESTRINGIDA, Größe = 27
+[20:19:15] [Server thread/INFO]: [zShop] Erstelle Kategorie-Inventar für category4: Titel = §8» §bᴇǫᴜɪᴘᴍᴇɴᴛ, Größe = 27
+[20:19:15] [Server thread/INFO]: [zShop] Item: iron_helmet Material: END_CRYSTAL Slot: 10 Preis: 1000.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: iron_chestplate Material: RESPAWN_ANCHOR Slot: 11 Preis: 700.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: iron_leggings Material: GLOWSTONE Slot: 12 Preis: 150.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: iron_boots Material: SHULKER_BOX Slot: 13 Preis: 5000.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: diamond_helmet Material: EXPERIENCE_BOTTLE Slot: 14 Preis: 500.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: diamond_chestplate Material: ENDER_CHEST Slot: 15 Preis: 1500.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: shield Material: FIREWORK_ROCKET Slot: 16 Preis: 120.0
+[20:19:15] [Server thread/INFO]: [zShop] Erstelle Kategorie-Inventar für category5: Titel = §8» §bғᴏᴏᴅ, Größe = 27
+[20:19:15] [Server thread/INFO]: [zShop] Item: apple Material: APPLE Slot: 10 Preis: 150.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: bread Material: BREAD Slot: 11 Preis: 150.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: cooked_beef Material: COOKED_BEEF Slot: 12 Preis: 250.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: cooked_chicken Material: COOKED_CHICKEN Slot: 13 Preis: 200.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: golden_apple Material: GOLDEN_APPLE Slot: 14 Preis: 500.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: golden_carrot Material: GOLDEN_CARROT Slot: 15 Preis: 275.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: cake Material: CAKE Slot: 16 Preis: 80.0
+[20:19:15] [Server thread/INFO]: [zShop] Erstelle Kategorie-Inventar für category6: Titel = §8» §bʀᴇᴅsᴛᴏɴᴇ, Größe = 27
+[20:19:15] [Server thread/INFO]: [zShop] Item: redstone Material: REDSTONE Slot: 10 Preis: 200.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: redstone_block Material: REDSTONE_BLOCK Slot: 11 Preis: 25.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: repeater Material: REPEATER Slot: 12 Preis: 500.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: comparator Material: COMPARATOR Slot: 13 Preis: 250.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: piston Material: PISTON Slot: 14 Preis: 250.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: sticky_piston Material: STICKY_PISTON Slot: 15 Preis: 275.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: hopper Material: HOPPER Slot: 16 Preis: 200.0
+[20:19:15] [Server thread/INFO]: [zShop] Erstelle Kategorie-Inventar für category7: Titel = §8» §bᴍɪsᴄ, Größe = 27
+[20:19:15] [Server thread/INFO]: [zShop] Item: ender_pearl Material: ENDER_PEARL Slot: 10 Preis: 50.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: blaze_rod Material: BLAZE_ROD Slot: 11 Preis: 25.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: ghast_tear Material: GLASS_BOTTLE Slot: 12 Preis: 250.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: dragon_breath Material: WIND_CHARGE Slot: 13 Preis: 500.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: elytra Material: ELYTRA Slot: 14 Preis: 250000.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: totem_of_undying Material: TOTEM_OF_UNDYING Slot: 15 Preis: 3000.0
+[20:19:15] [Server thread/INFO]: [zShop] Item: trident Material: TRIDENT Slot: 16 Preis: 75000.0
+[20:19:15] [Server thread/INFO]: [zShop] zShop has been successfully enabled!
+[20:19:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:19:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:19:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:19:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:19:15] [Server thread/INFO]: Preparing level "world"
+[20:19:16] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:19:18] [Server thread/INFO]: Time elapsed: 1899 ms
+[20:19:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:19:19] [Server thread/INFO]: Time elapsed: 1577 ms
+[20:19:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:19:21] [Server thread/INFO]: Time elapsed: 1297 ms
+[20:19:21] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.11.0
+[20:19:21] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[20:19:21] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.3
+[20:19:21] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[20:19:21] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.11.0
+[20:19:21] [Server thread/INFO]: [packetevents] Enabling packetevents v2.13.0
+[20:19:21] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[20:19:21] [Server thread/INFO]: [BackpackPlus] Enabling BackpackPlus v3.2.0
+[20:19:21] [packetevents-update-check-thread/INFO]: [packetevents] You are running the latest release: 2.13.0
+[20:19:21] [Server thread/INFO]: [BackpackPlus] Loaded 10 blocked interaction blocks.
+[20:19:21] [Server thread/INFO]: [BackpackPlus] [Settings] Configuration loaded successfully. No missing fields detected.
+[20:19:21] [Server thread/INFO]: [BackpackPlus] [Pack] No update needed; current readme is up to date.
+[20:19:21] [Server thread/INFO]: [BackpackPlus] [Database] Configuration loaded successfully. No missing fields detected.
+[20:19:21] [Server thread/INFO]: [BackpackPlus] [Database] SQLite Successfully connected to database
+[20:19:21] [Server thread/INFO]: [BackpackPlus] [Database] [SQLite] Tables and indexes created successfully.
+[20:19:21] [Server thread/INFO]: [BackpackPlus] Language used: eng
+[20:19:21] [Server thread/INFO]: [BackpackPlus] [ResourcePackManager] Is enabled, the resource pack will be managed by the ResourcePackManager.
+[20:19:22] [Server thread/INFO]: [BackpackPlus] Plugin initialized successfully.
+[20:19:22] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.3.12
+[20:19:23] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
+[20:19:24] [Server thread/INFO]: [AuraSkills] Successfully registered hook LuckPerms
+[20:19:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: auraskills [2.3.12]
+[20:19:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: aureliumskills [2.3.12]
+[20:19:24] [Server thread/INFO]: [AuraSkills] Successfully registered hook PlaceholderAPI
+[20:19:24] [Server thread/INFO]: [AuraSkills] Successfully registered hook Vault
+[20:19:24] [Server thread/INFO]: [AuraSkills] Loaded 160 config options in 33 ms
+[20:19:24] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
+[20:19:24] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
+[20:19:24] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
+[20:19:24] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
+[20:19:24] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[20:19:24] [Server thread/INFO]: [LibsDisguises] Enabling LibsDisguises v11.0.18
+[20:19:24] [Server thread/INFO]: [LibsDisguises] File Name: LibsDisguises-11.0.18-Free.jar
+[20:19:24] [Server thread/INFO]: [LibsDisguises] Discovered nms version (LD: v1_21_R1) (MC: 1.21.1)
+[20:19:24] [Server thread/INFO]: [LibsDisguises] Jenkins Build: #1782
+[20:19:24] [Server thread/INFO]: [LibsDisguises] Build Date: 18/05/2026 21:41
+[20:19:24] [Server thread/INFO]: [LibsDisguises] Build Hash: ba73faa2~1
+[20:19:24] [Server thread/WARN]: [LibsDisguises] You are running an older minor version of Minecraft, you are currently using 1.21.1, consider updating to 1.21.4
+[20:19:24] [Server thread/WARN]: [LibsDisguises] Your version of Minecraft will not be supported in the future.
+[20:19:24] [Server thread/INFO]: [LibsDisguises] If you own the plugin, place the premium jar downloaded from https://www.spigotmc.org/resources/libs-disguises.32453/ in plugins/LibsDisguises/
+[20:19:24] [Server thread/INFO]: [LibsDisguises] You are running the free version, commands limited to non-players and operators. (Console, Command Blocks, Admins)
+[20:19:24] [Server thread/INFO]: [LibsDisguises] Config 'TallSelfDisguises' is set to 'SCALED', LD will scale down (when possible) oversized disguises from self disguise. https://www.spigotmc.org/wiki/lib-s-disguises-faq/#tall-disguises-self-disguises
+[20:19:25] [Server thread/INFO]: [packetevents] Loading block mappings for V_1_20_5/15...
+[20:19:25] [Server thread/INFO]: [packetevents] Finished loading block mappings for V_1_20_5/15 in 330.585705ms
+[20:19:26] [Server thread/INFO]: [LibsDisguises] Config is up to date!
+[20:19:26] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: libsdisguises [1.0.0]
+[20:19:26] [Server thread/INFO]: [LibsDisguises] PlaceholderAPI support enabled
+[20:19:26] [Server thread/INFO]: [ExtraRecipes] Enabling ExtraRecipes v1.4.0
+[20:19:26] [Server thread/INFO]: [NotBounties] Enabling NotBounties v1.22.37
+[20:19:26] [Server thread/WARN]: [NotBounties] Detected 1 placeholder(s) as currency, but there are only 0 add commands!
+[20:19:26] [Server thread/WARN]: [NotBounties] Detected 1 placeholder(s) as currency, but there are only 0 remove commands!
+[20:19:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: notbounties [1.22.37]
+[20:19:27] [Server thread/INFO]: [InstaRestock] Enabling InstaRestock v1.0.0
+[20:19:27] [Server thread/INFO]: [InstaRestock] InstaRestock enabled.
+[20:19:27] [Server thread/INFO]: [RPGTools] Enabling RPGTools v1.1.4
+[20:19:27] [Server thread/WARN]: [RPGTools] Invalid block material in blocks.yml: PALE_OAK_LOG
+[20:19:27] [Server thread/INFO]: [RPGTools] Block XP data loaded.
+[20:19:27] [Server thread/INFO]: [TabListPing] Enabling TabListPing v2.03
+[20:19:27] [Server thread/INFO]: [TabListPing] Detected 1.21.1, using net.minecraft.network.protocol.common.ClientboundKeepAlivePacket & net.minecraft.network.protocol.common.ServerboundKeepAlivePacket
+[20:19:27] [Server thread/INFO]: [TabListPing] Metrics enabled if allowed by plugins/bStats/config.yml
+[20:19:27] [Server thread/INFO]: [DoubleDoors] Enabling DoubleDoors v1.4
+[20:19:27] [Server thread/INFO]: [DoubleDoors] DoubleDoors is starting up...
+[20:19:27] [Server thread/INFO]: [DoubleDoors] DoubleDoors has been enabled!
+[20:19:27] [Server thread/INFO]: [BetterStructures] Enabling BetterStructures v2.2.0
+[20:19:27] [Server thread/INFO]:     ____       __  __            _____ __                  __                      
+[20:19:27] [Server thread/INFO]:    / __ )___  / /_/ /____  _____/ ___// /________  _______/ /___  __________  _____
+[20:19:27] [Server thread/INFO]:   / __  / _ \/ __/ __/ _ \/ ___/\__ \/ __/ ___/ / / / ___/ __/ / / / ___/ _ \/ ___/
+[20:19:27] [Server thread/INFO]:  / /_/ /  __/ /_/ /_/  __/ /   ___/ / /_/ /  / /_/ / /__/ /_/ /_/ / /  /  __(__  ) 
+[20:19:27] [Server thread/INFO]: /_____/\___/\__/\__/\___/_/   /____/\__/_/   \__,_/\___/\__/\__,_/_/   \___/____/
+[20:19:27] [Server thread/INFO]: [BetterStructures] Initialized version 2.2.0!
+[20:19:27] [Server thread/INFO]: [ResourcePackManager] Enabling ResourcePackManager v1.7.3
+[20:19:27] [Server thread/INFO]: 
+  ___  ___ ___ __  __                             
+ | _ \/ __| _ \  \/  |__ _ _ _  __ _ __ _ ___ _ _ 
+ |   /\__ \  _/ |\/| / _` | ' \/ _` / _` / -_) '_|
+ |_|_\|___/_| |_|  |_\__,_|_||_\__,_\__, \___|_|  
+                                    |___/         
+[20:19:27] [Server thread/INFO]: ResourcePackManager v.1.7.3
+[20:19:28] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 104 ms to scan 1 urls, producing 1 keys and 15 values
+[20:19:28] [Server thread/INFO]: [ResourcePackManager] Creating blueprint folder
+[20:19:28] [Server thread/INFO]: [ResourcePackManager] Copying image
+[20:19:28] [Server thread/INFO]: [ResourcePackManager] Copying mcmeta
+[20:19:28] [Server thread/INFO]: [Mapify] Enabling Mapify v1.9
+[20:19:28] [ForkJoinPool.commonPool-worker-3/INFO]: [Mapify] Latest Version: 19
+[20:19:28] [Server thread/INFO]: [Mapify] Metrics loaded.
+[20:19:28] [Server thread/INFO]: [Mapify] Loading from data file...
+[20:19:28] [Server thread/INFO]: [Mapify] Loaded 0 maps.
+[20:19:28] [Server thread/INFO]: [SimpleWarps] Enabling SimpleWarps v1.1
+[20:19:28] [Server thread/INFO]: [SimpleWarps] Simple Warps Enabled.
+[20:19:28] [Server thread/INFO]: [FancyPhysics] Enabling FancyPhysics v3.2.2
+[20:19:28] [Server thread/INFO]: 
+    ______                          ____  __               _          
+   / ____/___ _____  _______  __   / __ \/ /_  __  _______(_)_________
+  / /_  / __ `/ __ \/ ___/ / / /  / /_/ / __ \/ / / / ___/ / ___/ ___/
+ / __/ / /_/ / / / / /__/ /_/ /  / ____/ / / / /_/ (__  ) / /__(__  ) 
+/_/    \__,_/_/ /_/\___/\__, /  /_/   /_/ /_/\__, /____/_/\___/____/  
+                       /____/               /____/                   v3.2.2
+[20:19:28] [Server thread/INFO]: [Timber] Enabling Timber v1.8.4
+[20:19:28] [Server thread/WARN]: LogBlock isn't injected! 
+[20:19:28] [Server thread/WARN]: Install the plugin to improve tree detection 
+[20:19:28] [Server thread/WARN]: Download link: https://www.curseforge.com/minecraft/bukkit-plugins/logblocks 
+[20:19:28] [Server thread/INFO]: [Timber] Plugin AuraSkills injected
+[20:19:28] [Server thread/INFO]: [Timber] Plugin PlaceholderAPI injected
+[20:19:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: timber [1.21.1-133-3cb8529 (MC: 1.21.1)]
+[20:19:28] [Server thread/INFO]: [LPC] Enabling LPC v3.7.2
+[20:19:28] [Server thread/INFO]: [Visual Crafting] Enabling visual-crafting v1.4.9
+[20:19:28] [Server thread/INFO]: [Visual Crafting] Visual Crafting was enabled!
+[20:19:28] [Server thread/INFO]: [Visual Crafting] Using version adapter 'VersionAdapter21R1' and controller 'DisplayVisualizationController'
+[20:19:28] [Server thread/INFO]: [GSit] Enabling GSit v3.5.1
+[20:19:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gsit [3.5.1]
+[20:19:28] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[20:19:28] [Server thread/INFO]: [GSit] Link with PlaceholderAPI successful!
+[20:19:28] [Server thread/INFO]: [BetterSnowballs] Enabling BetterSnowballs v0.0.1
+[20:19:28] [Server thread/INFO]: [HomePlugin] Enabling HomePlugin v0.8.6-main-SNAPSHOT
+[20:19:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: homeplugin [0.8.6-main-SNAPSHOT]
+[20:19:28] [Server thread/INFO]: [HomePlugin] PlaceholderAPI detected. Placeholders enabled.
+[20:19:28] [Server thread/INFO]: [HomePlugin] Redis disabled in config. Skipping Redis setup.
+[20:19:28] [Server thread/INFO]: [HomePlugin] Using YAML storage.
+[20:19:28] [Server thread/INFO]: [HomePlugin] Registering Homes...
+[20:19:28] [Server thread/INFO]: [HomePlugin] Registering Spawns...
+[20:19:28] [Server thread/INFO]: [HomePlugin] Registering commands...
+[20:19:28] [Server thread/INFO]: [HomePlugin] Registering events...
+[20:19:28] [Server thread/WARN]: [HomePlugin] No plugin extensions detected.
+[20:19:28] [Server thread/INFO]: [HomePlugin] ------------------------------------------------------
+[20:19:28] [Server thread/INFO]: [HomePlugin] HomePlugin started successfully!
+[20:19:28] [Server thread/INFO]: [HomePlugin] Language: SPANISH
+[20:19:28] [Server thread/INFO]: [HomePlugin] Storage: YAML
+[20:19:28] [Server thread/INFO]: [HomePlugin] ------------------------------------------------------
+[20:19:28] [Server thread/INFO]: [JoinMessage] Enabling JoinMessage v1.0
+[20:19:28] [Server thread/INFO]: [TPA] Enabling TPA v3.3.1
+[20:19:28] [Server thread/INFO]: [OpenAudioMc] Enabling OpenAudioMc v6.10.17
+[20:19:29] [Server thread/INFO]: [OpenAudioMc] [info] Starting OpenAudioMc, build 1602 by Mats
+[20:19:29] [Server thread/INFO]: [OpenAudioMc] [info] Using the main config file..
+[20:19:29] [Server thread/INFO]: [OpenAudioMc] [info] Starting configuration module
+[20:19:29] [Server thread/INFO]: [OpenAudioMc] [info] Using the main config file..
+[20:19:29] [Server thread/INFO]: [OpenAudioMc] [info] Starting configuration module
+[20:19:29] [Server thread/INFO]: [OpenAudioMc] [info] Detected md_5 chat support, using default user adapter
+[20:19:29] [Server thread/INFO]: [OpenAudioMc] [info] Skipped 46/46 migrations.
+[20:19:29] [Server thread/INFO]: [OpenAudioMc] [info] ModuleLoaderService: Loading modules from /workspaces/elianproject/servidor_minecraft/plugins/OpenAudioMc/modules
+[20:19:29] [Server thread/INFO]: [OpenAudioMc] [info] Using networking class com.craftmend.openaudiomc.generic.networking.DefaultNetworkingService
+[20:19:29] [Server thread/INFO]: [OpenAudioMc] [info] Initializing connection service...
+[20:19:29] [Server thread/INFO]: [OpenAudioMc] [info] Starting authentication module
+[20:19:29] [Server thread/INFO]: [OpenAudioMc] [info] This server already has an account, skipping sign up.
+[20:19:29] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Adding spigot tables
+[20:19:29] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for Alias
+[20:19:29] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (alias<->Alias.java)
+[20:19:29] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for ClientDataStore
+[20:19:29] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (client_data_store<->ClientDataStore.java)
+[20:19:29] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for MojangProfile
+[20:19:29] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (mojang_profile<->MojangProfile.java)
+[20:19:29] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for RegionProperties
+[20:19:29] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (region_properties<->RegionProperties.java)
+[20:19:29] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for Speaker
+[20:19:29] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (speaker<->Speaker.java)
+[20:19:29] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for StoredWorldChunk
+[20:19:29] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (stored_world_chunk<->StoredWorldChunk.java)
+[20:19:29] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for TimedRegionProperties
+[20:19:29] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (timed_region_properties<->TimedRegionProperties.java)
+[20:19:29] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for MediaRule
+[20:19:29] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (media_rule<->MediaRule.java)
+[20:19:29] [Server thread/INFO]: [OpenAudioMc] [info] Initializing account details
+[20:19:30] [Server thread/INFO]: [OpenAudioMc] [info] The server is empty! ignoring voice chat.
+[20:19:30] [Server thread/INFO]: [OpenAudioMc] [info] Loading aliases...
+[20:19:30] [Server thread/INFO]: [OpenAudioMc] [info] Loaded 0 aliases
+[20:19:30] [Server thread/INFO]: [OpenAudioMc] [info] Enabling the 1.13 speaker system
+[20:19:30] [Server thread/INFO]: [OpenAudioMc] [info] Starting redstone speaker tick task with interval 5 ticks
+[20:19:30] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for Playlist
+[20:19:30] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (playlists<->Playlist.java)
+[20:19:30] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for PlaylistEntry
+[20:19:30] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (playlist_entries<->PlaylistEntry.java)
+[20:19:30] [Server thread/INFO]: [OpenAudioMc] [info] Loaded 0 media chunks from file.
+[20:19:30] [Server thread/INFO]: [OpenAudioMc] [info] Loading static voice channels..
+[20:19:30] [Server thread/INFO]: [OpenAudioMc] [info] Created static channel: survival
+[20:19:30] [Server thread/INFO]: [OpenAudioMc] [info] Created static channel: off-topic
+[20:19:30] [Server thread/INFO]: [OpenAudioMc] [info] Created static channel: staff-chat
+[20:19:30] [Server thread/INFO]: [OpenAudioMc] [info] Created static channel: admin-chat
+[20:19:30] [Server thread/INFO]: [OpenAudioMc] [info] Loaded 4 static voice channels
+[20:19:30] [Server thread/INFO]: [OpenAudioMc] [info] Plugin PlaceholderAPI is already enabled, running handler
+[20:19:30] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: oa [1.0.0]
+[20:19:30] [Server thread/INFO]: [OpenAudioMc] [info] Starting and loading took 30905MS
+[20:19:30] [Server thread/INFO]: [clickaccept] Enabling clickaccept v1.2
+[20:19:30] [Server thread/INFO]: [GravesX] Enabling GravesX v2026.4.9.1
+[20:19:30] [Server thread/INFO]: [GravesX] Loading Libraries for GravesX
+[20:19:30] [Server thread/WARN]: [GravesX] Paper v.1.21.1-133-3cb8529 (MC: 1.21.1) detected. Using BukkitLibraryManager to download and load libraries.
+[20:19:32] [Server thread/INFO]: [GravesX] Finished Loading Libraries for GravesX.
+[20:19:32] [Server thread/INFO]: [GravesX] Integration: Hooked into Vault 1.6.5's permissions provider.
+[20:19:33] [Server thread/INFO]: [GravesX] Integration: Hooked into MiniMessage.
+[20:19:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gravesx [2026.4.9.1]
+[20:19:33] [Server thread/INFO]: [GravesX] Integration: Hooked into PlaceholderAPI 2.12.3.
+[20:19:33] [Server thread/WARN]: [GravesX] Compatibility: Paper or a Paper fork detected. To ensure holograms disappear correctly when looting graves, make sure 'armor-stands-tick' or 'armor-stands.tick' is set to true. This is not a bug.
+[20:19:33] [Server thread/INFO]: [GravesX] Integration: Hooked into LuckPerms 5.5.53.
+[20:19:33] [Server thread/INFO]: [com.ranull.graves.libraries.hikari.HikariDataSource] GravesX h2 - Starting...
+[20:19:33] [Server thread/INFO]: [com.ranull.graves.libraries.hikari.pool.HikariPool] GravesX h2 - Added connection conn0: url=jdbc:h2:file:/workspaces/elianproject/servidor_minecraft/plugins/GravesX/data/graves.data user=SA
+[20:19:33] [Server thread/INFO]: [com.ranull.graves.libraries.hikari.HikariDataSource] GravesX h2 - Start completed.
+[20:19:33] [Folia Async Scheduler Thread #4/INFO]: [GravesX] Loading grave maps...
+[20:19:33] [Folia Async Scheduler Thread #4/INFO]: [GravesX] Found 0 grave maps to load into cache.
+[20:19:33] [Folia Async Scheduler Thread #5/INFO]: [GravesX] Loading Block Map cache...
+[20:19:33] [Folia Async Scheduler Thread #5/INFO]: [GravesX] Queued 0 Blocks into the Block Map Cache (batched by chunk).
+[20:19:33] [Folia Async Scheduler Thread #0/INFO]: [GravesX] Loading Holograms into Hologram Map Cache...
+[20:19:33] [Folia Async Scheduler Thread #0/INFO]: [GravesX] Loaded 0 Holograms into Hologram Map Cache.
+[20:19:33] [Folia Async Scheduler Thread #5/INFO]: [GravesX] Loading Entity Map Cache for armorstand...
+[20:19:33] [Folia Async Scheduler Thread #1/INFO]: [GravesX] Loading Entity Map Cache for itemframe...
+[20:19:33] [Folia Async Scheduler Thread #5/INFO]: [GravesX] Loaded 0 entities into Entity Map Cache for armorstand.
+[20:19:33] [Folia Async Scheduler Thread #1/INFO]: [GravesX] Loaded 0 entities into Entity Map Cache for itemframe.
+[20:19:33] [Server thread/INFO]: [GravesX] [Modules] Loading GravesX Modules...
+[20:19:33] [Server thread/INFO]: [GravesX] [Modules] Detected 0 module(s).
+[20:19:33] [Server thread/INFO]: [GravesX] Loading bStats Metrics Manager...
+[20:19:33] [Server thread/INFO]: [GravesX] bStats metrics loaded: https://bstats.org/plugin/bukkit/GravesX/23069
+[20:19:33] [Server thread/INFO]: [GravesX] bStats legacy metrics loaded: https://bstats.org/plugin/bukkit/Graves/12849
+[20:19:33] [Server thread/INFO]: [NitroJobs] Enabling NitroJobs v1.0.0
+[20:19:33] [Server thread/WARN]: [NitroJobs] Could not save messages.yml to plugins/NitroJobs/messages.yml because messages.yml already exists.
+[20:19:33] [Server thread/INFO]: [NitroJobs] JobsPlugin by 1m_ne1tr0 enabled.
+[20:19:33] [Server thread/INFO]: [spark] Starting background profiler...
+[20:19:34] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[20:19:34] [Server thread/INFO]: Done preparing level "world" (19.310s)
+[20:19:34] [Server thread/INFO]: Running delayed init tasks
+[20:19:34] [Craft Scheduler Thread - 4 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[20:19:35] [Craft Scheduler Thread - 5 - FreeMinecraftModels/INFO]: [FreeMinecraftModels] Latest public release is 2.10.2
+[20:19:35] [Craft Scheduler Thread - 5 - FreeMinecraftModels/INFO]: [FreeMinecraftModels] Your version is 2.3.18
+[20:19:35] [Craft Scheduler Thread - 5 - FreeMinecraftModels/WARN]: [FreeMinecraftModels] A newer version of this plugin is available for download!
+[20:19:35] [Craft Scheduler Thread - 9 - BackpackPlus/INFO]: =============================[BackpackPlus]=============================
+[20:19:35] [Craft Scheduler Thread - 9 - BackpackPlus/INFO]: The plugin is up to date: (RELEASE 3.2.0)
+[20:19:35] [Craft Scheduler Thread - 9 - BackpackPlus/INFO]: =============================[BackpackPlus]=============================
+[20:19:35] [Craft Scheduler Thread - 10 - ResourcePackManager/INFO]: [ResourcePackManager] Latest public release is 2.3.0
+[20:19:35] [Craft Scheduler Thread - 10 - ResourcePackManager/INFO]: [ResourcePackManager] Your version is 1.7.3
+[20:19:35] [Craft Scheduler Thread - 10 - ResourcePackManager/WARN]: [ResourcePackManager] A newer version of this plugin is available for download!
+[20:19:35] [Craft Scheduler Thread - 13 - BetterStructures/INFO]: [org.reflections.Reflections] Reflections took 201 ms to scan 1 urls, producing 1 keys and 10 values
+[20:19:35] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 314 total sources
+[20:19:35] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
+[20:19:36] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
+[20:19:36] [Craft Scheduler Thread - 6 - TPA/INFO]: [TPA] ¡Plugin cargado! Versión: 3.3.1
+[20:19:36] [Craft Scheduler Thread - 6 - TPA/INFO]: [TPA] Buscando actualizaciones...
+[20:19:36] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
+[20:19:36] [Craft Scheduler Thread - 6 - TPA/INFO]: [TPA] ¡Actualizado!
+[20:19:36] [Craft Scheduler Thread - 13 - BetterStructures/INFO]: [org.reflections.Reflections] Reflections took 7 ms to scan 1 urls, producing 1 keys and 29 values
+[20:19:36] [Craft Scheduler Thread - 13 - BetterStructures/INFO]: [org.reflections.Reflections] Reflections took 4 ms to scan 1 urls, producing 1 keys and 1 values
+[20:19:36] [Craft Scheduler Thread - 13 - BetterStructures/INFO]: [org.reflections.Reflections] Reflections took 40 ms to scan 105 urls, producing 0 keys and 0 values
+[20:19:36] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:19:36] [Server thread/INFO]: [AuraSkills] Loaded 7 menus
+[20:19:36] [Server thread/INFO]: [InstaRestock] A new version of InstaRestock is available.
+[20:19:36] [Server thread/INFO]: [InstaRestock] https://modrinth.com/plugin/instarestock
+[20:19:36] [Server thread/INFO]: There is a new version available. (1.7.0)
+[20:19:36] [Server thread/INFO]: You can download it at:  https://modrinth.com/plugin/vault-2.0-economy-plugins
+[20:19:36] [Server thread/INFO]: Done (63.505s)! For help, type "help"
+[20:19:36] [Server thread/INFO]: Timings Reset
+[20:19:36] [Server thread/INFO]: [GravesX] Registering Soft Crash Handler...
+[20:19:36] [Server thread/INFO]: [GravesX] Registered Soft Crash Handler. Server will handle crashes in a separate thread. This does not work on hard crashes.
+[20:19:36] [Server thread/WARN]: [PlaceholderAPI] Failed to load external expansion vault. Identifier is already in use.
+[20:19:36] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion vault due to an unknown issue.
+[20:19:36] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[20:19:36] [Server thread/INFO]: [BackpackPlus] Cleanup ZIP: plugin-all-2026-08-02_23-09.zip
+[20:19:36] [Craft Scheduler Thread - 18 - ResourcePackManager/INFO]: [ResourcePackManager] All resource packs are stable. Resource pack will be sent in 1 second.
+[20:19:36] [Craft Scheduler Thread - 4 - ResourcePackManager/INFO]: [ResourcePackManager] Sending resource pack now.
+[20:19:36] [Craft Scheduler Thread - 4 - ResourcePackManager/INFO]: [ResourcePackManager] Starting resource pack mixing...
+[20:19:39] [Craft Scheduler Thread - 4 - ResourcePackManager/INFO]: [ResourcePackManager] Resource pack mixing complete.
+[20:19:39] [Craft Scheduler Thread - 4 - ResourcePackManager/INFO]: [ResourcePackManager] Starting autohost!
+[20:19:40] [Craft Scheduler Thread - 4 - ResourcePackManager/INFO]: [ResourcePackManager] Successfully saved UUID: c363ed3a-136f-4702-b3db-d50bc50c42de
+[20:19:40] [Craft Scheduler Thread - 4 - ResourcePackManager/INFO]: [ResourcePackManager] Server initialized successfully: Server initialized successfully
+[20:19:40] [Craft Scheduler Thread - 4 - ResourcePackManager/INFO]: [ResourcePackManager] Remote server already has this resource pack!
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_floatingcave_barren.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_floatingcave_barren.yml will not be used.
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_throneroom_nether.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_throneroom_nether.yml will not be used.
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_surfacedungeon_barren.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_surfacedungeon_barren.yml will not be used.
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_hiddendungeon_tundra.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_hiddendungeon_tundra.yml will not be used.
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] bs_lostcivilizations_free_ruins_end.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, bs_lostcivilizations_free_ruins_end.yml will not be used.
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_surfacedungeon_tundra.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_surfacedungeon_tundra.yml will not be used.
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_floatingcave_grassland.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_floatingcave_grassland.yml will not be used.
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_hiddendungeon_barren.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_hiddendungeon_barren.yml will not be used.
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_hiddendungeon_end.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_hiddendungeon_end.yml will not be used.
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_teetharena_end.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_teetharena_end.yml will not be used.
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_hiddendungeon_desert.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_hiddendungeon_desert.yml will not be used.
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_tower_nether.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_tower_nether.yml will not be used.
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_teetharena_tundra.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_teetharena_tundra.yml will not be used.
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_tower_desert.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_tower_desert.yml will not be used.
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_floatingcave_tundra.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_floatingcave_tundra.yml will not be used.
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_surfacedungeon_grassland.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_surfacedungeon_grassland.yml will not be used.
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_hiddendungeon_grassland.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_hiddendungeon_grassland.yml will not be used.
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_circletemple_tundra.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_circletemple_tundra.yml will not be used.
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_floatingcave_desert.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_floatingcave_desert.yml will not be used.
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_watertubes_nether.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_watertubes_nether.yml will not be used.
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_watertubes_grassland.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_watertubes_grassland.yml will not be used.
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_tower_barren.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_tower_barren.yml will not be used.
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_tower_tundra.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_tower_tundra.yml will not be used.
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_surfacedungeon_nether.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:41] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_surfacedungeon_nether.yml will not be used.
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_floatingcave_nether.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_floatingcave_nether.yml will not be used.
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_surfacedungeon_desert.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_surfacedungeon_desert.yml will not be used.
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_watertubes_barren.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_watertubes_barren.yml will not be used.
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_flagship_grassland.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_flagship_grassland.yml will not be used.
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_throneroom_deepunderground.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_throneroom_deepunderground.yml will not be used.
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_throneroom_dripstone.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_throneroom_dripstone.yml will not be used.
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_throneroom_lush.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_throneroom_lush.yml will not be used.
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_teetharena_grassland.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_teetharena_grassland.yml will not be used.
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_circletemple_end.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_circletemple_end.yml will not be used.
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_throneroom_end.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_throneroom_end.yml will not be used.
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_watertubes_desert.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_watertubes_desert.yml will not be used.
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_watertubes_tundra.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_watertubes_tundra.yml will not be used.
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_hiddendungeon_nether.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_hiddendungeon_nether.yml will not be used.
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_watertubes_end.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_watertubes_end.yml will not be used.
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_floatingcave_end.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_floatingcave_end.yml will not be used.
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_circletemple_grassland.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_circletemple_grassland.yml will not be used.
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_tower_end.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_tower_end.yml will not be used.
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_throneroom_shallowunderground.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:42] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_throneroom_shallowunderground.yml will not be used.
+[20:19:43] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_circletemple_barren.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:43] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_circletemple_barren.yml will not be used.
+[20:19:43] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_teetharena_barren.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:43] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_teetharena_barren.yml will not be used.
+[20:19:43] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_circletemple_nether.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:43] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_circletemple_nether.yml will not be used.
+[20:19:43] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_teetharena_desert.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:43] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_teetharena_desert.yml will not be used.
+[20:19:43] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_surfacedungeon_end.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:43] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_surfacedungeon_end.yml will not be used.
+[20:19:43] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_teetharena_nether.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:43] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_teetharena_nether.yml will not be used.
+[20:19:43] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_circletemple_desert.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:43] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_circletemple_desert.yml will not be used.
+[20:19:43] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] betterstructures_em_tower_grassland.yml uses EliteMobs bosses but you do not have EliteMobs installed! BetterStructures does not require EliteMobs to work, but if you want cool EliteMobs boss fights you will have to install EliteMobs here: https://nightbreak.io/plugin/elitemobs/
+[20:19:43] [Craft Scheduler Thread - 13 - BetterStructures/WARN]: [BetterStructures] Since EliteMobs is not installed, betterstructures_em_tower_grassland.yml will not be used.
+[20:19:43] [Craft Scheduler Thread - 13 - BetterStructures/INFO]: [org.reflections.Reflections] Reflections took 2 ms to scan 1 urls, producing 1 keys and 10 values
+[20:19:43] [Server thread/INFO]: [BetterStructures] Supported server version detected: v1_21_R1
+[20:19:43] [Server thread/INFO]: [BetterStructures] BetterStructures fully initialized!
+[20:19:43] [Craft Scheduler Thread - 28 - BetterStructures/INFO]: [BetterStructures] Latest public release is 2.6.3
+[20:19:43] [Craft Scheduler Thread - 28 - BetterStructures/INFO]: [BetterStructures] Your version is 2.2.0
+[20:19:43] [Craft Scheduler Thread - 28 - BetterStructures/WARN]: [BetterStructures] A newer version of this plugin is available for download!
+[20:21:17] [Server thread/INFO]: Soykibox (/127.10.4.114:55789) lost connection: Disconnected
+[20:22:01] [Server thread/INFO]: Soykibox (/127.10.4.114:42931) lost connection: Disconnected
+[20:22:31] [Server thread/INFO]: Soykibox (/127.10.4.114:36761) lost connection: Disconnected
+[20:23:05] [Server thread/INFO]: Soykibox (/127.10.4.114:54479) lost connection: Disconnected
+[20:23:15] [User Authenticator #0/INFO]: UUID of player Soykibox is 6e8d7266-3126-3282-8f3d-37074f200545
+[20:23:41] [Server thread/INFO]: Soykibox (/127.10.4.114:48465) lost connection: Disconnected
+[20:23:50] [User Authenticator #1/INFO]: UUID of player Soykibox is 6e8d7266-3126-3282-8f3d-37074f200545
+[20:23:54] [User Authenticator #1/INFO]: UUID of player Soykibox is 6e8d7266-3126-3282-8f3d-37074f200545
+[20:23:56] [Server thread/INFO]: [ResourcePackManager] Sending resource pack to Soykibox. rspUUID is null: false. done: true. firstUpload: false.
+[20:23:56] [Server thread/INFO]: [ResourcePackManager] Sending resource pack to Soykibox
+[20:23:56] [Server thread/INFO]: [HomePlugin] [STDOUT] Loading home 'casa' for player Soykibox into cache.
+[20:23:56] [Server thread/WARN]: Nag author(s): '[fuzeblocks]' of 'HomePlugin v0.8.6-main-SNAPSHOT' about their usage of System.out/err.print. Please use your plugin's logger instead (JavaPlugin#getLogger).
+[20:23:56] [Server thread/INFO]: [HomePlugin] [STDOUT] Loading home 'centromina' for player Soykibox into cache.
+[20:23:56] [Server thread/INFO]: [HomePlugin] [STDOUT] Loading home 'temp' for player Soykibox into cache.
+[20:23:56] [Server thread/INFO]: [HomePlugin] [STDOUT] Loading home 'portalend' for player Soykibox into cache.
+[20:23:56] [Server thread/INFO]: + Soykibox 
+[20:23:56] [Server thread/INFO]: Soykibox[/127.10.4.114:47285] logged in with entity id 194 at ([world]1773.9004189271934, 101.5500791862703, 1375.6182901395514)
+[20:24:02] [Craft Scheduler Thread - 16 - OpenAudioMc/INFO]: [OpenAudioMc] [info] Attempting to login to voice chat...
+[20:24:02] [OaVoiceWorker/INFO]: [OpenAudioMc] [info] Voice chat connected!
+[20:24:04] [User Authenticator #2/INFO]: UUID of player Soykibox is 6e8d7266-3126-3282-8f3d-37074f200545
+[20:24:35] [User Authenticator #3/INFO]: UUID of player Soykibox is 6e8d7266-3126-3282-8f3d-37074f200545
+[20:25:11] [User Authenticator #4/INFO]: UUID of player Soykibox is 6e8d7266-3126-3282-8f3d-37074f200545
+[20:28:59] [EventThread/INFO]: [OpenAudioMc] [info] The server closed the primary connection, but we were already aware of this. Ignoring.
+[20:33:14] [Server thread/WARN]: Soykibox moved too quickly! -0.7588008765746395,-21.48532873133911,-0.19652347872556675
+[20:43:55] [Server thread/INFO]: Soykibox issued server command: /sethome temp3
+[20:44:00] [Server thread/INFO]: Soykibox issued server command: /home casa
+[21:03:32] [Server thread/INFO]: Soykibox lost connection: Timed out
+[21:03:32] [Server thread/INFO]: - Soykibox

@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "db9b38ee-1be8-3c4f-8ff8-5b576b1e92f1",
+    "name": "Bastard",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "a3564341-2f3c-3843-b850-82527c744183",
+    "name": "vc1x",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "839c7574-bc2f-37d8-8c64-d69b29aa84a6",
+    "name": "ubuntu",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

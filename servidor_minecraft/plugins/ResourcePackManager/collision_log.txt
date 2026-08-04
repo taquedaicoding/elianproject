@@ -1,0 +1,11 @@
+Resource Pack Collision Log
+Generated: 2026-08-04T20:19:39.658895758
+================================================
+
+Replaced: /workspaces/elianproject/servidor_minecraft/plugins/ResourcePackManager/output/ResourcePackManager_RSP/pack.png
+Replaced: /workspaces/elianproject/servidor_minecraft/plugins/ResourcePackManager/output/ResourcePackManager_RSP/pack.mcmeta
+Replaced: /workspaces/elianproject/servidor_minecraft/plugins/ResourcePackManager/output/ResourcePackManager_RSP/pack.png
+Replaced: /workspaces/elianproject/servidor_minecraft/plugins/ResourcePackManager/output/ResourcePackManager_RSP/pack.mcmeta
+Replaced: /workspaces/elianproject/servidor_minecraft/plugins/ResourcePackManager/output/ResourcePackManager_RSP/pack.png
+Replaced: /workspaces/elianproject/servidor_minecraft/plugins/ResourcePackManager/output/ResourcePackManager_RSP/pack.mcmeta
+Merged: /workspaces/elianproject/servidor_minecraft/plugins/ResourcePackManager/output/ResourcePackManager_RSP/assets/minecraft/atlases/blocks.json

@@ -1,0 +1,8 @@
+isEnabled: true
+pluginName: InfiniteVehicles
+encrypts: false
+distributes: false
+zips: true
+resourcePackUpdated: false
+localPath: InfiniteVehicles/InfiniteModelPack.zip
+cluster: false

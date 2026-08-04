@@ -1,0 +1,42 @@
+# ─────────────────────────────────────────────────────
+#   InstaRestock  -  Message Overrides
+#   https://modrinth.com/plugin/instarestock
+#   Made by StarRinth
+# ─────────────────────────────────────────────────────
+#
+# This file overrides individual message keys regardless of the selected language.
+# Uncomment any line below and edit its value to customise it.
+#
+# Set your language in config.json:
+#   "lang": "en_US"   (English — default)
+#   "lang": "de_DE"   (German)
+#   "lang": "ru_RU"   (Russian)
+#   "lang": "hi_IN"   (Hindi)
+#   "lang": "tr_TR"   (Turkish)
+#
+# Color codes: & followed by a code character
+#   &0-9 = dark colors   &a-f = light colors   &r = reset
+#   &b = aqua   &f = white   &9 = blue
+#
+# Placeholders: {arg}  {list}
+# ─────────────────────────────────────────────────────
+
+# prefix: "&b[InstaRestock] &f"
+
+# update-available: "A new version of InstaRestock is available."
+
+# config-saved: "Configuration saved."
+
+# reloading: "Reloading configuration..."
+
+# reloaded: "Configuration reloaded."
+
+# no-permission: "You do not have permission to use this command."
+
+# invalid-usage: "Invalid usage. Use /instantrestock config or /instantrestock reload"
+
+# invalid-argument: "Invalid argument: {arg}"
+
+# blacklist-empty: "The blacklist is empty."
+
+# blacklist-list: "Blacklist: {list}"

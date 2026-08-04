@@ -1,0 +1,14 @@
+# HugPlugin configuration
+# Marriages, heart colors, heart symbols, timestamps, PvP state, and hug stats are stored here
+
+
+hug:
+  regenerationEnabled: true
+
+privateCommands:
+  enabled: true
+  playerOne: ''
+  playerTwo: ''
+hugStats:
+  839c7574-bc2f-37d8-8c64-d69b29aa84a6: 31
+  a3564341-2f3c-3843-b850-82527c744183: 31
