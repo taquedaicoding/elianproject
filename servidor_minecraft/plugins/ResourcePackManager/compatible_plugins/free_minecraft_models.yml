@@ -1,0 +1,7 @@
+isEnabled: true
+pluginName: FreeMinecraftModels
+zips: true
+reloadCommand: freeminecraftmodels reload
+localPath: FreeMinecraftModels/output/FreeMinecraftModels.zip
+cluster: false
+additionalLocalPath: FreeMinecraftModels/resource_pack

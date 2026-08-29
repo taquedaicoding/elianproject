@@ -1,0 +1,14 @@
+[
+  {
+    "uuid": "c1d0f6a2-de8e-3f9f-9061-2c2147dc3b61",
+    "name": "blunt",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "839c7574-bc2f-37d8-8c64-d69b29aa84a6",
+    "name": "ubuntu",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

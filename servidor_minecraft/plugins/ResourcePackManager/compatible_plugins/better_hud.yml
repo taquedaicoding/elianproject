@@ -1,0 +1,6 @@
+isEnabled: true
+pluginName: BetterHUD
+zips: true
+reloadCommand: betterhud reload
+localPath: BetterHUD/build.zip
+cluster: false

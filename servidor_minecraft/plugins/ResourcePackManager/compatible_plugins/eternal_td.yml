@@ -1,0 +1,6 @@
+isEnabled: true
+pluginName: EternalTD
+zips: false
+reloadCommand: eternaltd reload
+localPath: EternalTD/resource_pack
+cluster: true

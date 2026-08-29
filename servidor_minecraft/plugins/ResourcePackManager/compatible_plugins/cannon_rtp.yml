@@ -1,0 +1,6 @@
+isEnabled: true
+pluginName: CannonRTP
+zips: false
+reloadCommand: wc reload
+localPath: CannonRTP/resource_pack
+cluster: true

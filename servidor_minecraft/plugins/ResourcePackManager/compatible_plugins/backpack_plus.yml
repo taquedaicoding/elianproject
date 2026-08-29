@@ -1,0 +1,5 @@
+isEnabled: true
+pluginName: BackpackPlus
+zips: true
+localPath: BackpackPlus/pack/resourcepack.zip
+cluster: false

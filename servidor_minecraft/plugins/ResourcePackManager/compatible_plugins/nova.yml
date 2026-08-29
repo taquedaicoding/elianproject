@@ -1,0 +1,5 @@
+isEnabled: true
+pluginName: Nova
+zips: true
+localPath: Nova/resource_pack/ResourcePack.zip
+cluster: false

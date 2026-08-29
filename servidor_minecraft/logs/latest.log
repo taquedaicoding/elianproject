@@ -1,0 +1,508 @@
+[03:01:36] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.3+9-2-24.04.2-Ubuntu; Ubuntu null) on Linux 6.8.0-1052-azure (amd64)
+[03:01:36] [ServerMain/INFO]: [bootstrap] Loading Paper 26.1.2-60-main@b4682bf (2026-05-04T06:25:04Z) for Minecraft 26.1.2
+[03:01:37] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[03:01:37] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[03:01:37] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+ - DoubleDoors (1.4.8), LuckPerms (5.5.71), OpenAudioMc (6.10.17), Resize (1.2.4), ResourcePackManager (2.3.1), SkinsRestorer (15.12.5), TPA (3.3.1)
+[03:01:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[03:01:44] [ServerMain/INFO]: Loaded 1515 recipes
+[03:01:44] [ServerMain/INFO]: Loaded 1618 advancements
+[03:01:44] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[03:01:44] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 345.6ms
+[03:01:44] [Server thread/INFO]: Starting minecraft server version 26.1.2
+[03:01:44] [Server thread/INFO]: Loading properties
+[03:01:44] [Server thread/INFO]: This server is running Paper version 26.1.2-60-main@b4682bf (2026-05-04T06:25:04Z) (Implementing API version 26.1.2.build.60-stable)
+[03:01:44] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[03:01:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:01:44] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:01:45] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[03:01:45] [Server thread/INFO]: Default game type: SURVIVAL
+[03:01:45] [Server thread/INFO]: Generating keypair
+[03:01:45] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:01:45] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[03:01:45] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[03:01:46] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.71
+[03:01:46] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[03:01:46] [Server thread/INFO]: [OpenAudioMc] Loading server plugin OpenAudioMc v6.10.17
+[03:01:46] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.5
+[03:01:46] [Server thread/INFO]: [TPA] Loading server plugin TPA v3.3.1
+[03:01:46] [Server thread/INFO]: [DoubleDoors] Loading server plugin DoubleDoors v1.4.8
+[03:01:46] [Server thread/INFO]: [ResourcePackManager] Loading server plugin ResourcePackManager v2.3.1
+[03:01:46] [Server thread/INFO]: [ResourcePackManager] MagmaCore v1.29-SNAPSHOT initialized!
+[03:01:46] [Server thread/INFO]: [ResourcePackManager] Registered /logify command
+[03:01:46] [Server thread/INFO]: [ResourcePackManager] Registered /nightbreaklogin command
+[03:01:46] [Server thread/INFO]: [ResourcePackManager] Registered /nightbreaklogout command
+[03:01:46] [Server thread/INFO]: [ResourcePackManager] Registered /nightbreak command
+[03:01:46] [Server thread/INFO]: [ResourcePackManager] No account token found. Use /nightbreaklogin <token> to register your token.
+[03:01:46] [Server thread/INFO]: [Resize] Loading server plugin Resize v1.2.4
+[03:01:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:01:46] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.71
+[03:01:46] [Server thread/INFO]:         __    
+[03:01:46] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.71
+[03:01:46] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[03:01:46] [Server thread/INFO]: 
+[03:01:46] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[03:01:46] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[03:01:47] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[03:01:47] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 812ms)
+[03:01:47] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.5
+[03:01:47] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 26.1.2.
+[03:01:48] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[03:01:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:01:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:01:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:01:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:01:48] [Server thread/INFO]: Preparing level "world"
+[03:01:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[03:01:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[03:01:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer   |
+[03:01:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |-------------------|
+[03:01:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode  |
+[03:01:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[03:01:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[03:01:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.12.5
+[03:01:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 98b9488
+[03:01:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[03:01:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[03:01:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[03:01:48] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
+[03:01:49] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[03:01:49] [Server thread/INFO]: Preparing spawn area: 100%
+[03:01:49] [Server thread/INFO]: Prepared spawn area in 2 ms
+[03:01:49] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[03:01:49] [Server thread/INFO]: Prepared spawn area in 0 ms
+[03:01:49] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[03:01:49] [Server thread/INFO]: Preparing spawn area: 100%
+[03:01:49] [Server thread/INFO]: Prepared spawn area in 3 ms
+[03:01:49] [Server thread/INFO]: Done preparing level "world" (0.563s)
+[03:01:49] [Server thread/INFO]: [OpenAudioMc] Enabling OpenAudioMc v6.10.17
+[03:01:49] [Server thread/INFO]: [OpenAudioMc] [info] Starting OpenAudioMc, build 1629 by mats
+[03:01:49] [Server thread/INFO]: [OpenAudioMc] [info] Using the main config file..
+[03:01:49] [Server thread/INFO]: [OpenAudioMc] [info] Starting configuration module
+[03:01:49] [Server thread/INFO]: [OpenAudioMc] [info] Using the main config file..
+[03:01:49] [Server thread/INFO]: [OpenAudioMc] [info] Starting configuration module
+[03:01:49] [Server thread/INFO]: [OpenAudioMc] [info] Detected md_5 chat support, using default user adapter
+[03:01:49] [Server thread/INFO]: [OpenAudioMc] [info] Skipped 47/47 migrations.
+[03:01:49] [Server thread/INFO]: [OpenAudioMc] [info] ModuleLoaderService: Loading modules from /workspaces/elianproject/servidor_minecraft/plugins/OpenAudioMc/modules
+[03:01:49] [Server thread/INFO]: [OpenAudioMc] [info] Using networking class com.craftmend.openaudiomc.generic.networking.DefaultNetworkingService
+[03:01:49] [Server thread/INFO]: [OpenAudioMc] [info] Initializing connection service...
+[03:01:49] [Server thread/INFO]: [OpenAudioMc] [info] Starting authentication module
+[03:01:49] [Server thread/INFO]: [OpenAudioMc] [info] Creating account...
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Adding spigot tables
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for Alias
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (alias<->Alias.java)
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Creating table alias...
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for ClientDataStore
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (client_data_store<->ClientDataStore.java)
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Creating table client_data_store...
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for MojangProfile
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (mojang_profile<->MojangProfile.java)
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Creating table mojang_profile...
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for RegionProperties
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (region_properties<->RegionProperties.java)
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Creating table region_properties...
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for Speaker
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (speaker<->Speaker.java)
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Creating table speaker...
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for StoredWorldChunk
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (stored_world_chunk<->StoredWorldChunk.java)
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Creating table stored_world_chunk...
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for TimedRegionProperties
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (timed_region_properties<->TimedRegionProperties.java)
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Creating table timed_region_properties...
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for MediaRule
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (media_rule<->MediaRule.java)
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Creating table media_rule...
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] Delaying account init because we're a fresh installation
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] Loading aliases...
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] Loaded 0 aliases
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] Enabling the 1.13 speaker system
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] Using modern speaker NBT util
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] Starting redstone speaker tick task with interval 5 ticks
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for Playlist
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (playlists<->Playlist.java)
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Creating table playlists...
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] Registering storage table for PlaylistEntry
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Registering class <-> table (playlist_entries<->PlaylistEntry.java)
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] DatabaseService: Creating table playlist_entries...
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] Loaded 0 media chunks from file.
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] Loading static voice channels..
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] Created static channel: survival
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] Created static channel: off-topic
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] Created static channel: staff-chat
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] Created static channel: admin-chat
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] Loaded 4 static voice channels
+[03:01:50] [Server thread/INFO]: [OpenAudioMc] [info] Starting and loading took 4367MS
+[03:01:50] [Server thread/INFO]: [TPA] Enabling TPA v3.3.1
+[03:01:50] [Server thread/INFO]: [DoubleDoors] Enabling DoubleDoors v1.4.8
+[03:01:50] [Server thread/INFO]: [DoubleDoors] Built-in updater checks are enabled for DoubleDoors.
+[03:01:50] [Server thread/INFO]: [DoubleDoors] LuckPerms detected: permissions handled via doubledoors.* nodes.
+[03:01:50] [Server thread/INFO]: [DoubleDoors] DoubleDoors enabled.
+[03:01:50] [Server thread/INFO]: [DoubleDoors] Server API version: 26.1.2.build.60-stable
+[03:01:50] [Server thread/INFO]: [ResourcePackManager] Enabling ResourcePackManager v2.3.1
+[03:01:50] [Server thread/INFO]: 
+  ___  ___ ___ __  __                             
+ | _ \/ __| _ \  \/  |__ _ _ _  __ _ __ _ ___ _ _ 
+ |   /\__ \  _/ |\/| / _` | ' \/ _` / _` / -_) '_|
+ |_|_\|___/_| |_|  |_\__,_|_||_\__,_\__, \___|_|  
+                                    |___/         
+[03:01:50] [Server thread/INFO]: ResourcePackManager v.2.3.1
+[03:01:50] [Server thread/INFO]: [com.magmaguy.shaded.reflections.Reflections] Reflections took 69 ms to scan 1 urls, producing 1 keys and 20 values
+[03:01:50] [Server thread/INFO]: [Resize] Enabling Resize v1.2.4
+[03:01:50] [Server thread/INFO]: [Resize] Using attribute: minecraft:scale
+[03:01:50] [Server thread/INFO]: [Resize] WorldGuard not found.
+[03:01:50] [Server thread/INFO]: [spark] Starting background profiler...
+[03:01:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:01:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:01:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03:01:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:01:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:01:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:01:51] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:01:51] [Server thread/INFO]: Running delayed init tasks
+[03:01:51] [Server thread/INFO]: Done (15.216s)! For help, type "help"
+[03:01:51] [Paper Async Task Handler Thread - 1/WARN]: *** You are running an outdated version of Minecraft, which is 2 release(s) and 14 build(s) behind!
+[03:01:51] [Paper Async Task Handler Thread - 1/WARN]: *** Please update to the latest stable version on https://papermc.io/downloads/paper ***
+[03:01:51] [Craft Scheduler Thread - 3 - TPA/INFO]: [TPA] ¡Plugin cargado! Versión: 3.3.1
+[03:01:51] [Craft Scheduler Thread - 3 - TPA/INFO]: [TPA] Buscando actualizaciones...
+[03:01:51] [Craft Scheduler Thread - 3 - TPA/INFO]: [TPA] ¡Actualizado!
+[03:01:51] [Server thread/INFO]: [ResourcePackManager] Geyser-Spigot and Floodgate were not detected locally; skipping automatic Geyser extension installation.
+[03:01:51] [Server thread/INFO]: [ResourcePackManager] ResourcePackManager fully initialized!
+[03:01:52] [Craft Scheduler Thread - 4 - ResourcePackManager/WARN]: [ResourcePackManager] Failed to connect to remote server to autohost the resource pack!
+[03:01:54] [Server thread/INFO]: [OpenAudioMc] [info] Initializing account details
+[03:01:54] [Server thread/INFO]: [OpenAudioMc] [info] The server is empty! ignoring voice chat.
+[03:01:57] [Craft Scheduler Thread - 5 - ResourcePackManager/INFO]: [ResourcePackManager] Resource pack is live via automatic hosting — https://magmaguy.com/rsp/5056dbb2-eda9-45d7-a01b-9c3f6960dac4
+[03:04:53] [Server thread/INFO]: ℹ Server Plugins (7):
+[03:04:53] [Server thread/INFO]: Bukkit Plugins:
+[03:04:53] [Server thread/INFO]:  - DoubleDoors, LuckPerms, OpenAudioMc, Resize, ResourcePackManager, SkinsRestorer, TPA
+[03:08:03] [Craft Scheduler Thread - 3 - ResourcePackManager/INFO]: [ResourcePackManager] Latest Nightbreak release is 2.3.1
+[03:08:03] [Craft Scheduler Thread - 3 - ResourcePackManager/INFO]: [ResourcePackManager] Your version is 2.3.1
+[03:08:03] [Craft Scheduler Thread - 3 - ResourcePackManager/INFO]: [ResourcePackManager] You are running the latest version!
+[03:08:17] [User Authenticator #0/INFO]: UUID of player blunt is c1d0f6a2-de8e-3f9f-9061-2c2147dc3b61
+[03:08:17] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms]
+[03:08:20] [Server thread/INFO]: blunt joined the game
+[03:08:20] [Server thread/INFO]: blunt[/127.7.200.168:41387] logged in with entity id 1 at ([minecraft:overworld]2577.4722561999315, 63.0, 2909.454236924597)
+[03:08:20] [Craft Scheduler Thread - 13 - OpenAudioMc/WARN]: [OpenAudioMc] WARNING: Failed to save a model. Trying again later (ClientDataStore)
+[03:08:22] [User Authenticator #1/INFO]: UUID of player doritooo is ac1394bc-6c30-3d36-a3b5-9db23124f0f7
+[03:08:24] [Server thread/INFO]: doritooo joined the game
+[03:08:24] [Server thread/INFO]: doritooo[/127.108.31.2:42329] logged in with entity id 169 at ([minecraft:overworld]2578.300000011921, 66.0, 2907.699999988079)
+[03:08:24] [Craft Scheduler Thread - 11 - OpenAudioMc/WARN]: [OpenAudioMc] WARNING: Failed to save a model. Trying again later (ClientDataStore)
+[03:08:25] [Craft Scheduler Thread - 3 - OpenAudioMc/WARN]: [OpenAudioMc] WARNING: Failed to save a model. This is a error. (ClientDataStore) (IllegalArgumentException/java.lang.ArithmeticException: long overflow)
+[03:08:29] [Craft Scheduler Thread - 13 - OpenAudioMc/WARN]: [OpenAudioMc] WARNING: Failed to save a model. This is a error. (ClientDataStore) (IllegalArgumentException/java.lang.ArithmeticException: long overflow)
+[03:10:03] [Server thread/INFO]: blunt issued server command: /oa accept
+[03:10:04] [Craft Scheduler Thread - 3 - OpenAudioMc/INFO]: [OpenAudioMc] [info] Attempting to login to voice chat...
+[03:10:04] [OaVoiceWorker/INFO]: [OpenAudioMc] [info] Voice chat connected!
+[03:10:20] [Server thread/INFO]: blunt issued server command: /oa proximity
+[03:10:50] [Server thread/INFO]: blunt issued server command: /oa link
+[03:11:03] [Server thread/INFO]: doritooo issued server command: /oa link
+[03:11:04] [Craft Scheduler Thread - 20 - OpenAudioMc/INFO]: [OpenAudioMc] [info] ============== [ OpenAudioMc ] ==============
+[03:11:04] [Craft Scheduler Thread - 20 - OpenAudioMc/INFO]: [OpenAudioMc] [info] To get started with OpenAudioMc, please visit the following link:
+[03:11:04] [Craft Scheduler Thread - 20 - OpenAudioMc/INFO]: [OpenAudioMc] [info] https://account.openaudiomc.net/claim-server/iuiySfaObn
+[03:11:04] [Craft Scheduler Thread - 20 - OpenAudioMc/INFO]: [OpenAudioMc] [info] This link will allow you to claim your account and get started.
+[03:11:04] [Craft Scheduler Thread - 20 - OpenAudioMc/INFO]: [OpenAudioMc] [info] =============================================
+[03:12:55] [Server thread/INFO]: doritooo issued server command: /oa link
+[03:13:17] [Server thread/INFO]: blunt issued server command: /lp group default permission set openaudiomc
+[03:13:17] [luckperms-command-executor/INFO]: [LP] LOG > (blunt) [G] (default)
+[03:13:17] [luckperms-command-executor/INFO]: [LP] LOG > permission set openaudiomc true
+[03:13:21] [Server thread/INFO]: blunt issued server command: /lp group default permission set openaudiomc.commands
+[03:13:21] [luckperms-command-executor/INFO]: [LP] LOG > (blunt) [G] (default)
+[03:13:21] [luckperms-command-executor/INFO]: [LP] LOG > permission set openaudiomc.commands true
+[03:15:04] [EventThread/INFO]: [OpenAudioMc] [info] The server closed the primary connection, but we were already aware of this. Ignoring.
+[03:15:04] [Server thread/INFO]: blunt issued server command: /openaudio link
+[03:15:19] [Server thread/INFO]: blunt issued server command: /audio
+[03:15:20] [Craft Scheduler Thread - 23 - OpenAudioMc/INFO]: [OpenAudioMc] [info] Attempting to login to voice chat...
+[03:15:20] [OaVoiceWorker/INFO]: [OpenAudioMc] [info] Voice chat connected!
+[03:15:38] [Server thread/INFO]: doritooo issued server command: /audio
+[03:18:55] [Server thread/INFO]: doritooo issued server command: /audio
+[03:20:21] [Server thread/INFO]: blunt issued server command: /openaudio proximity
+[03:20:45] [Server thread/INFO]: blunt issued server command: /audio
+[03:23:15] [Async Chat Thread - #0/INFO]: [Not Secure] <doritooo> como que no??
+[03:23:41] [Async Chat Thread - #0/INFO]: [Not Secure] <doritooo> sisisi
+[03:23:44] [Async Chat Thread - #0/INFO]: [Not Secure] <doritooo> voy
+[03:24:12] [Async Chat Thread - #0/INFO]: [Not Secure] <blunt> te saliste
+[03:24:14] [Async Chat Thread - #0/INFO]: [Not Secure] <blunt> xd
+[03:24:21] [Async Chat Thread - #0/INFO]: [Not Secure] <blunt> ah no
+[03:25:27] [Async Chat Thread - #2/INFO]: [Not Secure] <doritooo> DIAMONDS!!!!
+[03:25:36] [Async Chat Thread - #2/INFO]: [Not Secure] <doritooo> JAKAJJAJAJA
+[03:29:30] [Async Chat Thread - #4/INFO]: [Not Secure] <doritooo> JAKAKJAJAAJ
+[03:30:01] [EventThread/WARN]: [OpenAudioMc] WARNING: §cAdmin message: §eThis server is not yet linked to an admin account! Please link your server using "/oa link" to unlock full functionality.
+[03:31:46] [Async Chat Thread - #6/INFO]: [Not Secure] <doritooo> has shift
+[03:31:50] [Async Chat Thread - #6/INFO]: [Not Secure] <doritooo> para ver
+[03:32:16] [Async Chat Thread - #6/INFO]: [Not Secure] <doritooo> cada vez que haces eso se me pone verde la barra de la exp
+[03:33:04] [Server thread/INFO]: blunt issued server command: /resize 0.6
+[03:33:27] [Server thread/INFO]: blunt issued server command: /resize 0.3
+[03:34:07] [Server thread/INFO]: blunt issued server command: /resize 1.6
+[03:34:13] [Server thread/INFO]: blunt issued server command: /resize 1.9
+[03:34:21] [Server thread/INFO]: blunt issued server command: /resize 1.3
+[03:34:26] [Server thread/INFO]: blunt issued server command: /resize 1.0
+[03:34:33] [Server thread/INFO]: blunt issued server command: /resize 1.1
+[03:34:39] [Server thread/INFO]: blunt issued server command: /resize 1.0
+[03:39:23] [Async Chat Thread - #8/INFO]: [Not Secure] <blunt> Im here
+[03:39:34] [Async Chat Thread - #8/INFO]: [Not Secure] <doritooo> okay
+[03:39:38] [Async Chat Thread - #8/INFO]: [Not Secure] <doritooo> te oigo
+[03:39:43] [Async Chat Thread - #8/INFO]: [Not Secure] <doritooo> sip
+[03:41:14] [Async Chat Thread - #10/INFO]: [Not Secure] <doritooo> mami diq do si oficio jugando minecraft
+[03:41:19] [Async Chat Thread - #10/INFO]: [Not Secure] <doritooo> wow
+[03:41:29] [Async Chat Thread - #10/INFO]: [Not Secure] <doritooo> muy hater
+[03:41:33] [Async Chat Thread - #10/INFO]: [Not Secure] <doritooo> idk
+[03:41:56] [Async Chat Thread - #10/INFO]: [Not Secure] <doritooo> sip :(
+[03:42:04] [Async Chat Thread - #10/INFO]: [Not Secure] <doritooo> ksksks
+[03:42:26] [Async Chat Thread - #10/INFO]: [Not Secure] <doritooo> ya no me guta
+[03:42:48] [Async Chat Thread - #10/INFO]: [Not Secure] <doritooo> sip
+[03:42:57] [Async Chat Thread - #11/INFO]: [Not Secure] <doritooo> es que siento que no le gusto
+[03:43:05] [Async Chat Thread - #11/INFO]: [Not Secure] <doritooo> no me oyes??
+[03:43:10] [Async Chat Thread - #11/INFO]: [Not Secure] <doritooo> seeeee
+[03:43:13] [Async Chat Thread - #11/INFO]: [Not Secure] <doritooo> mielda
+[03:43:23] [Async Chat Thread - #11/INFO]: [Not Secure] <doritooo> se me van a gastar losd deos
+[03:43:55] [Async Chat Thread - #11/INFO]: [Not Secure] <doritooo> daleeee
+[03:44:20] [Async Chat Thread - #11/INFO]: [Not Secure] <doritooo> sip
+[03:44:51] [Async Chat Thread - #11/INFO]: [Not Secure] <doritooo> pero si, creo que no le gusto pero me cae bien
+[03:45:04] [Async Chat Thread - #11/INFO]: [Not Secure] <doritooo> no quiero decirle nada yq ue se vuelva incomodo
+[03:45:06] [Async Chat Thread - #11/INFO]: [Not Secure] <doritooo> yk
+[03:45:20] [Async Chat Thread - #11/INFO]: [Not Secure] <doritooo> trabajando
+[03:45:31] [Async Chat Thread - #11/INFO]: [Not Secure] <doritooo> yo trabajo en una cerca de la de el
+[03:45:37] [Async Chat Thread - #11/INFO]: [Not Secure] <doritooo> hay dos en la misma calle
+[03:45:59] [Async Chat Thread - #11/INFO]: [Not Secure] <doritooo> en la omsa esperando
+[03:46:02] [Server thread/INFO]: blunt was slain by Spider
+[03:46:05] [Server thread/INFO]: blunt issued server command: /back
+[03:46:11] [Async Chat Thread - #11/INFO]: [Not Secure] <doritooo> y como dura mucho hablamos
+[03:46:29] [Async Chat Thread - #10/INFO]: [Not Secure] <doritooo> intercambiamos redes sociales
+[03:46:35] [Async Chat Thread - #10/INFO]: [Not Secure] <doritooo> y tdio
+[03:47:08] [Async Chat Thread - #10/INFO]: [Not Secure] <doritooo> que miedo
+[03:48:05] [Async Chat Thread - #10/INFO]: [Not Secure] <doritooo> dime
+[03:48:34] [Async Chat Thread - #10/INFO]: [Not Secure] <doritooo> jsjsjs
+[03:49:03] [Server thread/INFO]: Named entity Spider['{"text":"Grumm","color":"black","obfuscated":true}'/3504, uuid='5a736a0f-1e26-4241-9746-64b65d1a7da4', l='ServerLevel[world]', x=2605.70, y=9.10, z=2875.29, cpos=[162, 179], tl=8205, v=true] died: {"text":"Grumm","color":"black","obfuscated":true} was slain by doritooo
+[03:50:05] [Async Chat Thread - #12/INFO]: [Not Secure] <doritooo> espicooooo
+[03:50:11] [Async Chat Thread - #12/INFO]: [Not Secure] <doritooo> epicooo*
+[03:51:31] [Async Chat Thread - #14/INFO]: [Not Secure] <blunt> te saliste del vc
+[03:51:54] [Server thread/INFO]: doritooo has made the advancement [Diamonds!]
+[03:52:16] [Async Chat Thread - #14/INFO]: [Not Secure] <blunt> DIAMONDS
+[03:52:17] [Async Chat Thread - #14/INFO]: [Not Secure] <blunt> DIAMONDS
+[03:52:17] [Async Chat Thread - #14/INFO]: [Not Secure] <blunt> DIAMONDS
+[03:52:18] [Async Chat Thread - #14/INFO]: [Not Secure] <blunt> DIAMONDS
+[03:52:28] [Async Chat Thread - #14/INFO]: [Not Secure] <doritooo> la peace
+[03:53:02] [Async Chat Thread - #14/INFO]: [Not Secure] <blunt> i got la peace
+[03:53:07] [Async Chat Thread - #14/INFO]: [Not Secure] <doritooo> jsjjsjjs
+[03:55:12] [Async Chat Thread - #16/INFO]: [Not Secure] <doritooo> donde estas??
+[03:55:44] [Async Chat Thread - #16/INFO]: [Not Secure] <blunt> tf is dis
+[03:55:44] [Async Chat Thread - #16/INFO]: [Not Secure] <doritooo> helpppp
+[03:55:51] [Async Chat Thread - #16/INFO]: [Not Secure] <doritooo> que pasaaaa?
+[03:55:59] [Async Chat Thread - #16/INFO]: [Not Secure] <blunt> KAJAKAJDAJA
+[03:56:03] [Async Chat Thread - #16/INFO]: [Not Secure] <doritooo> ksksksksk
+[03:57:48] [Async Chat Thread - #18/INFO]: [Not Secure] <blunt> we gotta go home
+[03:57:50] [Server thread/INFO]: blunt issued server command: /back
+[03:57:55] [Server thread/INFO]: blunt issued server command: /tp blunt doritooo
+[03:57:55] [Server thread/INFO]: [blunt: Teleported blunt to doritooo]
+[03:57:59] [Server thread/INFO]: blunt issued server command: /back
+[03:58:07] [Server thread/INFO]: blunt issued server command: /tp doritooo blunt
+[03:58:07] [Server thread/INFO]: [blunt: Teleported doritooo to blunt]
+[03:59:17] [Async Chat Thread - #20/INFO]: [Not Secure] <blunt> carbon
+[03:59:19] [Async Chat Thread - #20/INFO]: [Not Secure] <blunt> tienes?
+[03:59:46] [Async Chat Thread - #20/INFO]: [Not Secure] <blunt> dios te bendiga
+[03:59:48] [Async Chat Thread - #21/INFO]: [Not Secure] <doritooo> solo eso
+[04:00:02] [EventThread/WARN]: [OpenAudioMc] WARNING: §cAdmin message: §eThis server is not yet linked to an admin account! Please link your server using "/oa link" to unlock full functionality.
+[04:00:15] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> coje eso de hierro que hay ahi si lo necesitas
+[04:00:17] [Async Chat Thread - #21/INFO]: [Not Secure] <doritooo> pero aja, basicamente es eso. ya no me gutaaaa
+[04:00:20] [Async Chat Thread - #21/INFO]: [Not Secure] <doritooo> jum
+[04:00:43] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> Bueno, quien te entiende mas que tu misma, si dices que no te gusta, maybe así sea
+[04:00:48] [Async Chat Thread - #21/INFO]: [Not Secure] <doritooo> pero que conste, el nos hizo una casita con una ventana de corazon rosa, muy cute
+[04:00:51] [Async Chat Thread - #21/INFO]: [Not Secure] <doritooo> jijiji
+[04:00:57] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> que conste que JAJAJAJ
+[04:01:02] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> si dijiste que no te gustaba
+[04:01:09] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> no te andes engañando
+[04:01:27] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> Es muy feo eso de quedarte con todo lo que sientes nama diq porque el no siente lo mismo
+[04:01:30] [Async Chat Thread - #21/INFO]: [Not Secure] <doritooo> no me gusta, me atrae porque lo conozco hace algunas semanas pero dio mioooo
+[04:01:38] [Async Chat Thread - #21/INFO]: [Not Secure] <doritooo> no puedo mas ya
+[04:01:48] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> girl.
+[04:01:50] [Async Chat Thread - #21/INFO]: [Not Secure] <doritooo> pero esperare a ver que pasa
+[04:01:55] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> calm down
+[04:01:55] [Async Chat Thread - #21/INFO]: [Not Secure] <doritooo> boy,
+[04:01:58] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> please
+[04:02:17] [Async Chat Thread - #21/INFO]: [Not Secure] <doritooo> y siiii, es feo eso
+[04:02:33] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> Tengo varias ideas
+[04:02:34] [Async Chat Thread - #21/INFO]: [Not Secure] <doritooo> minecraft deberia poner lo de responder al mensaje seleccionado
+[04:02:36] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> para este terreno
+[04:02:40] [Async Chat Thread - #21/INFO]: [Not Secure] <doritooo> tell me
+[04:02:54] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> mira, aqui fue que te dije
+[04:03:00] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> que deforeste para conseguir madera
+[04:03:06] [Async Chat Thread - #21/INFO]: [Not Secure] <doritooo> jsjsjjs
+[04:03:37] [Async Chat Thread - #21/INFO]: [Not Secure] <doritooo> primo tuyo ese
+[04:04:01] [Server thread/INFO]: blunt has made the advancement [Best Friends Forever]
+[04:04:12] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> tengo un burro ya
+[04:04:16] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> G O A
+[04:04:18] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> G O A T
+[04:04:18] [Async Chat Thread - #21/INFO]: [Not Secure] <doritooo> son rapidos
+[04:04:24] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> Para nada
+[04:04:25] [Async Chat Thread - #20/INFO]: [Not Secure] <blunt> JAJAJAJA
+[04:04:42] [Async Chat Thread - #20/INFO]: [Not Secure] <doritooo> no me puedo subir? jsjsjs
+[04:04:45] [Async Chat Thread - #20/INFO]: [Not Secure] <blunt> Si
+[04:04:48] [Async Chat Thread - #20/INFO]: [Not Secure] <blunt> click derecho creo
+[04:04:59] [Async Chat Thread - #20/INFO]: [Not Secure] <blunt> Si no te deja entonces no
+[04:05:12] [Async Chat Thread - #20/INFO]: [Not Secure] <doritooo> naaaaah
+[04:05:15] [Async Chat Thread - #20/INFO]: [Not Secure] <doritooo> no deja no
+[04:05:21] [Async Chat Thread - #20/INFO]: [Not Secure] <doritooo> ese buro e tuya ya
+[04:05:27] [Async Chat Thread - #20/INFO]: [Not Secure] <blunt> Con los caballos si
+[04:05:28] [Async Chat Thread - #20/INFO]: [Not Secure] <blunt> pero con los burros no
+[04:05:48] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> aqui voy a hacer
+[04:05:50] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> como torres
+[04:05:54] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> tipo medieval castle
+[04:05:55] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> yk
+[04:06:04] [Async Chat Thread - #21/INFO]: [Not Secure] <doritooo> muy cool
+[04:06:05] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> por que nuestra casa tambien estara como ambientada asi en vdd
+[04:06:14] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> y a las montañas les pondre como pilares
+[04:06:18] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> para no tener que terraformar
+[04:06:56] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> tf u doin
+[04:07:00] [Async Chat Thread - #21/INFO]: [Not Secure] <doritooo> pero una cosaaaaa
+[04:07:07] [Async Chat Thread - #21/INFO]: [Not Secure] <doritooo> estoy corriendo por ahí
+[04:07:12] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> que
+[04:07:14] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> ?
+[04:07:25] [Async Chat Thread - #21/INFO]: [Not Secure] <doritooo> sip, porque si
+[04:07:39] [Async Chat Thread - #21/INFO]: [Not Secure] <doritooo> med i cuenta que no tene,os animeles para comida
+[04:07:53] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> Quieres hacer una granja?
+[04:07:56] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> tengo una idea
+[04:08:03] [Async Chat Thread - #21/INFO]: [Not Secure] <doritooo> siiiiii
+[04:08:06] [Async Chat Thread - #21/INFO]: [Not Secure] <doritooo> omg
+[04:08:10] [Async Chat Thread - #21/INFO]: [Not Secure] <doritooo> las veo en videos
+[04:08:14] [Async Chat Thread - #21/INFO]: [Not Secure] <doritooo> que chuloooo
+[04:08:40] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> Tengo 2 ideas, hay que buscar donde puedes hacer un espacio para los animales
+[04:09:11] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> y aqui en la "costa de esta isla", la que esta al lado de nosotros, llenarla de cultivos
+[04:09:21] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> tipo solo la costa
+[04:09:26] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> asi se ve como una entrada asi jevi
+[04:09:55] [Async Chat Thread - #21/INFO]: [Not Secure] <doritooo> epico
+[04:10:01] [Async Chat Thread - #21/INFO]: [Not Secure] <doritooo> dime que hacer y lo hago
+[04:10:04] [Async Chat Thread - #21/INFO]: [Not Secure] <doritooo> jsjsjs
+[04:10:18] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> dormir
+[04:10:19] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> y ven
+[04:10:33] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> vaquea
+[04:10:50] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> me solto la espada
+[04:10:55] [Async Chat Thread - #21/INFO]: [Not Secure] <doritooo> siiiii
+[04:11:01] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> vas a hacerte varias azadas
+[04:11:50] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> llena todo esto asi por capas
+[04:11:54] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> te enseñare
+[04:12:26] [Async Chat Thread - #21/INFO]: [Not Secure] <doritooo> que te dio??
+[04:12:33] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> una zanahoria
+[04:12:38] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> Duermee
+[04:12:43] [Async Chat Thread - #21/INFO]: [Not Secure] <blunt> agarra el bote
+[04:13:00] [Async Chat Thread - #21/INFO]: [Not Secure] <doritooo> zzzz
+[04:14:49] [Async Chat Thread - #22/INFO]: [Not Secure] <blunt> loca me dormi a lo que tecleaba
+[04:14:51] [Async Chat Thread - #22/INFO]: [Not Secure] <blunt> no me lo creo
+[04:14:57] [Async Chat Thread - #22/INFO]: [Not Secure] <doritooo> QUEEEE??
+[04:14:59] [Async Chat Thread - #22/INFO]: [Not Secure] <doritooo> jsjsjsj
+[04:15:00] [Async Chat Thread - #22/INFO]: [Not Secure] <blunt> Si
+[04:15:17] [Async Chat Thread - #22/INFO]: [Not Secure] <doritooo> y yo diq por que esta tan quieto el fabi
+[04:15:21] [Async Chat Thread - #22/INFO]: [Not Secure] <doritooo> jskjsjs
+[04:15:34] [Async Chat Thread - #22/INFO]: [Not Secure] <blunt> Estas hojas si molestan
+[04:15:36] [Async Chat Thread - #22/INFO]: [Not Secure] <blunt> por dio
+[04:15:45] [Async Chat Thread - #22/INFO]: [Not Secure] <doritooo> son lindas
+[04:15:52] [Async Chat Thread - #22/INFO]: [Not Secure] <blunt> Molestan
+[04:17:04] [Async Chat Thread - #24/INFO]: [Not Secure] <blunt> Weo
+[04:17:09] [Async Chat Thread - #24/INFO]: [Not Secure] <blunt> a mi me querian cobrar
+[04:17:11] [Async Chat Thread - #24/INFO]: [Not Secure] <blunt> 35 pesos
+[04:17:13] [Async Chat Thread - #24/INFO]: [Not Secure] <blunt> ya en la omsa
+[04:17:16] [Async Chat Thread - #24/INFO]: [Not Secure] <blunt> ojo ojin
+[04:17:16] [Async Chat Thread - #24/INFO]: [Not Secure] <doritooo> loca
+[04:17:27] [Async Chat Thread - #24/INFO]: [Not Secure] <doritooo> me dijeron que eso lo van a pner ahora
+[04:17:37] [Async Chat Thread - #24/INFO]: [Not Secure] <doritooo> y yo con lo cualto contao wow
+[04:17:37] [Async Chat Thread - #24/INFO]: [Not Secure] <blunt> diantrediosmio
+[04:17:43] [Async Chat Thread - #24/INFO]: [Not Secure] <doritooo> btw, aguaaaa
+[04:17:47] [Async Chat Thread - #24/INFO]: [Not Secure] <doritooo> se quita
+[04:18:01] [Async Chat Thread - #24/INFO]: [Not Secure] <blunt> busca cubi
+[04:18:02] [Async Chat Thread - #24/INFO]: [Not Secure] <blunt> cubo
+[04:18:13] [Async Chat Thread - #24/INFO]: [Not Secure] <blunt> pondremos espacios de agua asi que se vea aleatorio
+[04:18:19] [Async Chat Thread - #24/INFO]: [Not Secure] <doritooo> cubi jsjs
+[04:18:45] [Async Chat Thread - #24/INFO]: [Not Secure] <blunt> stiop
+[04:20:14] [Async Chat Thread - #26/INFO]: [Not Secure] <doritooo> un solo cubo??
+[04:20:19] [Async Chat Thread - #26/INFO]: [Not Secure] <blunt> si
+[04:20:51] [Async Chat Thread - #26/INFO]: [Not Secure] <blunt> estaba abriendo yt
+[04:21:01] [Async Chat Thread - #26/INFO]: [Not Secure] <doritooo> miraaaaa
+[04:21:16] [Async Chat Thread - #26/INFO]: [Not Secure] <blunt> AAAAH AJJAJAJA
+[04:21:20] [Async Chat Thread - #26/INFO]: [Not Secure] <blunt> si te deja
+[04:21:31] [Async Chat Thread - #26/INFO]: [Not Secure] <doritooo> siiii
+[04:21:31] [Async Chat Thread - #26/INFO]: [Not Secure] <blunt> Creo que le puedes montar un cofre
+[04:21:32] [Async Chat Thread - #26/INFO]: [Not Secure] <blunt> arriba
+[04:21:34] [Async Chat Thread - #26/INFO]: [Not Secure] <doritooo> ksjsjsjs
+[04:21:47] [Async Chat Thread - #26/INFO]: [Not Secure] <doritooo> deja ver
+[04:24:11] [Async Chat Thread - #28/INFO]: [Not Secure] <doritooo> zzzzzz
+[04:24:33] [Async Chat Thread - #28/INFO]: [Not Secure] <blunt> DORIIIIIIIIIIIIIIIIIIIIIIIII
+[04:24:37] [Async Chat Thread - #28/INFO]: [Not Secure] <blunt> ME VOY A ACOSTAAAAAAAAAAAAAAAAAAR
+[04:24:40] [Async Chat Thread - #28/INFO]: [Not Secure] <blunt> ME DUELEN LOS OJOOOOOOOOOOOOOOOOS
+[04:24:43] [Async Chat Thread - #28/INFO]: [Not Secure] <blunt> AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+[04:24:53] [Async Chat Thread - #28/INFO]: [Not Secure] <doritooo> está bien
+[04:24:57] [Async Chat Thread - #28/INFO]: [Not Secure] <blunt> no puedo mas, se me esta cayendo la cabeza en el escritorio
+[04:25:05] [Async Chat Thread - #28/INFO]: [Not Secure] <doritooo> tambien tengo sueño
+[04:25:24] [Async Chat Thread - #28/INFO]: [Not Secure] <doritooo> lo parqueaba
+[04:25:25] [Async Chat Thread - #28/INFO]: [Not Secure] <blunt> byeeeeeeeeeeeeeeeeee
+[04:25:27] [Async Chat Thread - #28/INFO]: [Not Secure] <blunt> Si
+[04:25:27] [Async Chat Thread - #28/INFO]: [Not Secure] <doritooo> jajajaaj
+[04:25:28] [Async Chat Thread - #28/INFO]: [Not Secure] <blunt> JAJJAJJA
+[04:25:32] [Async Chat Thread - #28/INFO]: [Not Secure] <doritooo> byeeeee
+[04:25:38] [Server thread/INFO]: blunt lost connection: Disconnected
+[04:25:38] [Server thread/INFO]: blunt left the game
+[04:25:39] [Async Chat Thread - #28/INFO]: [Not Secure] <doritooo> buenas noches
+[04:25:48] [Server thread/INFO]: [Not Secure] [Server] buenas noches
+[04:25:57] [Server thread/INFO]: [Not Secure] [Server] duerme bien
+[04:26:08] [Async Chat Thread - #28/INFO]: [Not Secure] <doritooo> eeh??
+[04:26:15] [Async Chat Thread - #28/INFO]: [Not Secure] <doritooo> wtf
+[04:26:19] [Server thread/INFO]: [Not Secure] [Server] Te estoy hablando desde la consola del server
+[04:26:29] [Server thread/INFO]: [Not Secure] [Server] super terrorifico
+[04:26:33] [Async Chat Thread - #28/INFO]: [Not Secure] <doritooo> aaaaahhhh
+[04:26:36] [Async Chat Thread - #29/INFO]: [Not Secure] <doritooo> y siii
+[04:26:37] [Server thread/INFO]: [Not Secure] [Server] El server te esta hablando
+[04:26:40] [Async Chat Thread - #29/INFO]: [Not Secure] <doritooo> ksksjjs
+[04:26:40] [Server thread/INFO]: [Not Secure] [Server] tiraba
+[04:26:46] [Async Chat Thread - #29/INFO]: [Not Secure] <doritooo> lit
+[04:26:55] [Async Chat Thread - #29/INFO]: [Not Secure] <doritooo> me kgé
+[04:26:58] [Async Chat Thread - #29/INFO]: [Not Secure] <doritooo> yayaya
+[04:27:06] [Server thread/INFO]: [Not Secure] [Server] descansa
+[04:27:14] [Async Chat Thread - #29/INFO]: [Not Secure] <doritooo> me largo. descansa
+[04:27:16] [Server thread/INFO]: Stopping the server
+[04:27:16] [Server thread/INFO]: Stopping server
+[04:27:16] [Server thread/INFO]: [Resize] Disabling Resize v1.2.4
+[04:27:16] [Server thread/INFO]: [ResourcePackManager] Disabling ResourcePackManager v2.3.1
+[04:27:16] [Server thread/INFO]: [ResourcePackManager] Disabling ResourcePackManager
+[04:27:16] [Server thread/INFO]: [DoubleDoors] Disabling DoubleDoors v1.4.8
+[04:27:16] [Server thread/INFO]: [DoubleDoors] DoubleDoors disabled.
+[04:27:16] [Server thread/INFO]: [TPA] Disabling TPA v3.3.1
+[04:27:16] [Server thread/INFO]: [TPA] ¡Plugin descargado!
+[04:27:16] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.12.5
+[04:27:16] [Server thread/INFO]: [OpenAudioMc] Disabling OpenAudioMc v6.10.17
+[04:27:16] [Server thread/INFO]: [OpenAudioMc] [info] Shutting down
+[04:27:16] [Server thread/INFO]: [OpenAudioMc] [info] Saving world cache...
+[04:27:16] [Server thread/INFO]: [OpenAudioMc] [info] Saved 5 media chunks to db.
+[04:27:17] [EventThread/INFO]: [OpenAudioMc] [info] The server closed the primary connection, but we were already aware of this. Ignoring.
+[04:27:17] [Server thread/INFO]: [OpenAudioMc] [info] Stopped OpenAudioMc. Goodbye.
+[04:27:17] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.71
+[04:27:17] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[04:27:17] [Server thread/INFO]: [LuckPerms] Closing storage...
+[04:27:17] [Server thread/INFO]: [LuckPerms] Goodbye!
+[04:27:17] [Server thread/INFO]: Saving players
+[04:27:17] [Server thread/INFO]: Saving worlds
+[04:27:17] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:27:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'
+[04:27:17] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'
+[04:27:17] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'
+[04:27:17] [Server thread/INFO]: [ChunkHolderManager] Saved 55 block chunks, 288 entity chunks, 0 poi chunks in world 'minecraft:overworld' in 0.18s
+[04:27:17] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:overworld'
+[04:27:17] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:overworld'
+[04:27:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[04:27:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'
+[04:27:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'
+[04:27:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'
+[04:27:18] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0.00s
+[04:27:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_nether'
+[04:27:18] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_nether'
+[04:27:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[04:27:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_end'
+[04:27:18] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_end'
+[04:27:18] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_end'
+[04:27:18] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_end' in 0.00s
+[04:27:18] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_end'
+[04:27:18] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_end'
+[04:27:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:27:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:27:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:27:18] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:27:18] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[04:27:18] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[04:27:18] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[04:27:18] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

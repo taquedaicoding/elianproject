@@ -1,0 +1,46 @@
+only-player: "&cThis command can only be used in-game."
+no-permission: "&cYou don't have permission."
+reload-success: "&aConfiguration reloaded."
+
+usage-player: "&cUsage: /resize <size>"
+usage-admin: "&cUsage: /resize <size> [player]"
+not-number: "&cSize must be a number."
+player-not-found: "&cPlayer not found."
+
+size-limit: "&cSize must be between &4{min}&c and &4{max}"
+cooldown: "&cWait &4{time}&c seconds."
+already-this-size: "&eYou are already this size."
+player-already-this-size: "&ePlayer &#A7973C{player} &eis already this size."
+world-disabled: "&cYou cannot use this command in this world."
+
+no-scale-support: "&cError: Scale attribute not supported. Use Paper 1.21+"
+invalid-size-range: "&cThis size is outside Minecraft's allowed range. (0.0625-16)"
+
+self-resize: "&aYour size changed to &2{size}"
+other-resize: "&aPlayer &2{player}&a size changed to &2{size}"
+target-message: "&eAdmin changed your size to &2{size}"
+no-permission-target: "&cYou don't have permission to change other players' size."
+mob-not-found: "&cYou must look at a mob."
+mob-too-far: "&cMob is too far. Maximum distance: &4{distance}"
+mob-size-limit: "&cMob size must be between &4{min}&c and &4{max}"
+mob-resized: "&aMob size changed to &2{size}"
+
+reset-receive: "&eYour size was reset because you took damage."
+reset-deal: "&eYour size was reset because you dealt damage."
+world-size-reset: "&eYou cannot have a modified size in this world. Your size has been reset."
+
+info-separator: "&8&m-------------------------"
+info-player: "&a&lPlayer: &f{player}"
+info-self: "&a&lYour size info"
+info-current: "&7Current: &f{size}"
+info-min: "&7Min: &f{min}"
+info-max: "&7Max: &f{max}"
+info-mob-min: "&7Mob minimum size: &f{min}"
+info-mob-max: "&7Mob maximum size: &f{max}"
+unlimited: "no limit"
+
+region-disabled: "&cYou cannot change your size in this region."
+region-disabled-mob: "&cYou cannot change mob sizes in this region!"
+region-size-reset: "&eYou cannot have a modified size in this region. Your size has been reset."
+
+update-available: "&aA new plugin version is available! &7(Current: &c{current}&7 → Latest: &a{latest}&7)"

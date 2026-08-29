@@ -1,0 +1,6 @@
+isEnabled: true
+pluginName: ResurrectionChest
+zips: false
+reloadCommand: resurrectionchest reload
+localPath: ResurrectionChest/resource_pack
+cluster: true

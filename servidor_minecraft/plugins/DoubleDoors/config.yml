@@ -1,0 +1,120 @@
+# =============================================================
+#  DoubleDoors Configuration
+# =============================================================
+
+# ── Core Features ────────────────────────────────────────────
+# Enable recursive opening (opens connected openables together)
+enableRecursiveOpening: true
+# Max blocks distance for recursive search (1-32)
+recursiveOpeningMaxBlocksDistance: 10
+
+# Enable double-door behavior by block type
+enableDoors: true
+enableFenceGates: true
+enableTrapdoors: true
+
+# Villagers trigger linked-door behavior when pathfinding
+enableVillagerLinkedDoors: true
+
+# Player-triggered opens auto-close after a delay
+enableAutoClose: false
+autoCloseDelaySeconds: 5
+
+# Players can left-click doors to play a knock sound
+enableKnockFeature: true
+knockDistanceBlocks: 12
+
+# ── Sound & Visual ──────────────────────────────────────────
+# Play sound at linked partner blocks on update
+playPartnerSound: true
+# Override sound for linked updates (empty = none)
+# Example: BLOCK_WOODEN_DOOR_OPEN
+partnerSound: ""
+# Per-type overrides for the partner sound
+partnerSoundOverrides:
+  doors: ""
+  fenceGates: ""
+  trapdoors: ""
+
+# Emit particles on the linked partner block
+enablePartnerParticles: false
+partnerParticle: END_ROD
+partnerParticleCount: 6
+
+# Extra delay (ticks) before mirroring partner state for animation sync (0-4)
+animationSyncExtraDelayTicks: 0
+
+# ── Preview Command ─────────────────────────────────────────
+# Particle used by /dd preview
+previewParticle: WAX_OFF
+previewParticleCount: 18
+previewDurationTicks: 60
+
+# ── Performance ─────────────────────────────────────────────
+# Cache TTL for mirrored door lookups (milliseconds)
+lookupCacheTtlMillis: 1200
+# Cooldown before the same player can toggle the same block again (0 = disable)
+interactionCooldownMillis: 250
+
+# ── Location Filters ────────────────────────────────────────
+# Restrict linked behavior by location (world:x:y:z)
+locationFilter:
+  mode: DISABLED
+  locations: []
+
+# ── WorldGuard Compatibility ────────────────────────────────
+worldGuardRegionFilter:
+  mode: DISABLED
+  regions: []
+
+# Custom state-flag name
+worldGuardCustomFlag: double-doors-allow
+# Enforce WorldGuard build permission for linked actions
+worldGuardRespectBuildPermission: true
+# Enforce WorldGuard use flag for linked actions
+worldGuardRespectUseFlag: true
+
+# ── GriefPrevention Compatibility ──────────────────────────
+griefprevention:
+  # Require Build trust (vs Access trust) for linked doors
+  requireBuildForLinkedDoors: false
+
+# ── Global Toggle ───────────────────────────────────────────
+serverWideEnabled: true
+
+# ── Analytics ───────────────────────────────────────────────
+# Anonymous FastStats usage metrics
+# All data is public: https://faststats.dev/project/double-doors-server
+enableAnonymousTracking: true
+
+# ── Language ────────────────────────────────────────────────
+# Server-wide language (full code or alias, e.g. en_US)
+language: en_US
+# Allow players to set their own locale via /dd locale
+# Console logs always use the server language above
+perPlayerLocaleEnabled: false
+
+# ── SQL Storage ─────────────────────────────────────────────
+sql:
+  enabled: false
+  # sqlite: jdbc:sqlite:plugins/DoubleDoors/doubledoors.db
+  # mysql:  jdbc:mysql://127.0.0.1:3306/doubledoors
+  jdbcUrl: jdbc:sqlite:plugins/DoubleDoors/doubledoors.db
+  username: ""
+  password: ""
+  # One-time import from existing YAML files
+  migrateFromYaml: true
+  # Max age of proxy heartbeats for Geyser/Floodgate detection (seconds)
+  proxyHeartbeatMaxAgeSeconds: 180
+
+# ── Update Checker ──────────────────────────────────────────
+# Disabled when a separate PluginUpdater plugin is detected
+updateChecker:
+  enabled: true
+  checkScheduleSeconds: 3600
+  # Notify players with the doubledoors.update.notify permission
+  notify: true
+
+# ── Debug Mode ───────────────────────────────────────────────
+# Enable verbose console logging for troubleshooting
+debug: false

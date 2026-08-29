@@ -1,0 +1,6 @@
+isEnabled: true
+pluginName: BetterStructures
+zips: false
+reloadCommand: betterstructures reload
+localPath: BetterStructures/resource_pack
+cluster: true

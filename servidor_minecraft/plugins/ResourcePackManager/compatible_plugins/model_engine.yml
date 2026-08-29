@@ -1,0 +1,6 @@
+isEnabled: true
+pluginName: ModelEngine
+zips: true
+reloadCommand: meg reload
+localPath: ModelEngine/resource pack.zip
+cluster: false

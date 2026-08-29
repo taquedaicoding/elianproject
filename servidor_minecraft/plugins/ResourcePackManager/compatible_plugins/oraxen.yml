@@ -1,0 +1,5 @@
+isEnabled: true
+pluginName: Oraxen
+zips: true
+localPath: Oraxen/pack/pack.zip
+cluster: false

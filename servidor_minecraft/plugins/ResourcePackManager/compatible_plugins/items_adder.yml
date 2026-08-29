@@ -1,0 +1,5 @@
+isEnabled: true
+pluginName: ItemsAdder
+zips: true
+localPath: ItemsAdder/output/generated.zip
+cluster: false

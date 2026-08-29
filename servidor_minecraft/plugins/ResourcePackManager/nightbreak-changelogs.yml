@@ -1,0 +1,31 @@
+trackingSinceVersion: 2.3.1
+lastObservedVersion: 2.3.1
+cache:
+  plugin:
+    targetVersion: 2.3.1
+    releases:
+    - version: 2.3.1
+      changelog: |-
+        ResourcePackManager 2.3.1:
+        - [New] Bedrock players now receive custom entity models through a bundled Geyser extension shipped in the plugin folder
+        - [New] Plugin updates now propagate automatically across proxy and backend servers
+        - [New] Proxy networks now provision one shared network key to backends automatically, including setups where Floodgate runs only on the proxy
+        - [New] `/rspm status` shows a safe network-key fingerprint and source, and warns clearly when the proxy is missing ResourcePackManager
+        - [New] Added a setting to disable automatic Geyser extension installation and update staging
+        - [New] Admins are now notified in game about unread releases and can review them from the ResourcePackManager changelog command
+        - [New] Added `/nightbreaklogout` for clearing the stored Nightbreak account token
+        - [Fix] A corrupt or unreadable pack no longer loops the mixer forever; it is quarantined while remaining packs are delivered
+        - [Fix] A failed Bedrock conversion no longer withdraws the last verified pack and mappings
+        - [Fix] A backend that cannot reach the hub now backs off instead of retrying every five seconds
+        - [Fix] Proxy-only Floodgate installations no longer leave each backend with an incompatible self-generated key
+        - [Fix] Current Geyser item definitions and Bedrock asset mappings are converted consistently
+        - [Fix] Downloaded plugin updates are validated before replacing the installed jar
+        - [Fix] Servers no longer log a command-unregistration error while shutting down on Paper 26.2
+        - [Tweak] Bedrock packs are optimized before publication
+        - [Tweak] Setup and status output now gives direct repair instructions for missing proxy components
+      releasedAt: '2026-08-13T01:39:09.281Z'
+    complete: true
+players:
+  839c7574-bc2f-37d8-8c64-d69b29aa84a6:
+    dismissedPluginVersions:
+    - 2.3.1

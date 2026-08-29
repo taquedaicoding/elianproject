@@ -1,0 +1,5 @@
+isEnabled: true
+pluginName: Nexo
+zips: true
+localPath: Nexo/pack/pack.zip
+cluster: false

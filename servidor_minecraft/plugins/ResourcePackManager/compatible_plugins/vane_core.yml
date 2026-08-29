@@ -1,0 +1,5 @@
+isEnabled: true
+pluginName: vane-core
+zips: true
+localPath: vane-resource-pack.zip
+cluster: false

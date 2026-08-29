@@ -1,0 +1,5 @@
+isEnabled: true
+pluginName: ValhallaMMO
+zips: false
+localPath: ValhallaMMO/resourcepack
+cluster: false
